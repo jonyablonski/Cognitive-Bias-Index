@@ -1,0 +1,46 @@
+/* 
+ * Parent
+ */
+
+.header{
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+  align-items: center;
+  padding: var(--base-spacing) 0;
+  margin-bottom: var(--base-spacing);
+}
+
+
+/* 
+ * Elements
+ */
+
+.header__title {
+  grid-column: 1 / 4;
+  margin: 0;
+  font-size: var(--base-font-size);
+}
+
+.header__title a {
+  text-decoration: none;
+}
+
+.header__nav {
+  grid-column: 4 / 6;
+}
+
+.header__nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.header__nav a {
+  text-decoration: none;
+}
+
+.header__share {
+  grid-column: 6 / 7;
+  justify-self: end;
+}

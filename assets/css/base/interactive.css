@@ -1,0 +1,47 @@
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+
+/*
+ * Text links
+ */
+
+a {
+  color: var(--base-font-color);
+  text-decoration: underline;
+  transition: color var(--base-duration) var(--base-timing);
+}
+
+a:active,
+a:focus {
+}
+
+a:hover {
+}
+
+a:focus {
+  outline: var(--base-focus);
+  outline-offset: 0.125em;
+}
+
+
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}

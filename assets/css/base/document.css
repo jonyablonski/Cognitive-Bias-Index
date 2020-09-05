@@ -1,0 +1,32 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Reset box behavior
+ */
+
+html {
+  font-family: var(--base-font-family);
+  color: var(--base-font-color);
+  font-size: clamp(var(--min-font-size), calc(50% + 1vw), var(--max-font-size));
+  line-height: var(--base-line-height); /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background: var(--base-background-color);
+  box-sizing: border-box; /* 3 */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+/**
+ * Inheriting box-sizing from Document element
+ * Allowing for easier override if necessary
+ * Reference: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

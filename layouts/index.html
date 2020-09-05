@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+  <!-- Introduction -->
+  <section class="banner">
+    <p class="banner__desc">{{ .Site.Params.description }}</p>
+  </section>
+
+  <!-- Biases -->
+  <section id="biases">
+    <h2 class="visually-hidden">Biases</h2>
+
+    <!-- Filter -->
+    <section class="filter">
+      {{ partial "components/filter" . }}
+    </section>
+
+    <!-- List Header -->
+    {{ partial "components/list-header" }}
+
+    <!-- List -->
+    <ul class="list">
+      {{ range where .Site.RegularPages "Section" "biases" }}
+      {{ partial "components/list-item" . }}
+      {{ end }}
+    </ul> 
+
+    <!-- Pagination -->
+    <ul class="pagination"></ul>
+  </section>
+
+{{ end }}

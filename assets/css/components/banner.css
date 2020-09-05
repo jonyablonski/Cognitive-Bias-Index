@@ -1,0 +1,9 @@
+.banner {
+  display: grid;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+}
+
+.banner__desc {
+  grid-column: 1 / 4;
+}

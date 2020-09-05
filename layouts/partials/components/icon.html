@@ -1,0 +1,7 @@
+<svg 
+  aria-hidden="true" 
+  focusable="false" 
+  class="icon {{ with .align }}icon--{{ . }}{{ end }}" 
+  viewBox="0 0 100 100" {{- with .size -}}width="{{ . }}px"{{- end -}}>
+  <use xlink:href="#{{ .name }}"></use>
+</svg>

@@ -1,0 +1,55 @@
+/* 
+ * Parent
+ */
+
+.no-js .filter {
+  display: none;
+}
+
+.filter {
+  display: grid;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+  margin-top: calc(var(--base-spacing) * 4);
+}
+
+
+/* 
+ * Elements
+ */
+
+/* Modifiers */
+
+/* 
+ * 1. Shrink container to allow for aligning search clear button properly
+ */
+ 
+.filter__section--search {
+  grid-column: 1 / 3;
+  align-self: start; /* 1 */
+}
+
+.filter__section--tags {
+  grid-column: 4 / 6;
+}
+
+.filter__section--clear {
+  justify-self: end;
+}
+
+.filter__title {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: var(--base-line-height);
+  cursor: pointer;
+  font-size: var(--small-font-size);
+}
+
+.filter__list {
+  list-style: none;
+}
+
+/* States */
+.filter__item.is-active  {
+  text-decoration: underline;
+}

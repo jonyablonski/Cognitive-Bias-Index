@@ -1,0 +1,2 @@
+{{ $s := resources.Get "css/app.css" | toCSS | postCSS (dict "config" "postcss.config.js") | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $s.Permalink }}" />

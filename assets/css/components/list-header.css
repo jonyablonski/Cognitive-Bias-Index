@@ -1,0 +1,14 @@
+.list-header {
+  display: grid;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+  list-style: none;
+}
+
+.list-header__item {
+  font-size: var(--small-font-size);
+}
+
+.list-header__item--name {
+  grid-column: span 2;
+}

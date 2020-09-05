@@ -1,0 +1,24 @@
+{
+  "name": "hugo-starter-project",
+  "private": true,
+  "scripts": {
+    "prestart": "npm run build:icons",
+    "start": "hugo server",
+    "prebuild": "npm run build:icons",
+    "build": "hugo && npm run build:functions && hugo --minify",
+    "build:icons": "svgstore assets/svg/**/*.svg > static/sprite.svg --inline",
+    "build:functions": "netlify-lambda build assets/lambda",
+    "server": "hugo server"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "list.js": "^1.5.0",
+    "netlify-lambda": "^1.6.3",
+    "postcss-cli": "^7.1.1",
+    "svgstore-cli": "^2.0.0"
+  },
+  "browserlists": [
+    "ie >= 8",
+    "last 3 versions"
+  ]
+}

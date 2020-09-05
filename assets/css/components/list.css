@@ -1,0 +1,35 @@
+.list {
+  margin: 0 0 calc(var(--base-spacing) * 2);
+}
+
+.list__item {
+  display: grid;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+  align-items: center;
+  margin: 0;
+  border-top: var(--base-border);
+  padding: calc(var(--base-spacing) / 2) 0;
+}
+
+.list__item-title {
+  margin: 0;
+  grid-column: 1 / 3;
+}
+
+.list__item-meta--tags {
+  grid-column: span 2;
+}
+
+.list__item-meta ul {
+  margin: 0;
+}
+
+.list__item-meta ul li {
+  display: inline-block;
+}
+
+.list__item-toggle {
+  grid-column: 6;
+  justify-self: end;
+}

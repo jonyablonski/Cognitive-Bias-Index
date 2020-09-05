@@ -1,0 +1,5 @@
+/* Small Viewports */
+@custom-media --breakpoint-small (min-width: 800px);
+
+/* Large Viewports */
+@custom-media --breakpoint-large (min-width: 1200px);

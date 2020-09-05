@@ -1,0 +1,15 @@
+<nav class="header__nav" role="navigation" data-nav>
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="header__nav-item">
+      <a 
+        class="{{ if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) }}is-active{{ end }}" 
+        href="{{ .URL }}" 
+        title="{{ .Name }}" 
+        data-page-link>{{ .Name }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>

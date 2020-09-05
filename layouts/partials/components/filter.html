@@ -1,0 +1,40 @@
+<!-- Search -->
+<div class="filter__section filter__section--search search">
+  <label for="search">Filter by Keyword</label>
+  <input name="search" type="text" class="search__input" data-search>
+  <button class="button button--icon search__clear" data-clear-search>
+    {{ partial "components/icon" (dict "name" "close" "size" "16") }}
+  </button>
+</div>
+
+<!-- Context -->
+<div class="filter__section filter__section--context">
+  <h3 class="filter__title">Context</h3>
+  <ul class="filter__list">
+    {{ range $key, $value := .Site.Taxonomies.categories }}
+    <li>
+      <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<!-- Tags -->
+<div class="filter__section filter__section--tags">
+  <h3 class="filter__title">Tags</h3>
+  <ul class="filter__list">
+    {{ range $key, $value := .Site.Taxonomies.tags }}
+    <li>
+      <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<!-- Clear -->
+<div class="filter__section filter__section--clear">
+  <button class="button" data-clear-filters>
+    {{ partial "components/icon" (dict "name" "close" "size" "16" "align" "left") }}
+    Clear filters
+  </button>
+</div>

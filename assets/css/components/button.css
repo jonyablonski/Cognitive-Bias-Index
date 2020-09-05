@@ -1,0 +1,61 @@
+/* 
+ * Parent
+ */
+
+ .button {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: normal;
+  color: currentColor;
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  transition: border var(--base-duration) var(--base-timing),
+              color var(--base-duration) var(--base-timing);
+  cursor: pointer;
+}
+
+/* States */
+.button:hover {
+}
+
+
+/* 
+ * Elements
+ */
+
+/* Prevent child elements from capturing event */
+.button > * {
+  pointer-events: none;
+}
+
+.button .icon {
+  position: relative;
+  top: -.04rem;
+}
+
+
+/* 
+ * Modifiers
+ */
+
+/* Toggle Button */
+.button[aria-expanded="false"] .button__icon--active,
+.button[aria-pressed="false"] .button__icon--active {
+  display: none;
+}
+
+.button--toggle[aria-expanded = "true"] > .button__icon--default,
+.button--toggle[aria-pressed = "true"] > .button__icon--default {
+  display: none;
+}
+
+.button--toggle[aria-expanded = "true"] > .button__icon--active,
+.button--toggle[aria-pressed = "true"] > .button__icon--active {
+  display: inline-block;
+}

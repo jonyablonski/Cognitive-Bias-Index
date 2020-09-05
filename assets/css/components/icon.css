@@ -1,0 +1,7 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  transition: fill var(--base-duration) var(--base-timing);
+  pointer-events: none;
+}

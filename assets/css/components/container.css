@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  grid-template-columns: var(--base-grid-columns);
+  grid-column-gap: var(--base-gap);
+  max-width: var(--base-max-width);
+  padding: 0 var(--base-outer-padding);
+}

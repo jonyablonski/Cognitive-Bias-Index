@@ -1,0 +1,13 @@
+.media {
+  display: flex;
+  grid-gap: calc(var(--base-spacing) / 2);
+  align-items: center;
+}
+
+.media > a {
+  text-decoration: none;
+}
+
+.media__body > *:last-child {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+{{ $src := $.Page.Resources.GetMatch (print (.Get "src")) }}
+<img
+  sizes='(min-width: 35em) 1200px, 100vw'
+  srcset='
+    {{ ($src.Resize "800x").RelPermalink }} 800w,
+    {{ ($src.Resize "1200x").RelPermalink }} 1200w,
+    {{ ($src.Resize "1920x").RelPermalink }} 1920w'
+  src='{{ ($src.Resize "1200x").RelPermalink }}'
+  loading='lazy'
+  alt='{{ with .Get `alt`}}{{ . }}{{ end }}'>

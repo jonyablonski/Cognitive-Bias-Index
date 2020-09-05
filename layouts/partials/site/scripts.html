@@ -1,0 +1,5 @@
+{{ $opts := dict "minify" true "target" "es2015" }}
+{{- $scripts := resources.Get "js/app.js" | js.Build $opts | fingerprint -}}
+
+<!-- JS Bundle -->
+<script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>

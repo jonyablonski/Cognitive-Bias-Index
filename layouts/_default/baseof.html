@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode | default "en" }}">
+	<head>
+		{{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
+
+		<title>{{ block "title" . }}
+			{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
+		{{ end }}</title>
+
+		{{ range .AlternativeOutputFormats }}
+			<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+		{{ end }}
+
+		<!-- Styles -->
+		{{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+	</head>
+	<body>
+
+    <!-- SVG Sprite -->
+    <div class="hidden">
+      {{ readFile "static/sprite.svg" | safeHTML }}
+    </div>
+
+    <!-- Skip to Content -->
+    <a class="visually-hidden" href="#content">Skip to main content</a>
+
+    <!-- Site Container -->
+    <div class="container">
+
+      <!-- Header -->
+      {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+
+      <!-- Main -->
+      <main id="content" class="site-main" role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      <!-- Footer -->
+      {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+
+    </div>
+
+		<!-- Scripts -->
+		{{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+	</body>
+</html>

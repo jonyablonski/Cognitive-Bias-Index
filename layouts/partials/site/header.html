@@ -1,0 +1,16 @@
+<header class="header" role="banner">
+
+  <!-- Site Logo/Title -->
+  <h1 class="header__title">
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </h1>
+
+  <!-- Site Navigation -->
+  {{ partial "site/navigation" . }}
+
+  <button class="header__share button">
+    Share
+    {{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}
+  </button>
+    
+</header>
