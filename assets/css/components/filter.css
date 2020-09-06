@@ -8,6 +8,7 @@
 
 .filter {
   display: grid;
+  width: 100%;
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   margin-top: calc(var(--base-spacing) * 4);
@@ -19,6 +20,32 @@
  */
 
 /* Modifiers */
+
+.filter--secondary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: calc(var(--base-spacing) / 2) var(--base-outer-padding);
+  margin: 0;
+  background-color: var(--base-background-color);
+  transform: translate3d(0, -100%, 0);
+  transition: transform var(--base-duration) var(--base-timing);
+}
+
+/* States */
+.filter--secondary.is-active {
+  transform: translate3d(0, 0, 0);
+  box-shadow: var(--base-box-shadow);
+}
+
+.filter--secondary .filter__section {
+  display: none;
+}
+
+.filter--secondary .filter__toggle[aria-expanded="true"] ~ .filter__section {
+  display: block;
+}
 
 /* 
  * 1. Shrink container to allow for aligning search clear button properly
@@ -47,6 +74,10 @@
 
 .filter__list {
   list-style: none;
+}
+
+.filter__toggle {
+  justify-self: start;
 }
 
 /* States */

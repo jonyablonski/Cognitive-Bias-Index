@@ -30,6 +30,11 @@
       <!-- Header -->
       {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 
+      <!-- Filter -->
+      <section class="filter filter--secondary" data-filter-secondary aria-hidden="true">
+        {{ partial "components/filter" (dict "Context" . "type" "secondary") }}
+      </section>
+
       <!-- Main -->
       <main id="content" class="site-main" role="main">
         {{ block "main" . }}{{ end }}

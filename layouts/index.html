@@ -10,8 +10,8 @@
     <h2 class="visually-hidden">Biases</h2>
 
     <!-- Filter -->
-    <section class="filter">
-      {{ partial "components/filter" . }}
+    <section class="filter" data-filter-primary>
+      {{ partial "components/filter" (dict "Context" . "type" "primary") }}
     </section>
 
     <!-- List Header -->

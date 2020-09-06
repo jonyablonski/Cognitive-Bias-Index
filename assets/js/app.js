@@ -14,8 +14,10 @@ import List from "list.js";
    * Selectors
    */
   
+  let primaryFilter = document.querySelector('[data-filter-primary]');
+  let secondaryFilter = document.querySelector('[data-filter-secondary]');
   let filterItem = document.querySelectorAll('[data-filter]');
-  let search = document.querySelector('[data-search]');
+  let search = document.querySelectorAll('[data-search]');
 
 
   /**
@@ -23,8 +25,6 @@ import List from "list.js";
    */
   
   const activeClass = 'is-active';
-  const inactiveClass = 'is-inactive';
-  const visibleClass = 'is-visible';
 
 
   /**
@@ -48,13 +48,19 @@ import List from "list.js";
    */
 
   const listSettings = {
-    searchClass: 'search__input',
+    // searchClass: 'search__input',
     valueNames: [
       'title',
       'category',
       'tag'
     ],
     pagination: true
+  };
+
+
+  const observerSettings = {
+    rootMargin: '0px',
+    threshold: 1.0
   };
 
 
@@ -93,8 +99,21 @@ import List from "list.js";
   const keyupEventHandler = (e) => {
     
     // Search input
-    if (e.target === search) {
-      showSearchClearButton();
+    if (e.target.matches('[data-search]')) {
+
+      // Get value
+      let val = e.target.value;
+
+      // Search val
+      biases.search(val);
+
+      // Show clear button
+      showSearchClearButton(e.target);
+
+      // Match input on other search inputs
+      search.forEach(element => {
+        if (element !== e.target) element.value = val;
+      });
     }
 
   }
@@ -150,27 +169,57 @@ import List from "list.js";
 
 
   // Show/Hide clear search button
-  const showSearchClearButton = () => {
-    let val = search.value;
-    let container = search.parentElement;
-    container.classList.toggle(activeClass, val.length > 0);
+  const showSearchClearButton = (target) => {
+    let charLength = target.value.length;
+
+    // If search value is provided
+    // Toggle clear button on each search input (via parent elem)
+    if (charLength > 0) {
+      search.forEach(element => {
+        element.parentElement.classList.add(activeClass)
+      });
+    } else {
+      search.forEach(element => {
+        element.parentElement.classList.remove(activeClass)
+      });
+    }
   }
 
 
   // Clear search
-  const clearSearch = (element) => {
-    search.value = '';
+  const clearSearch = () => {
+    
+    // Loop through all search inputs
+    search.forEach(element => {
+
+      // Clear value in input
+      element.value = '';
+
+      // Remove active class on parent
+      element.parentElement.classList.remove(activeClass)
+
+    });
+
+    // Reset search
     biases.search();
-    showSearchClearButton();
   }
 
 
   // Clear filters
   const clearFilters = () => {
+
+    // Clear filters
     biases.filter();
+
+    // Look through all filter items
     filterItem.forEach(element => {
+
+      // Remove active class each item
       element.classList.remove(activeClass);
+
     });
+
+    // Clear search
     clearSearch();
   }
 
@@ -185,6 +234,16 @@ import List from "list.js";
     toggle.setAttribute('aria-expanded', String(!expanded));
 
   }
+
+
+  // Observe filter
+  let observeFilter = new IntersectionObserver(elem => {
+    if (elem[0].boundingClientRect.y < 0) {
+      secondaryFilter.classList.add(activeClass);
+    } else {
+      secondaryFilter.classList.remove(activeClass);
+    }
+  }, observerSettings);
 
 
   /**
@@ -202,5 +261,8 @@ import List from "list.js";
 
   // Init filterable list
   let biases = new List('biases', listSettings);
+
+  // Init Observer on primaryFilter
+  observeFilter.observe(primaryFilter);
 
 })();

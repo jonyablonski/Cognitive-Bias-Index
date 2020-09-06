@@ -1,3 +1,11 @@
+{{ if eq .type "secondary" }}
+<button class="filter__toggle button button--toggle" aria-expanded="false" data-toggle aria-controls="{{ .Title | urlize}}-info">
+  Filters
+  <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}</span>
+  <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "16" "align" "right") }}</span>
+</button>
+{{ end }}
+
 <!-- Search -->
 <div class="filter__section filter__section--search search">
   <label for="search">Filter by Keyword</label>
@@ -9,9 +17,9 @@
 
 <!-- Context -->
 <div class="filter__section filter__section--context">
-  <h3 class="filter__title">Context</h3>
+  <h3 class="filter__title">Filter by context</h3>
   <ul class="filter__list">
-    {{ range $key, $value := .Site.Taxonomies.categories }}
+    {{ range $key, $value := .Context.Site.Taxonomies.categories }}
     <li>
       <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
     </li>
@@ -21,9 +29,9 @@
 
 <!-- Tags -->
 <div class="filter__section filter__section--tags">
-  <h3 class="filter__title">Tags</h3>
+  <h3 class="filter__title">Filter by tag</h3>
   <ul class="filter__list">
-    {{ range $key, $value := .Site.Taxonomies.tags }}
+    {{ range $key, $value := .Context.Site.Taxonomies.tags }}
     <li>
       <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
     </li>
