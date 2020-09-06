@@ -12,3 +12,7 @@
 .list-header__item--name {
   grid-column: span 2;
 }
+
+.list-header__item--tags {
+  grid-column: 5;
+}

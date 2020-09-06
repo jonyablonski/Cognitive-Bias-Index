@@ -6,5 +6,8 @@ tags: [
   "decision-making",
   "reasoning"
 ]
+reading: [
+  "https://wikipedia.org/wiki/Anchoring_(cognitive_bias)"
+]
 ---
 

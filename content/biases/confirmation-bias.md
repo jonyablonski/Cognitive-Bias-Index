@@ -7,5 +7,8 @@ tags: [
   "reasoning",
   "interpretation"
 ]
+reading: [
+  "https://en.wikipedia.org/wiki/Confirmation_bias"
+]
 ---
 

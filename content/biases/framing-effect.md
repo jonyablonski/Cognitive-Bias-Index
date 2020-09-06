@@ -6,5 +6,8 @@ tags: [
   "belief",
   "reasoning"
 ]
+reading: [
+  "https://en.wikipedia.org/wiki/Framing_effect_(psychology)"
+]
 ---
 

@@ -19,8 +19,34 @@
   </div>
 
   <!-- Toggle -->
-  <button class="list__item-toggle button button--icon">
-    {{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}
+  <button class="list__item-toggle button button--toggle" aria-expanded="false" data-toggle aria-controls="{{ .Title | urlize}}-info">
+    <span class="visually-hidden">Info</span>
+    <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}</span>
+    <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "16" "align" "right") }}</span>
   </button>
+
+  <!-- Info -->
+  <div id="#{{ .Title | urlize}}-info" class="list__item-info">
+    <!-- Description -->
+    <div class="list__item-meta list__item-meta--desc">
+      <h4 class="list__item-meta-title">Description</h4>
+      <p>{{ .Description }}</p>
+    </div>
+
+    <!-- Further Reading -->
+    <div class="list__item-meta list__item-meta--reading">
+      <h4 class="list__item-meta-title">Futher Reading</h4>
+      <ul>
+        {{ range .Params.reading }}
+        <li>
+          <a href="{{ . }}">
+            {{ . }}
+            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "right") }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
   
 </li>

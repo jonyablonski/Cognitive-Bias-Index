@@ -1,12 +1,22 @@
+/* 
+ * Parent
+ */
+
 .list {
   margin: 0 0 calc(var(--base-spacing) * 2);
 }
 
+
+/* 
+ * Elements
+ */
+
 .list__item {
+  position: relative;
   display: grid;
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
-  align-items: center;
+  align-items: start;
   margin: 0;
   border-top: var(--base-border);
   padding: calc(var(--base-spacing) / 2) 0;
@@ -17,12 +27,13 @@
   grid-column: 1 / 3;
 }
 
-.list__item-meta--tags {
-  grid-column: span 2;
+.list__item-meta {
+  margin-bottom: var(--base-spacing);
 }
 
-.list__item-meta ul {
-  margin: 0;
+.list__item-meta-title {
+  margin-bottom: calc(var(--base-spacing) / 2);
+  font-size: var(--small-font-size);
 }
 
 .list__item-meta ul li {
@@ -32,4 +43,34 @@
 .list__item-toggle {
   grid-column: 6;
   justify-self: end;
+  font-size: var(--small-font-size);
+}
+
+
+/* 
+ * Modifiers
+ */
+
+.list__item-meta--context {
+  grid-column: span 2;
+}
+
+.list__item-meta--tags {
+  grid-column: 5 / 6;
+}
+
+.list__item-meta--desc p {
+  margin: 0;
+}
+
+.list__item-info {
+  display: none;
+  grid-column: 3 / -1;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: var(--base-gap);
+}
+
+/* States */
+.list__item-toggle[aria-expanded="true"] + .list__item-info {
+  display: grid;
 }

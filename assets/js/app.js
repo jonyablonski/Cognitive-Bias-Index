@@ -73,12 +73,17 @@ import List from "list.js";
 
     // Clear search
     if (e.target.matches('[data-clear-search]')) {
-      clearSearch(e.target);
+      clearSearch();
     }
 
     // Clear filters
     if (e.target.matches('[data-clear-filters]')) {
       clearFilters();
+    }
+
+    // Content toggle
+    if (e.target.matches('[data-toggle]')) {
+      toggleContent(e.target);
     }
 
   }
@@ -154,7 +159,6 @@ import List from "list.js";
 
   // Clear search
   const clearSearch = (element) => {
-    let search  = element.previousElementSibling;
     search.value = '';
     biases.search();
     showSearchClearButton();
@@ -167,6 +171,19 @@ import List from "list.js";
     filterItem.forEach(element => {
       element.classList.remove(activeClass);
     });
+    clearSearch();
+  }
+
+
+  // Toggle content
+  const toggleContent = (toggle) => {
+
+    // Get current toggle state
+    let expanded = toggle.getAttribute('aria-expanded') === 'true';
+
+    // Update menu toggle
+    toggle.setAttribute('aria-expanded', String(!expanded));
+
   }
 
 
