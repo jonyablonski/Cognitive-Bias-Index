@@ -1,8 +1,13 @@
 .list-header {
-  display: grid;
+  display: none;
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
+  margin: var(--base-spacing) 0;
   list-style: none;
+
+  @media (--breakpoint-small) {
+    display: grid;
+  }
 }
 
 .list-header__item {

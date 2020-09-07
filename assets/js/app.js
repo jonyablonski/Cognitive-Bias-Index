@@ -155,12 +155,13 @@ import List from "list.js";
       if (element.getAttribute('data-filter') === filterName) {
         
         // Add active class
-        element.classList.add(activeClass);
+        element.classList.toggle(activeClass);
       
       } else {
 
         // Remove active class
         element.classList.remove(activeClass);
+        
       }
 
     });
@@ -246,6 +247,7 @@ import List from "list.js";
   }, observerSettings);
 
 
+
   /**
    * Events/APIs/init
    */
@@ -253,14 +255,18 @@ import List from "list.js";
   // Remove 'no-js' class on :root element
   document.documentElement.classList.remove('no-js');
 
+
   // Listen for click events
   document.addEventListener('click', clickEventHandler, false);
+
 
   // Listen for keyup events
   document.addEventListener('keyup', keyupEventHandler, false);
 
+
   // Init filterable list
   let biases = new List('biases', listSettings);
+
 
   // Init Observer on primaryFilter
   observeFilter.observe(primaryFilter);

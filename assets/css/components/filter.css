@@ -12,12 +12,40 @@
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   margin-top: calc(var(--base-spacing) * 4);
+  margin-bottom: 0;
 }
 
 
 /* 
  * Elements
  */
+
+.filter__section {
+  grid-column: 1 / -1;
+  margin-bottom: var(--base-spacing);
+  align-self: start;
+
+  @media (--breakpoint-small) {
+    grid-column: span 2;
+  }
+}
+
+.filter__title {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: var(--base-line-height);
+  cursor: pointer;
+  font-size: var(--small-font-size);
+}
+
+.filter__list {
+  margin: 0;
+  list-style: none;
+}
+
+.filter__toggle {
+  justify-self: start;
+}
 
 /* Modifiers */
 
@@ -33,6 +61,19 @@
   transition: transform var(--base-duration) var(--base-timing);
 }
 
+.filter__section--tags,
+.filter__section--clear {
+  @media (--breakpoint-small) {
+    grid-column: span 1;
+  }
+}
+
+.filter__section--clear {
+  @media (--breakpoint-small) {
+    justify-self: end;
+  }
+}
+
 /* States */
 .filter--secondary.is-active {
   transform: translate3d(0, 0, 0);
@@ -45,39 +86,6 @@
 
 .filter--secondary .filter__toggle[aria-expanded="true"] ~ .filter__section {
   display: block;
-}
-
-/* 
- * 1. Shrink container to allow for aligning search clear button properly
- */
- 
-.filter__section--search {
-  grid-column: 1 / 3;
-  align-self: start; /* 1 */
-}
-
-.filter__section--tags {
-  grid-column: 5 / 6;
-}
-
-.filter__section--clear {
-  justify-self: end;
-}
-
-.filter__title {
-  display: inline-block;
-  margin-bottom: 0;
-  line-height: var(--base-line-height);
-  cursor: pointer;
-  font-size: var(--small-font-size);
-}
-
-.filter__list {
-  list-style: none;
-}
-
-.filter__toggle {
-  justify-self: start;
 }
 
 /* States */
