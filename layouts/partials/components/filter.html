@@ -8,8 +8,8 @@
 
 <!-- Search -->
 <div class="filter__section filter__section--search search">
-  <label for="search">Filter by Keyword</label>
-  <input name="search" type="text" class="search__input" data-search>
+  <label for="search-{{ .type }}">Filter by Keyword</label>
+  <input name="search" id="search-{{ .type }}" type="text" class="search__input" data-search>
   <button class="button button--icon search__clear" data-clear-search>
     {{ partial "components/icon" (dict "name" "close" "size" "16") }}
   </button>

@@ -20,5 +20,8 @@
   "browserlists": [
     "ie >= 8",
     "last 3 versions"
-  ]
+  ],
+  "devDependencies": {
+    "postcss-custom-media": "^7.0.8"
+  }
 }
