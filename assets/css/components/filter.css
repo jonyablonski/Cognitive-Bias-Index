@@ -44,6 +44,7 @@
 }
 
 .filter__toggle {
+  grid-column: 1 / -1;
   justify-self: start;
 }
 
@@ -69,6 +70,8 @@
 }
 
 .filter__section--clear {
+  font-size: var(--small-font-size);
+  
   @media (--breakpoint-small) {
     justify-self: end;
   }

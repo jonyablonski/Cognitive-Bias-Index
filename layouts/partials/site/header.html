@@ -8,9 +8,23 @@
   <!-- Site Navigation -->
   {{ partial "site/navigation" . }}
 
-  <button class="header__share button">
-    Share
-    {{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}
-  </button>
-    
+  <!-- Share -->
+  <div class="header__share">
+    <button class="header__share-toggle button button--toggle" data-toggle aria-expanded="false">
+      Share
+      <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}</span>
+      <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "16" "align" "right") }}</span>
+    </button>
+    <ul class="header__share-content">
+      <li>
+        <a href="https://twitter.com/home?status=https://cogntive-bias-index.com/ Cognitive Bias Index is an index of the systematic errors in thinking that affects the decisions and judgments that people make." target="_blank" rel="noopener">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://cogntive-bias-index.com/" target="_blank" rel="noopener">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://cogntive-bias-index.com/&title=&summary=Cognitive Bias Index is an index of the systematic errors in thinking that affects the decisions and judgments that people make.&source=" target="_blank" rel="noopener">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
 </header>

@@ -84,7 +84,8 @@ import List from "list.js";
 
     // Clear filters
     if (e.target.matches('[data-clear-filters]')) {
-      clearFilters();
+      clearSearch();
+      resetFilters();
     }
 
     // Content toggle
@@ -116,6 +117,11 @@ import List from "list.js";
       });
     }
 
+    // Tab key
+    if (e.keyCode === 9) {
+      document.documentElement.classList.replace("no-focus-outline", "focus-outline");
+    }
+
   }
 
 
@@ -130,8 +136,7 @@ import List from "list.js";
 
     // Toggle filter if already active
     if (target.getAttribute('data-filter') === filterName && target.classList.contains(activeClass)) {
-      target.classList.remove(activeClass);
-      biases.filter();
+      resetFilters();
       return;
     }
 
@@ -155,7 +160,7 @@ import List from "list.js";
       if (element.getAttribute('data-filter') === filterName) {
         
         // Add active class
-        element.classList.toggle(activeClass);
+        element.classList.add(activeClass);
       
       } else {
 
@@ -206,22 +211,12 @@ import List from "list.js";
   }
 
 
-  // Clear filters
-  const clearFilters = () => {
-
-    // Clear filters
+  // Reset filters
+  const resetFilters = () => {
     biases.filter();
-
-    // Look through all filter items
     filterItem.forEach(element => {
-
-      // Remove active class each item
       element.classList.remove(activeClass);
-
     });
-
-    // Clear search
-    clearSearch();
   }
 
 
@@ -254,6 +249,10 @@ import List from "list.js";
 
   // Remove 'no-js' class on :root element
   document.documentElement.classList.remove('no-js');
+
+
+  // Provide CSS state to displable focus outline by default
+  document.documentElement.classList.add("no-focus-outline");
 
 
   // Listen for click events

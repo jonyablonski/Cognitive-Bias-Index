@@ -16,11 +16,12 @@
   --color-black: #14151A;
   --color-mid-grey: #858999;
   --color-off-white: #EEEDE9;
+  --color-blue: #542bff;
 
 
   /* Links */
-  --base-accent-color: var(--color-off-white);
-  --hover-link-color: var(--color-off-white);
+  --base-accent-color: var(--color-blue);
+  --hover-link-color: var(--base-accent-color);
 
 
   /* Background */
@@ -59,7 +60,8 @@
   /* Borders */
   --base-border-color: currentColor;
   --base-border: 1px solid var(--base-border-color);
-  --base-focus: 2px thin dotted var(--base-font-color);
+  --base-focus: 2px solid var(--base-accent-color);
+  --base-outline-offset: 0.25em;
   --base-border-radius: .4rem;
 
 

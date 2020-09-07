@@ -25,23 +25,44 @@ a {
   transition: color var(--base-duration) var(--base-timing);
 }
 
-a:active,
-a:focus {
-}
-
 a:hover {
-}
-
-a:focus {
-  outline: var(--base-focus);
-  outline-offset: 0.125em;
+  color: var(--hover-link-color);
 }
 
 
 /*
-  This will hide the focus indicator if the element receives focus via the mouse,
-  but it will still show up on keyboard focus.
-*/
-.js-focus-visible :focus:not(.focus-visible) {
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+ ::-moz-selection {
+  background: var(--base-accent-color);
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--base-accent-color);
+  color: white;
+  text-shadow: none;
+}
+
+
+/*
+ * Accessibly Hiding Focus Outlines
+ * https://css-irl.info/accessibly-hiding-focus-outlines/
+ */
+
+.focus-outline *:focus {
+  outline: var(--base-focus);
+  outline-offset: var(--base-outline-offset); 
+}
+
+.no-focus-outline *:focus {
   outline: none;
 }

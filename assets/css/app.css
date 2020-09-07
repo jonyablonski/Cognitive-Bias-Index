@@ -26,6 +26,7 @@
 @import "components/icon";
 @import "components/list";
 @import "components/list-header";
+@import "components/pagination";
 @import "components/search";
 
 /* Layout */
