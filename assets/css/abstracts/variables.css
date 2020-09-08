@@ -1,8 +1,13 @@
 :root {
 
+  /* Default Color mode */
+  --color-mode: 'light';
+
+
   /* Breakpoints */
   --breakpoint-medium: 35em;
   --breakpoint-large: 50em;
+
 
   /* Layout */
   --base-max-width: 100em; /* 1600px */
@@ -44,7 +49,7 @@
   --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
   --secondary-font-family: Consolas, monaco, monospace;
   --base-font-color: var(--color-black);
-  --secondary-font-color: var(--color-mid-grey);
+  --secondary-font-color: var(--color-off-white);
   --base-line-height: 1.4;
   --header-line-height: 1.2;
   --min-font-size: var(--base-font-size);
@@ -57,8 +62,9 @@
 
 
   /* Borders */
-  --base-border-color: currentColor;
+  --base-border-color: var(--color-mid-grey);
   --base-border: 1px solid var(--base-border-color);
+  --hover-border: 1px solid currentColor;
   --base-focus: 2px solid var(--base-accent-color);
   --base-outline-offset: 0.25em;
   --base-border-radius: .4rem;
@@ -76,4 +82,27 @@
   /* Header */
   --base-header-height: calc(var(--base-spacing) * 4);
   
+}
+
+
+/* 
+ * States 
+ */
+
+/* Dark Mode */
+:root[data-color-mode="dark"] {
+  --base-font-color: var(--color-off-white);
+  --base-background-color: var(--color-black);
+  --tertiary-background-color: var(--color-dark-grey);
+}
+
+/* User preference theming */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
+  :root.no-js {
+    --base-font-color: var(--secondary-font-color);
+    --base-background-color: var(--secondary-background-color);
+  }
 }

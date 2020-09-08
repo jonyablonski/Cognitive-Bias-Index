@@ -18,6 +18,7 @@ import List from "list.js";
   let secondaryFilter = document.querySelector('[data-filter-secondary]');
   let filterItem = document.querySelectorAll('[data-filter]');
   let search = document.querySelectorAll('[data-search]');
+  let themeToggle = document.querySelector('[data-theme-toggle]');
 
 
   /**
@@ -68,6 +69,16 @@ import List from "list.js";
    * Methods
    */
 
+
+  // Get value of CSS var
+  const getCSSCustomProp = (propKey) => {
+    let response = getComputedStyle(document.documentElement).getPropertyValue(propKey);
+    if (response.length) {
+      response = response.replace(/\'/g, '').trim();
+    }
+    return response;
+  };
+
    
   // Handle click events
   const clickEventHandler = (e) => {
@@ -91,6 +102,11 @@ import List from "list.js";
     // Content toggle
     if (e.target.matches('[data-toggle]')) {
       toggleContent(e.target);
+    }
+
+    // Theme toggle
+    if (e.target === themeToggle) {
+      updateColorTheme(themeToggle.getAttribute('data-theme-toggle'));
     }
 
   }
@@ -242,6 +258,43 @@ import List from "list.js";
   }, observerSettings);
 
 
+  // Check for theme preference via CSS Media Query
+  const checkColorTheme = () => {
+
+    // Create init mode variable
+    let mode;
+
+    // Update mode variable from localStorage or CSSCustomProp
+    if (localStorage.getItem('color-mode')) {
+      mode = localStorage.getItem('color-mode');
+    } else {
+      mode = getCSSCustomProp('--color-mode');
+    }
+    
+    // Update CSS based on :root data-attribute
+    document.documentElement.setAttribute('data-color-mode', mode);
+
+    // Update theme toggle
+    themeToggle.setAttribute('data-theme-toggle', mode);
+    themeToggle.setAttribute('aria-pressed', themeToggle.getAttribute('data-theme-toggle') === 'dark' ? 'true' : 'false');
+  };
+
+
+  // Update Color Theme
+  const updateColorTheme = (mode) => {
+
+    // Update CSS based on :root data-attribute
+    document.documentElement.setAttribute('data-color-mode', themeToggle.getAttribute('data-theme-toggle') === 'dark' ? 'light' : 'dark');
+
+    // Update theme toggle
+    themeToggle.setAttribute('data-theme-toggle', themeToggle.getAttribute('data-theme-toggle') === 'dark' ? 'light' : 'dark');
+    themeToggle.setAttribute('aria-pressed', themeToggle.getAttribute('data-theme-toggle') === 'dark' ? 'true' : 'false');
+
+    // Update localStorage
+    localStorage.setItem('color-mode', mode === 'dark' ? 'light' : 'dark');
+  };
+
+
 
   /**
    * Events/APIs/init
@@ -270,4 +323,8 @@ import List from "list.js";
   // Init Observer on primaryFilter
   observeFilter.observe(primaryFilter);
 
+
+  // Check user color scheme preference
+  checkColorTheme();
+  
 })();

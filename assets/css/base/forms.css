@@ -1,6 +1,6 @@
 /**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Change the font styles in all browsers.
  */
 
 button,
@@ -8,14 +8,20 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  margin: 0; /* 1 */
+  border: var(--base-border);
+  border-radius: var(--min-border-radius);
+  background: none;
+  font-family: inherit; /* 2 */
+  font-size: 100%; /* 2 */
+  color: inherit;
+  line-height: var(--base-line-height); /* 2 */
+  transition: all var(--base-duration) var(--base-timing);
 }
 
-input:focus {
+input:hover {
   color: var(--base-font-color);
+  border: var(--hover-border);
 }
 
 /**

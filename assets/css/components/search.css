@@ -5,7 +5,7 @@
 .search__clear {
   display: none;
   position: absolute;
-  bottom: calc(var(--base-spacing) / 1.75);
+  bottom: calc(var(--base-spacing) / 1.5);
   right: calc(var(--base-spacing) / 2);
 }
 
