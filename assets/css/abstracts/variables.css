@@ -32,8 +32,7 @@
 
   /* Font Sizes (3:4 / Perfect Forth) */
   /* https://www.modularscale.com/?1&em&1.333 */
-  --xsmall-font-size: 0.563em;
-  --small-font-size: 0.75em;
+  --small-font-size: 0.85em;
   --base-font-size: 1em;
   --smedium-font-size: 1.333em;
   --medium-font-size: 1.777em;

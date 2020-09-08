@@ -94,6 +94,11 @@
 
 .list__item-section--info {
   display: none;
+  
+  /* Enable links to wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 
   @media (--breakpoint-small) {
     grid-column: 3 / -1;
@@ -107,4 +112,9 @@
 /* States */
 .list__item-section--toggle[aria-expanded="true"] + .list__item-section--info {
   display: grid;
+  
+  @media (--breakpoint-large) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--base-gap);
+  }
 }
