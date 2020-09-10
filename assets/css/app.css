@@ -28,6 +28,7 @@
 @import "components/list-header";
 @import "components/pagination";
 @import "components/search";
+@import "components/scrim";
 
 /* Layout */
 @import "layout/header";

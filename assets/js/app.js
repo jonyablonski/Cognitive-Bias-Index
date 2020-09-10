@@ -17,8 +17,10 @@ import List from "list.js";
   let primaryFilter = document.querySelector('[data-filter-primary]');
   let secondaryFilter = document.querySelector('[data-filter-secondary]');
   let filterItem = document.querySelectorAll('[data-filter]');
+  let filterToggle = document.querySelector('[data-toggle="filter"]')
   let search = document.querySelectorAll('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
+  let scrim = document.querySelector('[data-scrim]');
 
 
   /**
@@ -26,6 +28,7 @@ import List from "list.js";
    */
   
   const activeClass = 'is-active';
+  const inactiveClass = 'is-inactive';
 
 
   /**
@@ -69,16 +72,6 @@ import List from "list.js";
    * Methods
    */
 
-
-  // Get value of CSS var
-  const getCSSCustomProp = (propKey) => {
-    let response = getComputedStyle(document.documentElement).getPropertyValue(propKey);
-    if (response.length) {
-      response = response.replace(/\'/g, '').trim();
-    }
-    return response;
-  };
-
    
   // Handle click events
   const clickEventHandler = (e) => {
@@ -107,6 +100,22 @@ import List from "list.js";
     // Theme toggle
     if (e.target === themeToggle) {
       updateColorTheme(themeToggle.getAttribute('data-theme-toggle'));
+    }
+
+    // Filter toggle
+    if (e.target.matches('[data-toggle="filter"]')) {
+      toggleScrim();
+    }
+
+    // Scrim
+    if (e.target.matches('[data-scrim]')) {
+      
+      // Close Scrim
+      closeScrim();
+
+      // Close filter toggle
+      filterToggle.setAttribute('aria-expanded', false);
+
     }
 
   }
@@ -139,6 +148,16 @@ import List from "list.js";
     }
 
   }
+
+
+  // Get value of CSS var
+  const getCSSCustomProp = (propKey) => {
+    let response = getComputedStyle(document.documentElement).getPropertyValue(propKey);
+    if (response.length) {
+      response = response.replace(/\'/g, '').trim();
+    }
+    return response;
+  };
 
 
   // Filter content and manage active state on toggle
@@ -248,12 +267,47 @@ import List from "list.js";
   }
 
 
-  // Observe filter
-  let observeFilter = new IntersectionObserver(elem => {
+  // Close scrim
+  const closeScrim = () => {
+
+    // Show/hide scrim
+    scrim.classList.remove(activeClass);
+
+    // Disable scrolling
+    document.documentElement.classList.remove(inactiveClass);
+    
+  }
+
+  
+  // Toggle Scrim
+  const toggleScrim = () => {
+
+    // Show/hide scrim
+    scrim.classList.toggle(activeClass);
+
+    // Disable scrolling
+    document.documentElement.classList.toggle(inactiveClass);
+  }
+
+
+  // Observe primary filter visibility
+  let observePrimaryFilter = new IntersectionObserver(elem => {
     if (elem[0].boundingClientRect.y < 0) {
+
+      // Show secondary filter
       secondaryFilter.classList.add(activeClass);
+
     } else {
+
+      // Hide secondary filter
       secondaryFilter.classList.remove(activeClass);
+      
+      // Collase secondary filter toggle
+      filterToggle.setAttribute('aria-expanded', false);
+
+      // Close scrim
+      closeScrim();
+
     }
   }, observerSettings);
 
@@ -321,7 +375,11 @@ import List from "list.js";
 
 
   // Init Observer on primaryFilter
-  observeFilter.observe(primaryFilter);
+  observePrimaryFilter.observe(primaryFilter);
+
+
+  // Init Observer on secondaryFilter
+  // observeSecondaryFilter.observe(secondaryFilter);
 
 
   // Check user color scheme preference

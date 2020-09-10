@@ -29,8 +29,8 @@
 * https://www.drupal.org/node/897638
 */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;

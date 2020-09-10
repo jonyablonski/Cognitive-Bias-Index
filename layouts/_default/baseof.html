@@ -35,6 +35,9 @@
         {{ partial "components/filter" (dict "Context" . "type" "secondary") }}
       </section>
 
+      <!-- Scrim -->
+      <div class="scrim" aria-hidden="true" data-scrim></div>
+
       <!-- Main -->
       <main id="content" class="site-main" role="main">
         {{ block "main" . }}{{ end }}

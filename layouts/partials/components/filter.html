@@ -1,5 +1,5 @@
 {{ if eq .type "secondary" }}
-<button class="filter__toggle button button--toggle" aria-expanded="false" data-toggle aria-controls="{{ .Title | urlize}}-info">
+<button class="filter__toggle button button--toggle" aria-expanded="false" data-toggle="filter" aria-controls="{{ .Title | urlize}}-info">
   Filters
   <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}</span>
   <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "16" "align" "right") }}</span>

@@ -18,6 +18,11 @@ html {
   overflow-x: hidden;
 }
 
+/* States */
+.is-inactive {
+  overflow-y: hidden;
+}
+
 
 /**
  * Inheriting box-sizing from Document element
