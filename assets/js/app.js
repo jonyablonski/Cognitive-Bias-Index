@@ -375,7 +375,7 @@ import List from "list.js";
 
 
   // Init Observer on primaryFilter
-  observePrimaryFilter.observe(primaryFilter);
+  if (primaryFilter) observePrimaryFilter.observe(primaryFilter);
 
 
   // Check user color scheme preference
