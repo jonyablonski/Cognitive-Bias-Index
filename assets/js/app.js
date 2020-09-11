@@ -378,11 +378,13 @@ import List from "list.js";
   observePrimaryFilter.observe(primaryFilter);
 
 
-  // Init Observer on secondaryFilter
-  // observeSecondaryFilter.observe(secondaryFilter);
-
-
   // Check user color scheme preference
   checkColorTheme();
+
+
+  // Initialize the service worker
+  if (navigator && navigator.serviceWorker) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
   
 })();

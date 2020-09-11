@@ -4,11 +4,17 @@
   grid-column-gap: var(--base-gap);
 }
 
-.banner__desc {
+.banner__desc,
+.banner__title {
   grid-column: 1 / -1;
+  padding-top: calc(var(--base-spacing) * 4);
 
   @media (--breakpoint-small) {
     grid-column: 1 / 5;
     max-width: 50ch;
   }
+}
+
+.banner__title {
+  font-size: var(--xlarge-font-size);
 }

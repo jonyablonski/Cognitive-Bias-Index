@@ -1,8 +1,10 @@
 {{ define "main" }}
+<article>
+  
+  <!-- Introduction -->
+  <section class="banner">
+    <p class="banner__desc">{{ .Site.Params.description }}</p>
+  </section>
 
-    <article>
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-    </article>
-
+</article>
 {{ end }}
