@@ -37,8 +37,6 @@ self.addEventListener('install', event => {
  */
 
 self.addEventListener('fetch', event => {
-
-  // Check cache first and falback to network
   event.respondWith(caches.match(event.request)
     .then(cachedResponse => {
       return cachedResponse || fetch(event.request);

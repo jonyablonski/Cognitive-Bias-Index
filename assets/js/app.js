@@ -380,11 +380,5 @@ import List from "list.js";
 
   // Check user color scheme preference
   checkColorTheme();
-
-
-  // Initialize the service worker
-  if (navigator && navigator.serviceWorker) {
-    navigator.serviceWorker.register('/service-worker.js');
-  }
   
 })();

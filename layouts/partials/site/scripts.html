@@ -3,3 +3,12 @@
 
 <!-- JS Bundle -->
 <script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>
+
+<!-- Initialize the service worker -->
+{{ if eq ( getenv "HUGO_ENV" ) "production" }}
+<script>
+if (navigator && navigator.serviceWorker) {
+  navigator.serviceWorker.register('/service-worker.js');
+}
+</script>
+{{ end }}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 955 955">
+  <defs>
+    <circle id="a" cx="477.5" cy="477.5" r="477.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <circle cx="477.5" cy="477.5" r="475.5" stroke-width="4"/>
+    <circle cx="102.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="852.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="165.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="789.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="728.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="664.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="603.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="226.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="290.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="416.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="351.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+    <circle cx="538.5" cy="476.5" r="478.5" stroke-width="4" mask="url(#b)"/>
+  </g>
+</svg>

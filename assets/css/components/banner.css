@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
+  align-items: center;
 }
 
 .banner__desc,
@@ -17,4 +18,12 @@
 
 .banner__title {
   font-size: var(--xlarge-font-size);
+}
+
+.banner__graphic {
+  grid-column: 5 / -1;
+}
+
+.banner__graphic svg {
+  stroke: currentColor;
 }
