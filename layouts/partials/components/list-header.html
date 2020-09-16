@@ -1,24 +1,24 @@
 <ul class="list-header" data-list-header>
   <li class="list-header__item list-header__item--name">
-    <button class="button" data-toggle-filter="search">
+    <button class="button" data-toggle-filter="search" aria-controls="#filter">
       Name
       {{ partial "components/icon" (dict "name" "search" "size" "24" "align" "right") }}
     </button>
   </li>
   <li class="list-header__item list-header__context">
-    <button class="button" data-toggle-filter="context">
+    <button class="button" data-toggle-filter="context" aria-controls="#filter">
       Context
       {{ partial "components/icon" (dict "name" "filter" "size" "24" "align" "right") }}
     </button>
   </li>
   <li class="list-header__item list-header__item--tags">
-    <button class="button" data-toggle-filter="tag">
+    <button class="button" data-toggle-filter="tag" aria-controls="#filter">
       Tag
       {{ partial "components/icon" (dict "name" "filter" "size" "24" "align" "right") }}
     </button>
   </li>
   <li class="list-header__item list-header__item--clear">
-    <button class="button" data-clear-filters>
+    <button class="button" data-clear-filters aria-controls="#filter">
       Clear
       {{ partial "components/icon" (dict "name" "close" "size" "16" "align" "right") }}
     </button>

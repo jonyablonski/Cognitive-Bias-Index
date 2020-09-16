@@ -39,8 +39,7 @@
   /* https://www.modularscale.com/?1&em&1.333 */
   --small-font-size: 0.85em;
   --base-font-size: 1em;
-  --smedium-font-size: 1.333em;
-  --medium-font-size: 1.777em;
+  --medium-font-size: 1.333em;
   --large-font-size: 2.369em;
   --xlarge-font-size: 3.157em;
 
@@ -66,7 +65,7 @@
   --base-border: 1px solid var(--base-border-color);
   --hover-border: 1px solid currentColor;
   --base-focus: 2px solid var(--base-accent-color);
-  --base-outline-offset: 0.25em;
+  --base-outline-offset: 0.125em;
   --base-border-radius: .4rem;
 
 

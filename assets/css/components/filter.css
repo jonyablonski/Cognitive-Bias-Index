@@ -20,24 +20,29 @@
   color: var(--secondary-font-color);
 
   @media (--breakpoint-small) {
-    width: 16rem;
+    width: 24rem;
   }
 }
+
+/* States */
+.filter.is-active {
+  transform: translate3d(0,0,0);
+}
+
 
 /* 
  * Elements
  */
 
 .filter__section {
-  margin-bottom: var(--base-spacing);
+  display: none;
 }
 
 .filter__title {
-  display: inline-block;
-  margin-bottom: 0;
+  display: block;
+  margin-bottom: calc(var(--base-spacing) * 2);
   line-height: var(--base-line-height);
   cursor: pointer;
-  font-size: var(--small-font-size);
 }
 
 .filter__list {
@@ -49,15 +54,37 @@
   padding: calc(var(--base-spacing) / 2) 0;
 }
 
-/* Modifiers */
+.filter__item {
+  @media (--breakpoint-small) {
+    font-size: var(--medium-font-size);
+  }
+}
+
+.filter__close {
+  position: absolute;
+  right: var(--base-spacing);
+  z-index: 1;
+}
+
+.filter input {
+  --hover-border: 1px solid var(--secondary-font-color);
+  color: var(--secondary-font-color);
+}
+
+/* 
+ * Modifers
+ */
 
 .filter__section--clear {
   font-size: var(--small-font-size);
 }
 
 /* States */
-.filter.is-active {
-  transform: translate3d(0,0,0);
+
+.filter[data-filter-section="context"] .filter__section--context,
+.filter[data-filter-section="search"] .filter__section--search,
+.filter[data-filter-section="tag"] .filter__section--tags {
+  display: block;
 }
 
 .filter__item.is-active  {

@@ -102,11 +102,26 @@ import List from "list.js";
       updateColorTheme(themeToggle.getAttribute('data-theme-toggle'));
     }
 
-
     // Filter toggle
     if (e.target.matches('[data-toggle-filter]')) {
+      
+      // Get filter section value
+      let activeSection = e.target.getAttribute('data-toggle-filter');
+      
+      // Show/hide filter
       filterContainer.classList.toggle(activeClass);
+
+      // Set active filter section on filter container
+      filterContainer.setAttribute('data-filter-section', activeSection);
+      
+      // Show/hide scrim
       toggleScrim();
+    }
+
+    // Filter close
+    if (e.target.matches('[data-close-filter]')) {
+      filterContainer.classList.remove(activeClass);
+      closeScrim();
     }
 
     // Scrim
@@ -144,6 +159,11 @@ import List from "list.js";
       document.documentElement.classList.replace("no-focus-outline", "focus-outline");
     }
 
+    // Esc key
+    if (e.keyCode === 27 && filterContainer.classList.contains(activeClass)) {
+      filterContainer.classList.toggle(activeClass);
+      toggleScrim();
+    }
   }
 
 
@@ -179,7 +199,6 @@ import List from "list.js";
     tagItems.forEach(element => {
       tagFilters.push(element.textContent);
     });
-
 
     // Apply filters
 		biases.filter(function (item) {
@@ -278,22 +297,6 @@ import List from "list.js";
   }
 
 
-  // Observe primary filter visibility
-  // let observeListHeader = new IntersectionObserver(elem => {
-  //   if (elem[0].boundingClientRect.y < 0) {
-
-  //     // Show secondary filter
-  //     listHeader.classList.add(activeClass);
-
-  //   } else {
-
-  //     // Show secondary filter
-  //     listHeader.classList.remove(activeClass);
-
-  //   }
-  // }, observerSettings);
-
-
   // Check for theme preference via CSS Media Query
   const checkColorTheme = () => {
 
@@ -354,10 +357,6 @@ import List from "list.js";
 
   // Init filterable list
   let biases = new List('biases', listSettings);
-
-
-  // Init Observer on list header
-  // if (listHeader) observeListHeader.observe(listHeader);
 
 
   // Check user color scheme preference

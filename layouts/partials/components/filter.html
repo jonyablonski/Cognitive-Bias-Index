@@ -1,8 +1,17 @@
-<aside class="filter" data-filter-container>
+<aside id="filter" class="filter" data-filter-container>
+
+  <!-- Close -->
+  <div class="filter__close">
+    <button class="button" aria-pressed="false" data-close-filter>
+      <span class="visually-hidden">Close</span>
+      {{ partial "components/icon" (dict "name" "close" "size" "24" "align" "right") }}
+    </button>
+  </div>
 
   <!-- Search -->
   <div class="filter__section filter__section--search search">
-    <label for="search-{{ .type }}">Filter by Keyword</label>
+    <h3 class="filter__title">Filter by keyword</h3>
+    <label for="search-{{ .type }}">Name</label>
     <input name="search" id="search-{{ .type }}" type="text" class="search__input" data-search>
     <button class="button button--icon search__clear" data-clear-search>
       {{ partial "components/icon" (dict "name" "close" "size" "16") }}

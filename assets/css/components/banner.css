@@ -11,7 +11,7 @@
   padding-top: calc(var(--base-spacing) * 4);
 
   @media (--breakpoint-small) {
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
     max-width: 50ch;
   }
 }
