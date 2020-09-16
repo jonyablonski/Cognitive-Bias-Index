@@ -2,8 +2,8 @@
     
   {{ range .Paginator.Pages }}
   <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ .Content }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ .Content }}
   </article>
   {{ end }}
 

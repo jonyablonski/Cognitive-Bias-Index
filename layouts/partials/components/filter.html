@@ -1,48 +1,36 @@
-{{ if eq .type "secondary" }}
-<button class="filter__toggle button button--toggle" aria-expanded="false" data-toggle="filter" aria-controls="{{ .Title | urlize}}-info">
-  Filters
-  <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "16" "align" "right") }}</span>
-  <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "16" "align" "right") }}</span>
-</button>
-{{ end }}
+<aside class="filter" data-filter-container>
 
-<!-- Search -->
-<div class="filter__section filter__section--search search">
-  <label for="search-{{ .type }}">Filter by Keyword</label>
-  <input name="search" id="search-{{ .type }}" type="text" class="search__input" data-search>
-  <button class="button button--icon search__clear" data-clear-search>
-    {{ partial "components/icon" (dict "name" "close" "size" "16") }}
-  </button>
-</div>
+  <!-- Search -->
+  <div class="filter__section filter__section--search search">
+    <label for="search-{{ .type }}">Filter by Keyword</label>
+    <input name="search" id="search-{{ .type }}" type="text" class="search__input" data-search>
+    <button class="button button--icon search__clear" data-clear-search>
+      {{ partial "components/icon" (dict "name" "close" "size" "16") }}
+    </button>
+  </div>
 
-<!-- Context -->
-<div class="filter__section filter__section--context">
-  <h3 class="filter__title">Filter by context</h3>
-  <ul class="filter__list">
-    {{ range $key, $value := .Context.Site.Taxonomies.categories }}
-    <li>
-      <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
-    </li>
-    {{ end }}
-  </ul>
-</div>
+  <!-- Context -->
+  <div class="filter__section filter__section--context">
+    <h3 class="filter__title">Filter by context</h3>
+    <ul class="filter__list">
+      {{ range $key, $value := .Context.Site.Taxonomies.categories }}
+      <li>
+        <button class="filter__item button" aria-pressed="false" data-filter="context">{{ $key | humanize | lower }}</button>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 
-<!-- Tags -->
-<div class="filter__section filter__section--tags">
-  <h3 class="filter__title">Filter by tag</h3>
-  <ul class="filter__list">
-    {{ range $key, $value := .Context.Site.Taxonomies.tags }}
-    <li>
-      <button class="filter__item button" data-filter="{{ $key | humanize | lower }}">{{ $key | humanize | lower }}</button>
-    </li>
-    {{ end }}
-  </ul>
-</div>
+  <!-- Tags -->
+  <div class="filter__section filter__section--tags">
+    <h3 class="filter__title">Filter by tag</h3>
+    <ul class="filter__list">
+      {{ range $key, $value := .Context.Site.Taxonomies.tags }}
+      <li>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag">{{ $key | humanize | lower }}</button>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 
-<!-- Clear -->
-<div class="filter__section filter__section--clear">
-  <button class="button" data-clear-filters>
-    {{ partial "components/icon" (dict "name" "close" "size" "16" "align" "left") }}
-    Clear filters
-  </button>
-</div>
+</aside>

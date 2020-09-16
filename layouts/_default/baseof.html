@@ -30,11 +30,6 @@
       <!-- Header -->
       {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 
-      <!-- Filter -->
-      <section class="filter filter--secondary" data-filter-secondary aria-hidden="true">
-        {{ partial "components/filter" (dict "Context" . "type" "secondary") }}
-      </section>
-
       <!-- Scrim -->
       <div class="scrim" aria-hidden="true" data-scrim></div>
 

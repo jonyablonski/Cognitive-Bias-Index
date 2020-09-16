@@ -12,11 +12,6 @@
   <section id="biases">
     <h2 class="visually-hidden">Biases</h2>
 
-    <!-- Filter -->
-    <section class="filter" data-filter-primary>
-      {{ partial "components/filter" (dict "Context" . "type" "primary") }}
-    </section>
-
     <!-- List Header -->
     {{ partial "components/list-header" }}
 
@@ -30,5 +25,9 @@
     <!-- Pagination -->
     <ul class="pagination"></ul>
   </section>
+
+  <!-- Filter -->
+  {{ partial "components/filter" (dict "Context" .) }}
+
 
 {{ end }}

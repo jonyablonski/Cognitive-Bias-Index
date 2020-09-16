@@ -1,18 +1,39 @@
+/*
+ * Parent 
+ */
+
 .list-header {
-  display: none;
-  grid-template-columns: var(--base-grid-columns);
-  grid-column-gap: var(--base-gap);
-  margin: var(--base-spacing) 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: calc(var(--small-font-size) / 2) 0;
   list-style: none;
+  background-color: var(--base-background-color);
 
   @media (--breakpoint-small) {
     display: grid;
+    grid-template-columns: var(--base-grid-columns);
+    grid-column-gap: var(--base-gap);
+    margin: var(--base-spacing) 0;
   }
 }
+
+
+/*
+ * Elements 
+ */
 
 .list-header__item {
   font-size: var(--small-font-size);
 }
+
+/*
+ * Modifiers 
+ */
 
 .list-header__item--name {
   grid-column: span 2;
@@ -20,4 +41,8 @@
 
 .list-header__item--tags {
   grid-column: 5;
+}
+
+.list-header__item--clear {
+  justify-self: end;
 }

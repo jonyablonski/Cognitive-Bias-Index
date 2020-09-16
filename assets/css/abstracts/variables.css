@@ -91,9 +91,8 @@
 
 /* Dark Mode */
 :root[data-color-mode="dark"] {
-  --base-font-color: var(--color-off-white);
-  --base-background-color: var(--color-black);
-  --tertiary-background-color: var(--color-dark-grey);
+  --base-font-color: var(--secondary-font-color);
+  --base-background-color: var(--secondary-background-color);
 }
 
 /* User preference theming */

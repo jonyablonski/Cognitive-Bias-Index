@@ -14,10 +14,10 @@ import List from "list.js";
    * Selectors
    */
   
-  let primaryFilter = document.querySelector('[data-filter-primary]');
-  let secondaryFilter = document.querySelector('[data-filter-secondary]');
+  let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
-  let filterToggle = document.querySelector('[data-toggle="filter"]')
+  // let filterToggle = document.querySelector('[data-toggle="filter"]');
+  let listHeader = document.querySelector('[data-list-header]');
   let search = document.querySelectorAll('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
@@ -55,8 +55,8 @@ import List from "list.js";
     // searchClass: 'search__input',
     valueNames: [
       'title',
-      'category',
-      'tag'
+      { name: 'context', data: ['context'] },
+      { name: 'tags', data: ['tags'] },
     ],
     pagination: true
   };
@@ -102,8 +102,10 @@ import List from "list.js";
       updateColorTheme(themeToggle.getAttribute('data-theme-toggle'));
     }
 
+
     // Filter toggle
-    if (e.target.matches('[data-toggle="filter"]')) {
+    if (e.target.matches('[data-toggle-filter]')) {
+      filterContainer.classList.toggle(activeClass);
       toggleScrim();
     }
 
@@ -113,8 +115,8 @@ import List from "list.js";
       // Close Scrim
       closeScrim();
 
-      // Close filter toggle
-      filterToggle.setAttribute('aria-expanded', false);
+      // Close filter
+      filterContainer.classList.remove(activeClass);
 
     }
 
@@ -135,11 +137,6 @@ import List from "list.js";
 
       // Show clear button
       showSearchClearButton(e.target);
-
-      // Match input on other search inputs
-      search.forEach(element => {
-        if (element !== e.target) element.value = val;
-      });
     }
 
     // Tab key
@@ -166,45 +163,46 @@ import List from "list.js";
     // Get target element
     let target = e.target;
 
-    // Get filter value
-    let filterName = target.getAttribute('data-filter');
+    // Update filter control
+    setActiveFilter(target);
 
-    // Toggle filter if already active
-    if (target.getAttribute('data-filter') === filterName && target.classList.contains(activeClass)) {
-      resetFilters();
-      return;
-    }
-
-    // Update active filter
-    setActiveFilter(filterName);
-
-    // Apply filter
-    biases.filter(function(item) {
-      return (item.values().category == filterName) || (item.values().tag.includes(filterName));
+    // Context filters
+    let contextFilters = [];
+    let contextItems = document.querySelectorAll('[data-filter="context"][aria-pressed="true"]');
+    contextItems.forEach(element => {
+      contextFilters.push(element.textContent);
     });
+    
+    // Tag filters
+    let tagFilters = [];
+    let tagItems = document.querySelectorAll('[data-filter="tag"][aria-pressed="true"]');
+    tagItems.forEach(element => {
+      tagFilters.push(element.textContent);
+    });
+
+
+    // Apply filters
+		biases.filter(function (item) {
+      return item.values().context.includes(contextFilters) && 
+      tagFilters.every(name => {
+        return item.values().tags.includes(name);
+      });
+    });
+
   }
 
 
   // Set active filter item
-  const setActiveFilter = (filterName) => {
-    
-    // Loop through filters
-    filterItem.forEach(element => {
-      
-      // If filter matches element
-      if (element.getAttribute('data-filter') === filterName) {
-        
-        // Add active class
-        element.classList.add(activeClass);
-      
-      } else {
+  const setActiveFilter = (element) => {
 
-        // Remove active class
-        element.classList.remove(activeClass);
-        
-      }
+    // Get current toggle state
+    let pressed = element.getAttribute('aria-pressed') === 'true';
 
-    });
+    // Update menu toggle aria state
+    element.setAttribute('aria-pressed', String(!pressed));
+
+    // Update menu toggle class
+    element.classList.toggle(activeClass);
 
   }
 
@@ -248,10 +246,11 @@ import List from "list.js";
 
   // Reset filters
   const resetFilters = () => {
-    biases.filter();
     filterItem.forEach(element => {
       element.classList.remove(activeClass);
+      element.setAttribute('aria-pressed', 'false');
     });
+    biases.filter();
   }
 
 
@@ -269,47 +268,30 @@ import List from "list.js";
 
   // Close scrim
   const closeScrim = () => {
-
-    // Show/hide scrim
     scrim.classList.remove(activeClass);
-
-    // Disable scrolling
-    document.documentElement.classList.remove(inactiveClass);
-    
   }
 
   
   // Toggle Scrim
   const toggleScrim = () => {
-
-    // Show/hide scrim
     scrim.classList.toggle(activeClass);
-
-    // Disable scrolling
-    document.documentElement.classList.toggle(inactiveClass);
   }
 
 
   // Observe primary filter visibility
-  let observePrimaryFilter = new IntersectionObserver(elem => {
-    if (elem[0].boundingClientRect.y < 0) {
+  // let observeListHeader = new IntersectionObserver(elem => {
+  //   if (elem[0].boundingClientRect.y < 0) {
 
-      // Show secondary filter
-      secondaryFilter.classList.add(activeClass);
+  //     // Show secondary filter
+  //     listHeader.classList.add(activeClass);
 
-    } else {
+  //   } else {
 
-      // Hide secondary filter
-      secondaryFilter.classList.remove(activeClass);
-      
-      // Collase secondary filter toggle
-      filterToggle.setAttribute('aria-expanded', false);
+  //     // Show secondary filter
+  //     listHeader.classList.remove(activeClass);
 
-      // Close scrim
-      closeScrim();
-
-    }
-  }, observerSettings);
+  //   }
+  // }, observerSettings);
 
 
   // Check for theme preference via CSS Media Query
@@ -374,8 +356,8 @@ import List from "list.js";
   let biases = new List('biases', listSettings);
 
 
-  // Init Observer on primaryFilter
-  if (primaryFilter) observePrimaryFilter.observe(primaryFilter);
+  // Init Observer on list header
+  // if (listHeader) observeListHeader.observe(listHeader);
 
 
   // Check user color scheme preference
