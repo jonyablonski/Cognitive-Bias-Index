@@ -70,3 +70,7 @@
 .no-js .header__theme-toggle {
   display: none;
 }
+
+.header__nav a.is-active {
+  text-decoration: underline;
+}
