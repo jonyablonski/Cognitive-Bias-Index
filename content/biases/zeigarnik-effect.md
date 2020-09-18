@@ -1,7 +1,7 @@
 ---
 title: "Zeigarnik Effect"
 description: "That uncompleted or interrupted tasks are remembered better than completed ones."
-categories: ["what should we remember"]
+categories: ["what should we remember?"]
 tags: [
   "memory"
 ]

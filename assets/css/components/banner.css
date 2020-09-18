@@ -3,6 +3,7 @@
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   align-items: center;
+  margin-top: calc(var(--base-spacing) * -2);
 }
 
 .banner__desc,
@@ -11,23 +12,24 @@
   margin-top: calc(var(--base-spacing) * 2);
 
   @media (--breakpoint-small) {
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
   }
 }
 
 .banner__title {
   font-size: var(--xlarge-font-size);
-  font-weight: 600;
+  font-weight: 700;
   max-width: 8ch;
   line-height: 1;
 }
 
 .banner__graphic {
   display: none;
+  padding: 0 calc(var(--base-spacing) * 2);
 
   @media (--breakpoint-small) {
     display: block;
-    grid-column: 5 / -1;
+    grid-column: 4 / -1;
   }
 }
 
