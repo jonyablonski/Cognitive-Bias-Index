@@ -16,11 +16,11 @@ import List from "list.js";
   
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
-  // let filterToggle = document.querySelector('[data-toggle="filter"]');
   let listHeader = document.querySelector('[data-list-header]');
   let search = document.querySelectorAll('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
+  let graphic = document.querySelector('[data-graphic] feTurbulence');
 
 
   /**
@@ -52,7 +52,6 @@ import List from "list.js";
    */
 
   const listSettings = {
-    // searchClass: 'search__input',
     valueNames: [
       'title',
       { name: 'context', data: ['context'] },
@@ -61,11 +60,9 @@ import List from "list.js";
     pagination: true
   };
 
-
-  const observerSettings = {
-    rootMargin: '0px',
-    threshold: 1.0
-  };
+  // SVG turbulence
+  let frames = 0;
+  let rad = Math.PI / 60;
 
 
   /**
@@ -334,6 +331,19 @@ import List from "list.js";
   };
 
 
+  // Animate SVG turbulence
+  const animateBaseFrequency = () => {
+    let bfx = 0.005;
+    let bfy = 0.005;
+    frames += .15
+    bfx += 0.006 * Math.cos(frames * rad);
+    bfy += 0.006 * Math.sin(frames * rad);
+    let bf = bfx.toString() + ' ' + bfy.toString();
+    graphic.setAttributeNS(null, 'baseFrequency', bf);
+    window.requestAnimationFrame(animateBaseFrequency);
+  }
+
+
 
   /**
    * Events/APIs/init
@@ -361,5 +371,9 @@ import List from "list.js";
 
   // Check user color scheme preference
   checkColorTheme();
+
+
+  // Initiate SVG turbulence animation
+  window.requestAnimationFrame(animateBaseFrequency);
   
 })();

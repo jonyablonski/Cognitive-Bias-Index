@@ -8,20 +8,27 @@
 .banner__desc,
 .banner__title {
   grid-column: 1 / -1;
-  padding-top: calc(var(--base-spacing) * 4);
+  margin-top: calc(var(--base-spacing) * 2);
 
   @media (--breakpoint-small) {
-    grid-column: 1 / 4;
-    max-width: 50ch;
+    grid-column: 1 / 5;
   }
 }
 
 .banner__title {
   font-size: var(--xlarge-font-size);
+  font-weight: 600;
+  max-width: 8ch;
+  line-height: 1;
 }
 
 .banner__graphic {
-  grid-column: 5 / -1;
+  display: none;
+
+  @media (--breakpoint-small) {
+    display: block;
+    grid-column: 5 / -1;
+  }
 }
 
 .banner__graphic svg {
