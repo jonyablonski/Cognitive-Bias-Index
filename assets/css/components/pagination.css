@@ -1,3 +1,32 @@
+/* 
+ * Parent
+ */
+
 .pagination {
+  display: inline-flex;
+  border: var(--base-border);
+  border-radius: var(--base-border-radius);
+  margin: 0;
   list-style: none;
+}
+
+
+
+/* 
+ * Elements
+ */
+
+.pagination li:not(:last-child) {
+  border-right: var(--base-border); 
+}
+
+.pagination li a {
+  display: block;
+  padding: calc(var(--base-spacing) / 2) calc(var(--base-spacing) * 2);
+  text-decoration: none;
+}
+
+/* States */
+.pagination li.active a {
+  color: var(--teritary-font-color);
 }

@@ -16,7 +16,6 @@ import List from "list.js";
   
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
-  let listHeader = document.querySelector('[data-list-header]');
   let search = document.querySelectorAll('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
@@ -57,7 +56,8 @@ import List from "list.js";
       { name: 'context', data: ['context'] },
       { name: 'tags', data: ['tags'] },
     ],
-    pagination: true
+    pagination: true,
+    page: 25
   };
 
   // SVG turbulence
@@ -113,6 +113,11 @@ import List from "list.js";
       
       // Show/hide scrim
       toggleScrim();
+
+      // Focus search input
+      if (activeSection === "search") {
+        search[0].focus();
+      }
     }
 
     // Filter close

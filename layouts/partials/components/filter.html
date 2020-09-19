@@ -11,8 +11,8 @@
   <!-- Search -->
   <div class="filter__section filter__section--search search">
     <h3 class="filter__title">Filter by keyword</h3>
-    <label for="search-{{ .type }}">Name</label>
-    <input name="search" id="search-{{ .type }}" type="text" class="search__input" data-search>
+    <label for="search-input">Name</label>
+    <input name="search" id="search-input" type="text" class="search__input" data-search>
     <button class="button button--icon search__clear" data-clear-search>
       {{ partial "components/icon" (dict "name" "close" "size" "16") }}
     </button>
@@ -24,7 +24,7 @@
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.categories }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="context">{{ $key | humanize | lower }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="context">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
     </ul>
@@ -36,7 +36,7 @@
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.tags }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="tag">{{ $key | humanize | lower }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
     </ul>

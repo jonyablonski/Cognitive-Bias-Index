@@ -1,3 +1,7 @@
+/* 
+ * Parent
+ */
+
 .banner {
   display: grid;
   grid-template-columns: var(--base-grid-columns);
@@ -5,6 +9,11 @@
   align-items: center;
   margin-top: calc(var(--base-spacing) * -2);
 }
+
+
+/* 
+ * Elements
+ */
 
 .banner__desc,
 .banner__title {
@@ -18,7 +27,7 @@
 
 .banner__title {
   font-size: var(--xlarge-font-size);
-  font-weight: 700;
+  font-weight: 600;
   max-width: 8ch;
   line-height: 1;
 }

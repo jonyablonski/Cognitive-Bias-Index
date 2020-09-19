@@ -18,6 +18,7 @@
   padding: var(--base-spacing);
   background-color: var(--secondary-background-color);
   color: var(--secondary-font-color);
+  overflow: auto;
 
   @media (--breakpoint-small) {
     width: 24rem;

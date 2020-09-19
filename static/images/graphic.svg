@@ -4,7 +4,7 @@
       type="turbulence"
       id="turbulence"
       baseFrequency="0.1 0.1"
-      numOctaves=""
+      numOctaves="1"
       result="turbulence"
       seed="10"
     />
