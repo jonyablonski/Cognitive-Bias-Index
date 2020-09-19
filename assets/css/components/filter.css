@@ -56,6 +56,8 @@
 }
 
 .filter__item {
+  padding: calc(var(--base-spacing) / 2) 0;
+  
   @media (--breakpoint-small) {
     font-size: var(--medium-font-size);
   }
