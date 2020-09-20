@@ -43,31 +43,12 @@
   text-decoration: none;
 }
 
-.header__share {
-  position: relative;
-  grid-column: 5 / 6;
-  margin-right: var(--base-spacing);
-}
-
-.header__share-content {
-  display: none;
-  position: absolute;
-  left: calc(var(--base-spacing) / 2 * -1);
-  padding: calc(var(--base-spacing) / 2);
-  list-style: none;
-  background-color: var(--base-background-color);
-}
-
 .header__theme-toggle {
   grid-column: 6 / 7;
   justify-self: end;
 }
 
 /* States */
-.header__share-toggle[aria-expanded="true"] + .header__share-content {
-  display: block;
-}
-
 .no-js .header__theme-toggle {
   display: none;
 }

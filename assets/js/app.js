@@ -379,6 +379,6 @@ import List from "list.js";
 
 
   // Initiate SVG turbulence animation
-  window.requestAnimationFrame(animateBaseFrequency);
+  if (graphic) window.requestAnimationFrame(animateBaseFrequency);
   
 })();

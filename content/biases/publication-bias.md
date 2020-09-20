@@ -4,7 +4,7 @@ description: "A type of bias that occurs in published academic research when the
 categories: ["too much information"]
 tags: [
   "research",
-  "decision"
+  "decision making"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Publication_bias"

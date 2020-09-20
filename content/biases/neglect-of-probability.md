@@ -4,7 +4,7 @@ description: "The tendency to completely disregard probability when making a dec
 categories: ["not enough meaning"]
 tags: [
   "probability",
-  "decision"
+  "decision making"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Neglect_of_probability"

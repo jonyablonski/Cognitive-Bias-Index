@@ -2,7 +2,9 @@
 
   <!-- Introduction -->
   <section class="banner">
-    <h1 class="banner__title">{{ .Site.Title }}</h1>
+    <div class="banner__body">
+      <h1 class="banner__title">{{ .Site.Title }}</h1>
+    </div>
     <div class="banner__graphic" data-graphic>
       {{ readFile "static/images/graphic.svg" | safeHTML }}
     </div>

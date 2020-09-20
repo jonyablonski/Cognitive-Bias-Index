@@ -29,6 +29,7 @@
 @import "components/pagination";
 @import "components/search";
 @import "components/scrim";
+@import "components/share";
 
 /* Layout */
 @import "layout/header";

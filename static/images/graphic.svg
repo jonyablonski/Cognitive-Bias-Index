@@ -3,10 +3,10 @@
     <feTurbulence
       type="turbulence"
       id="turbulence"
-      baseFrequency="0.1 0.1"
-      numOctaves="1"
+      baseFrequency="0.2 0.2"
+      numOctaves="2"
       result="turbulence"
-      seed="10"
+      seed="20"
     />
     <feDisplacementMap
       in="SourceGraphic"
