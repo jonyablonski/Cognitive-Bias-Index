@@ -16,6 +16,7 @@ import List from "list.js";
   
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
+  let filterClear = document.querySelector('[data-clear-filters]');
   let search = document.querySelectorAll('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
@@ -76,6 +77,7 @@ import List from "list.js";
     // Filter toggle
     if (e.target.matches('[data-filter]')) {
       filterContent(e);
+      showFilterClearButton();
     }
 
     // Clear search
@@ -87,6 +89,7 @@ import List from "list.js";
     if (e.target.matches('[data-clear-filters]')) {
       clearSearch();
       resetFilters();
+      showFilterClearButton();
     }
 
     // Content toggle
@@ -209,7 +212,6 @@ import List from "list.js";
         return item.values().tags.includes(name);
       });
     });
-
   }
 
 
@@ -225,6 +227,16 @@ import List from "list.js";
     // Update menu toggle class
     element.classList.toggle(activeClass);
 
+  }
+
+
+  // Show/Hide clear filter button
+  const showFilterClearButton = () => {
+    if (biases.matchingItems.length !== biases.items.length) {
+      filterClear.classList.add(activeClass);
+    } else {
+      filterClear.classList.remove(activeClass);
+    }
   }
 
 

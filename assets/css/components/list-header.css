@@ -38,3 +38,12 @@
 .list-header__item--clear {
   justify-self: end;
 }
+
+.list-header__item--clear button {
+  visibility: hidden;
+}
+
+/* States */
+.list-header__item--clear button.is-active {
+  visibility: visible;
+}

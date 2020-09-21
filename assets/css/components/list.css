@@ -19,7 +19,7 @@
   align-items: start;
   margin: 0;
   border-top: var(--base-border);
-  padding: var(--base-spacing) 0;
+  padding: calc(var(--base-spacing) / 2) 0;
 }
 
 .list__item-section {
@@ -83,12 +83,13 @@
 }
 
 .list__item-section--toggle {
-  justify-self: end;
   font-size: var(--small-font-size);
-  margin-top: calc(var(--base-spacing) * -1);
+  justify-self: start;
+  padding: var(--base-spacing) 0;
 
   @media (--breakpoint-small) {
-    margin-top: 0;
+    justify-self: end;
+    padding: var(--base-spacing);
   }
 }
 
@@ -106,7 +107,7 @@
 }
 
 .list__item-section--info > * {
-  margin-top: var(--base-spacing);
+  margin-bottom: var(--base-spacing);
 }
 
 /* States */
@@ -114,6 +115,7 @@
   display: grid;
   
   @media (--breakpoint-large) {
+    margin-top: var(--base-spacing);
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: var(--base-gap);
   }
