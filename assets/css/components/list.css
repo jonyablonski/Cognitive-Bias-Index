@@ -90,6 +90,7 @@
   @media (--breakpoint-small) {
     justify-self: end;
     padding: var(--base-spacing);
+    margin-top: calc(var(--base-spacing) * -1 / 1.5);
   }
 }
 

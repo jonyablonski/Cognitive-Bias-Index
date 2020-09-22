@@ -17,7 +17,7 @@ import List from "list.js";
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
   let filterClear = document.querySelector('[data-clear-filters]');
-  let search = document.querySelectorAll('[data-search]');
+  let search = document.querySelector('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
   let graphic = document.querySelector('[data-graphic] feTurbulence');
@@ -74,10 +74,11 @@ import List from "list.js";
   // Handle click events
   const clickEventHandler = (e) => {
 
-    // Filter toggle
+    // Filter button
     if (e.target.matches('[data-filter]')) {
       filterContent(e);
       showFilterClearButton();
+      updateClearButtonCount();
     }
 
     // Clear search
@@ -119,7 +120,7 @@ import List from "list.js";
 
       // Focus search input
       if (activeSection === "search") {
-        search[0].focus();
+        search.focus();
       }
     }
 
@@ -147,7 +148,7 @@ import List from "list.js";
   const keyupEventHandler = (e) => {
     
     // Search input
-    if (e.target.matches('[data-search]')) {
+    if (e.target === search) {
 
       // Get value
       let val = e.target.value;
@@ -157,6 +158,22 @@ import List from "list.js";
 
       // Show clear button
       showSearchClearButton(e.target);
+
+      // Update active filter count
+      updateClearButtonCount();
+
+      // Show/hide filter clear button
+      showFilterClearButton();
+
+      // Close filter on enter
+      if (e.keyCode === 13) {
+        
+        // Close Scrim
+        closeScrim();
+
+        // Close filter
+        filterContainer.classList.remove(activeClass);
+      }
     }
 
     // Tab key
@@ -182,6 +199,40 @@ import List from "list.js";
   };
 
 
+  // Toggle content
+  const toggleContent = (toggle) => {
+
+    // Get current toggle state
+    let expanded = toggle.getAttribute('aria-expanded') === 'true';
+
+    // Update menu toggle
+    toggle.setAttribute('aria-expanded', String(!expanded));
+
+  }
+
+
+  // Get active context filter array
+  const getContextFilters = () => {
+    let contextFilters = [];
+    let contextItems = document.querySelectorAll('[data-filter="context"][aria-pressed="true"]');
+    contextItems.forEach(element => {
+      contextFilters.push(element.textContent);
+    });
+    return contextFilters;
+  }
+
+
+  // Get active tags filter array
+  const getTagFilters = () => {
+    let tagFilters = [];
+    let tagItems = document.querySelectorAll('[data-filter="tag"][aria-pressed="true"]');
+    tagItems.forEach(element => {
+      tagFilters.push(element.textContent);
+    });
+    return tagFilters;
+  }
+
+
   // Filter content and manage active state on toggle
   const filterContent = (e) => {
 
@@ -191,24 +242,9 @@ import List from "list.js";
     // Update filter control
     setActiveFilter(target);
 
-    // Context filters
-    let contextFilters = [];
-    let contextItems = document.querySelectorAll('[data-filter="context"][aria-pressed="true"]');
-    contextItems.forEach(element => {
-      contextFilters.push(element.textContent);
-    });
-    
-    // Tag filters
-    let tagFilters = [];
-    let tagItems = document.querySelectorAll('[data-filter="tag"][aria-pressed="true"]');
-    tagItems.forEach(element => {
-      tagFilters.push(element.textContent);
-    });
-
     // Apply filters
 		biases.filter(function (item) {
-      return item.values().context.includes(contextFilters) && 
-      tagFilters.every(name => {
+      return item.values().context.includes(getContextFilters()) && getTagFilters().every(name => {
         return item.values().tags.includes(name);
       });
     });
@@ -240,40 +276,23 @@ import List from "list.js";
   }
 
 
-  // Show/Hide clear search button
-  const showSearchClearButton = (target) => {
-    let charLength = target.value.length;
-
-    // If search value is provided
-    // Toggle clear button on each search input (via parent elem)
-    if (charLength > 0) {
-      search.forEach(element => {
-        element.parentElement.classList.add(activeClass)
-      });
-    } else {
-      search.forEach(element => {
-        element.parentElement.classList.remove(activeClass)
-      });
-    }
-  }
-
-
   // Clear search
   const clearSearch = () => {
     
-    // Loop through all search inputs
-    search.forEach(element => {
+    // Clear value in input
+    search.value = '';
 
-      // Clear value in input
-      element.value = '';
-
-      // Remove active class on parent
-      element.parentElement.classList.remove(activeClass)
-
-    });
+    // Remove active class on parent
+    search.parentElement.classList.remove(activeClass);
 
     // Reset search
     biases.search();
+
+    // Update active filter count
+    updateClearButtonCount();
+
+    // Show/hide filter clear button
+    showFilterClearButton();
   }
 
 
@@ -287,15 +306,34 @@ import List from "list.js";
   }
 
 
-  // Toggle content
-  const toggleContent = (toggle) => {
+  // Show/Hide clear search button
+  const showSearchClearButton = (target) => {
+    
+    // Get search value character length
+    let charLength = target.value.length;
 
-    // Get current toggle state
-    let expanded = toggle.getAttribute('aria-expanded') === 'true';
+    // If search value is provided
+    // Toggle clear button on each search input (via parent elem)
+    if (charLength > 0) {
+      search.parentElement.classList.add(activeClass);
+    } else {
+      search.parentElement.classList.remove(activeClass);
+    }
+  }
 
-    // Update menu toggle
-    toggle.setAttribute('aria-expanded', String(!expanded));
 
+  // Update active filter count on clear button
+  const updateClearButtonCount = () => {
+    
+    // Get active filter count
+    let filterCount = getContextFilters().length + getTagFilters().length;
+
+    // Update value from active fitlers + search
+    if (biases.searched) {
+      filterClear.setAttribute('data-clear-filters', filterCount + 1);
+    } else {
+      filterClear.setAttribute('data-clear-filters', filterCount);
+    }
   }
 
 

@@ -43,6 +43,19 @@
   visibility: hidden;
 }
 
+/* Filter count */
+.list-header__item--clear button:before {
+  content: attr(data-clear-filters);
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  line-height: 1.2rem;
+  font-size: var(--small-font-size);
+  vertical-align: middle;
+  border: var(--base-border);
+  border-radius: 50%;
+}
+
 /* States */
 .list-header__item--clear button.is-active {
   visibility: visible;
