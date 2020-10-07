@@ -7,7 +7,8 @@ tags: [
   "group"
 ]
 reading: [
-  "https://en.wikipedia.org/wiki/Not_invented_here"
+  "https://en.wikipedia.org/wiki/Not_invented_here",
+  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
 ]
 ---
 

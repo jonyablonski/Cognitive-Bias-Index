@@ -6,7 +6,8 @@ tags: [
   "visibility"
 ]
 reading: [
-  "https://en.wikipedia.org/wiki/Survivorship_bias"
+  "https://en.wikipedia.org/wiki/Survivorship_bias",
+  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
 ]
 ---
 
