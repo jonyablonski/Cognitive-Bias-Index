@@ -34,7 +34,7 @@
     <!-- Description -->
     <div class="list__item-meta list__item-meta--desc">
       <h4 class="list__item-title">Description</h4>
-      <p>{{ .Description }}</p>
+      <p>{{ .Description | markdownify }}</p>
     </div>
 
     <!-- Further Reading -->
