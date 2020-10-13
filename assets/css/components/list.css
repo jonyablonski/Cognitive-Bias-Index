@@ -113,11 +113,5 @@
 
 /* States */
 .list__item-section--toggle[aria-expanded="true"] + .list__item-section--info {
-  display: grid;
-  
-  @media (--breakpoint-large) {
-    margin-top: var(--base-spacing);
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: var(--base-gap);
-  }
+  display: block;
 }

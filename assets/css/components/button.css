@@ -33,11 +33,6 @@
   pointer-events: none;
 }
 
-.button .icon {
-  position: relative;
-  top: -.04rem;
-}
-
 
 /* 
  * Modifiers

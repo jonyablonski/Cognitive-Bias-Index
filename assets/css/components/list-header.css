@@ -44,11 +44,12 @@
 }
 
 /* Filter count */
-.list-header__item--clear button:before {
+.list-header__item--clear button:after {
   content: attr(data-clear-filters);
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
+  margin-left: calc(var(--base-spacing) / 4);
   line-height: 1.2rem;
   font-size: var(--small-font-size);
   vertical-align: middle;

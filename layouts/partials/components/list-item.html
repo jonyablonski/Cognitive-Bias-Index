@@ -1,5 +1,5 @@
 <li 
-  class="list__item" 
+  class="list__item"
   data-context="{{ range .Params.categories }}{{ . | humanize | title }}{{ end }}"
   data-tags="{{ range $i, $e := .Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
 
@@ -24,8 +24,8 @@
   <!-- Toggle -->
   <button class="list__item-section list__item-section--toggle button button--toggle" aria-expanded="false" data-toggle aria-controls="{{ .Title | urlize}}-info">
     <span class="visually-hidden">Info</span>
-    <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "24" "align" "right") }}</span>
-    <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "24" "align" "right") }}</span>
+    <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "40" "align" "right") }}</span>
+    <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "40" "align" "right") }}</span>
   </button>
 
   <!-- Info -->
