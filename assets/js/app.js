@@ -58,7 +58,7 @@ import List from "list.js";
       { name: 'tags', data: ['tags'] },
     ],
     pagination: true,
-    page: 25
+    page: 50
   };
 
   // SVG turbulence

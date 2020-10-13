@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>arrow diagonal</title>
-  <g fill="none" fill-rule="evenodd">
-    <path d="M0 0h24v24H0z"/>
-    <path fill="#000" fill-rule="nonzero" d="M6.343 6.343v1.994l7.899.007-8.606 8.606 1.414 1.414 8.606-8.606-.007 7.899h2.008V6.343z"/>
-  </g>
-</svg>
+<svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>arrow diagonal</title><path d="M.71 10.773L9.813 1.67l-8.605-.007V.666h10.314V10.98l-1.008.001.008-8.607-9.107 9.106z" fill-rule="nonzero"/></svg>

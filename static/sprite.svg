@@ -1,18 +1,4 @@
-<svg><defs/><symbol id="arrow-diagonal" viewBox="0 0 24 24">
-  <title>arrow diagonal</title>
-  <g fill="none" fill-rule="evenodd">
-    <path d="M0 0h24v24H0z"/>
-    <path fill="#000" fill-rule="nonzero" d="M6.343 6.343v1.994l7.899.007-8.606 8.606 1.414 1.414 8.606-8.606-.007 7.899h2.008V6.343z"/>
-  </g>
-</symbol><symbol id="arrow-down" viewBox="0 0 24 24">
-  <title>down arrow</title>
-  <path fill="none" d="M0 0h24v24H0V0z"/>
-  <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/>
-</symbol><symbol id="arrow-up" viewBox="0 0 24 24">
-  <title>up arrow</title>
-  <path fill="none" d="M0 0h24v24H0V0z"/>
-  <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
-</symbol><symbol id="close" viewBox="0 0 24 24">
+<svg><defs/><symbol id="arrow-diagonal" viewBox="0 0 12 12"><title>arrow diagonal</title><path d="M.71 10.773L9.813 1.67l-8.605-.007V.666h10.314V10.98l-1.008.001.008-8.607-9.107 9.106z" fill-rule="nonzero"/></symbol><symbol id="arrow-down" viewBox="0 0 16 16"><title>arrow down</title><path d="M8.5.5v12.876l6.089-6.08.704.704L8 15.293.707 8l.712-.713L7.5 13.379V.5z" fill-rule="nonzero"/></symbol><symbol id="arrow-up" viewBox="0 0 15 16"><title>arrow up</title><path d="M6.793 15.293V2.417L.704 8.497 0 7.793 7.293.5l7.293 7.293-.712.713-6.081-6.092v12.879z" fill-rule="nonzero"/></symbol><symbol id="close" viewBox="0 0 24 24">
   <title>close</title>
   <path fill="none" d="M0 0h24v24H0z"/>
   <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>

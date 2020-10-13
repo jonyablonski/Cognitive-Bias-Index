@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <title>down arrow</title>
-  <path fill="none" d="M0 0h24v24H0V0z"/>
-  <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/>
-</svg>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>arrow down</title><path d="M8.5.5v12.876l6.089-6.08.704.704L8 15.293.707 8l.712-.713L7.5 13.379V.5z" fill-rule="nonzero"/></svg>
