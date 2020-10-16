@@ -41,6 +41,9 @@
 
 .header__nav a {
   text-decoration: none;
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .header__theme-toggle {
