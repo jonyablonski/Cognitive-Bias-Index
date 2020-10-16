@@ -24,6 +24,17 @@
 
 
 /*
+ * Elements 
+ */
+
+.list-header__item .button {
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+/*
  * Modifiers 
  */
 

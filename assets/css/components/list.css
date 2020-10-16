@@ -69,7 +69,7 @@
   }
 }
 
-.list__item-section + .list__item-section:not(.list__item-section--toggle) {
+.list__item-section + .list__item-section {
   margin-top: calc(var(--base-spacing) / 2);
 
   @media (--breakpoint-small) {
@@ -80,6 +80,7 @@
 .list__item-section--title {
   margin: 0;
   line-height: var(--base-line-height);
+  font-size: var(--medium-font-size);
 }
 
 .list__item-section--toggle {
@@ -95,8 +96,7 @@
 }
 
 .list__item-section--info {
-  display: none;
-  
+
   /* Enable links to wrap */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -109,9 +109,4 @@
 
 .list__item-section--info > * {
   margin-bottom: var(--base-spacing);
-}
-
-/* States */
-.list__item-section--toggle[aria-expanded="true"] + .list__item-section--info {
-  display: block;
 }
