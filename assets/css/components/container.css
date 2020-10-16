@@ -9,16 +9,3 @@
   max-width: var(--base-max-width);
   padding: 0 var(--base-outer-padding);
 }
-
-
-/* 
- * Modifiers
- */
-
-.icon--left {
-  margin-right: calc(var(--base-spacing) / 3);
-}
-
-.icon--right {
-  margin-left: calc(var(--base-spacing) / 3);
-}

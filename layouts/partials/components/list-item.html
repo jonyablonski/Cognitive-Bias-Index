@@ -7,7 +7,7 @@
   <h3 class="list__item-section list__item-section--title title" data-label="Name">{{ .Title }}</h3>
 
   <!-- Context -->
-  <div class="list__item-section list__item-section--context" data-label="Context">
+  <div class="list__item-section list__item-section--context" data-label="Category">
     <span>{{ range .Params.categories }}{{ . | humanize | title }}{{ end }}</span>
   </div>
 
@@ -20,13 +20,6 @@
       {{- end -}}
     </span>
   </div>
-
-  <!-- Toggle -->
-  <button class="list__item-section list__item-section--toggle button button--toggle" aria-expanded="false" data-toggle aria-controls="{{ .Title | urlize}}-info">
-    <span class="visually-hidden">Info</span>
-    <span class="button__icon button__icon--default">{{ partial "components/icon" (dict "name" "arrow-down" "size" "40" "align" "right") }}</span>
-    <span class="button__icon button__icon--active">{{ partial "components/icon" (dict "name" "arrow-up" "size" "40" "align" "right") }}</span>
-  </button>
 
   <!-- Info -->
   <div id="#{{ .Title | urlize}}-info" class="list__item-section list__item-section--info">
@@ -45,7 +38,7 @@
         <li>
           <a href="{{ . }}">
             {{ . }}
-            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "24" "align" "right") }}
+            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "right") }}
           </a>
         </li>
         {{ end }}
