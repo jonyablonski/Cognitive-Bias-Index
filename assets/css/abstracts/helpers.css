@@ -98,7 +98,7 @@
   font-family: var(--secondary-font-family);
   font-size: var(--small-font-size);
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 
@@ -106,6 +106,6 @@
  * Other
  */
 
- .scroll-margin {
+.scroll-margin {
   scroll-margin-top: calc(var(--base-header-height));
 }

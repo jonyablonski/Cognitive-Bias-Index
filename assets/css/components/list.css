@@ -19,7 +19,7 @@
   align-items: start;
   margin: 0;
   border-top: var(--base-border);
-  padding: calc(var(--base-spacing) / 2) 0;
+  padding: calc(var(--base-spacing) * 2) 0;
 }
 
 .list__item-section {
@@ -33,6 +33,8 @@
 .list__item-title {
   margin: 0 0 calc(var(--base-spacing) / 3);
   font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .list__item-section ul li {
@@ -49,13 +51,15 @@
  * Modifiers
  */
 
-.list__item-section--title::before,
 .list__item-section--context::before,
 .list__item-section--tags::before {
   content: attr(data-label);
   display: block;
   margin-bottom: calc(var(--base-spacing) / 4);
+  font-family: var(--secondary-font-family);
   font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 
   @media (--breakpoint-small) {
     display: none;
@@ -108,5 +112,5 @@
 }
 
 .list__item-section--info > * {
-  margin-bottom: var(--base-spacing);
+  margin-top: var(--base-spacing);
 }
