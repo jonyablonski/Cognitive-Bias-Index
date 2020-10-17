@@ -54,6 +54,7 @@ import List from "list.js";
   const listSettings = {
     valueNames: [
       'title',
+      'desc',
       { name: 'context', data: ['context'] },
       { name: 'tags', data: ['tags'] },
     ],

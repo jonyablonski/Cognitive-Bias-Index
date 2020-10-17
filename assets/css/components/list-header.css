@@ -28,6 +28,7 @@
  */
 
 .list-header__item .button {
+  font-family: var(--secondary-font-family);
   font-size: var(--small-font-size);
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -62,7 +63,6 @@
   height: 1.4rem;
   margin-left: calc(var(--base-spacing) / 4);
   line-height: 1.2rem;
-  font-size: var(--small-font-size);
   vertical-align: middle;
   border: var(--base-border);
   border-radius: 50%;

@@ -4,7 +4,7 @@
   data-tags="{{ range $i, $e := .Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
 
   <!-- Title -->
-  <h3 class="list__item-section list__item-section--title title" data-label="Name">{{ .Title }}</h3>
+  <h3 class="list__item-section list__item-section--title title">{{ .Title }}</h3>
 
   <!-- Context -->
   <div class="list__item-section list__item-section--context" data-label="Category">
@@ -25,7 +25,7 @@
   <div id="#{{ .Title | urlize}}-info" class="list__item-section list__item-section--info">
 
     <!-- Description -->
-    <div class="list__item-meta list__item-meta--desc">
+    <div class="list__item-meta list__item-meta--desc desc">
       <h4 class="list__item-title">Description</h4>
       <p>{{ .Description | markdownify }}</p>
     </div>
