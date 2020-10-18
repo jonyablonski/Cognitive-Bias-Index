@@ -4,6 +4,18 @@
   <section class="banner">
     <div class="banner__body">
       <h1 class="banner__title">{{ .Site.Title }}</h1>
+      <h2>Popular</h2>
+      <ul>
+        <li>
+          <button aria-pressed="false" data-filter="tag">Research</button>
+        </li>
+        <li>
+          <button aria-pressed="false" data-filter="tag">Decision Making</button>
+        </li>
+        <li>
+          <button aria-pressed="false" data-filter="tag">Memory</button>
+        </li>
+      </ul>
     </div>
     <div class="banner__graphic" data-graphic>
       {{ readFile "static/images/graphic.svg" | safeHTML }}

@@ -5,7 +5,7 @@
  .button {
   position: relative;
   display: inline-block;
-  padding: 0;
+  padding: calc(var(--base-spacing) / 3) calc(var(--base-spacing) / 2);
   line-height: normal;
   white-space: nowrap;
   text-align: center;
@@ -37,6 +37,11 @@
 /* 
  * Modifiers
  */
+
+.button--border {
+  border: var(--base-border);
+  border-radius: var(--base-border-radius);
+}
 
 /* Toggle Button */
 .button[aria-expanded="false"] .button__icon--active,
