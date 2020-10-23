@@ -1,0 +1,36 @@
+{
+  "short_name": "Cognitive Bias Index",
+  "name": "Cognitive Bias Index",
+  "description": "An index of the systematic errors in thinking that affects the decisions and judgments that people make.",
+  "icons": [
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#EEEDE9",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "#151515"
+}
