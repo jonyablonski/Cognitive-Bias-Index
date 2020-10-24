@@ -7,7 +7,7 @@
   z-index: 1;
   grid-column: 1 / -1;
   display: flex;
-  align-items: center;
+  align-items: start;
   padding: var(--base-spacing) 0;
 
   @media (--breakpoint-small) {
@@ -34,13 +34,14 @@
 .header__nav ul {
   margin: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: var(--base-gap);
 }
 
 .header__nav a {
   text-decoration: none;
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .header__theme-toggle {

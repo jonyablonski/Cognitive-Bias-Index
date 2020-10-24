@@ -24,6 +24,18 @@
 
 
 /*
+ * Elements 
+ */
+
+.list-header__item .button {
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+/*
  * Modifiers 
  */
 
@@ -47,14 +59,9 @@
 .list-header__item--clear button:after {
   content: attr(data-clear-filters);
   display: inline-block;
-  width: 1.4rem;
-  height: 1.4rem;
+  height: 18px; /* Match height of filter icons */
   margin-left: calc(var(--base-spacing) / 4);
-  line-height: 1.2rem;
-  font-size: var(--small-font-size);
   vertical-align: middle;
-  border: var(--base-border);
-  border-radius: 50%;
 }
 
 /* States */
