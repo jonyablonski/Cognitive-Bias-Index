@@ -19,7 +19,7 @@
 
   /* Colors */
   --color-black: #111;
-  --color-mid-grey: #999;
+  --color-mid-grey: #666;
   --color-off-white: #EEEDE9;
   --color-blue: #542bff;
 
@@ -49,7 +49,7 @@
   --secondary-font-family: Consolas, monaco, monospace;
   --base-font-color: var(--color-black);
   --secondary-font-color: var(--color-off-white);
-  --teritary-font-color: var(--color-mid-grey);
+  --tertiary-font-color: var(--color-mid-grey);
   --base-line-height: 1.4;
   --header-line-height: 1.2;
   --min-font-size: var(--base-font-size);

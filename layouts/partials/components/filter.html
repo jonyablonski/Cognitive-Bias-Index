@@ -24,7 +24,7 @@
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.categories }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="context">{{ $key | humanize | title }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
     </ul>
@@ -36,7 +36,7 @@
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.tags }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="tag">{{ $key | humanize | title }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
     </ul>

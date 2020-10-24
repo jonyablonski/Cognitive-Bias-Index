@@ -28,7 +28,6 @@ import List from "list.js";
    */
   
   const activeClass = 'is-active';
-  const inactiveClass = 'is-inactive';
 
 
   /**
@@ -77,7 +76,15 @@ import List from "list.js";
 
     // Filter button
     if (e.target.matches('[data-filter]')) {
-      filterContent(e);
+
+      // Get all matching filter buttons
+      let toggles = document.querySelectorAll('[data-filter-val="' + e.target.getAttribute('data-filter-val') + '"]');
+      
+      // Update each filter button
+      toggles.forEach(element => {
+        filterContent(element);
+      });
+
       showFilterClearButton();
       updateClearButtonCount();
     }
@@ -218,8 +225,10 @@ import List from "list.js";
     let contextItems = document.querySelectorAll('[data-filter="context"][aria-pressed="true"]');
     contextItems.forEach(element => {
       contextFilters.push(element.textContent);
-    });
-    return contextFilters;
+    }); 
+
+    // Return without duplicates
+    return [...new Set(contextFilters)];
   }
 
 
@@ -230,15 +239,17 @@ import List from "list.js";
     tagItems.forEach(element => {
       tagFilters.push(element.textContent);
     });
-    return tagFilters;
+
+    // Return without duplicates
+    return [...new Set(tagFilters)];
   }
 
 
   // Filter content and manage active state on toggle
-  const filterContent = (e) => {
+  const filterContent = (elem) => {
 
     // Get target element
-    let target = e.target;
+    let target = elem;
 
     // Update filter control
     setActiveFilter(target);

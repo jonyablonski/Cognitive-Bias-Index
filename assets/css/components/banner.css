@@ -48,3 +48,21 @@
 .banner__graphic svg {
   stroke: currentColor;
 }
+
+.banner__subtitle {
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--tertiary-font-color);
+}
+
+.banner__list {
+  margin: 0;
+  list-style: none;
+}
+
+/* States */
+.banner__list button.is-active {
+  text-decoration: underline;
+}

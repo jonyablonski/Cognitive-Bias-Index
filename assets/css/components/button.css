@@ -38,6 +38,10 @@
  * Modifiers
  */
 
+.button--min {
+  padding: calc(var(--base-spacing) / 3) 0;
+}
+
 .button--border {
   border: var(--base-border);
   border-radius: var(--base-border-radius);

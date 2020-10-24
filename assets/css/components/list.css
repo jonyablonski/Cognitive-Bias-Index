@@ -35,6 +35,7 @@
   font-size: var(--small-font-size);
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  color: var(--tertiary-font-color);
 }
 
 .list__item-section ul li {
