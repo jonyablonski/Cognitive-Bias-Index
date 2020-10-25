@@ -17,7 +17,7 @@
 
 .banner__body {
   grid-column: 1 / -1;
-  margin-top: calc(var(--base-spacing) * 2);
+  margin-top: var(--base-spacing);
 
   @media (--breakpoint-small) {
     grid-column: 1 / 5;
@@ -26,10 +26,11 @@
 
 .banner__title {
   max-width: 8ch;
+  margin-bottom: calc(var(--base-spacing) * 2);
   font-weight: 600;
   line-height: 0.9;
   font-size: var(--xlarge-font-size);
-  letter-spacing: -0.015em;
+  letter-spacing: -0.03em;
 }
 
 .banner__desc {

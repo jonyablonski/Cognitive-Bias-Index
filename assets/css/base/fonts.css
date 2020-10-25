@@ -1,0 +1,25 @@
+/* Inter Regular */
+@font-face {
+  font-family: 'Inter';
+  src: 
+    local('Inter Regular'), 
+    local('Inter-Regular'),
+    url('/fonts/Inter-Regular-subset.woff2') format('woff2'),
+    url('/fonts/Inter-Regular-subset.zopfli.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Mono Regular */
+@font-face {
+  font-family: 'Roboto Mono';
+  src: 
+    local('Roboto Mono'), 
+    local('Roboto-Mono'),
+    url('/fonts/RobotoMono-Regular-subset.woff2') format('woff2'),
+    url('/fonts/RobotoMono-Regular-subset.zopfli.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
