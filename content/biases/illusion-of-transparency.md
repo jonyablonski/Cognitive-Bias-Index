@@ -6,6 +6,7 @@ tags: [
   "estimation"
 ]
 reading: [
+  "https://dscout.com/people-nerds/cognitive-biases-user-research",
   "https://en.wikipedia.org/wiki/Illusion_of_transparency3"
 ]
 ---

@@ -8,6 +8,7 @@ tags: [
   "observation"
 ]
 reading: [
+  "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8",
   "https://en.wikipedia.org/wiki/Observer-expectancy_effect"
 ]
 ---

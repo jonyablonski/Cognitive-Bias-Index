@@ -8,6 +8,7 @@ tags: [
   "optimism"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-optimism-bias-2795031",
   "https://en.wikipedia.org/wiki/Optimism_bias"
 ]
 ---

@@ -6,6 +6,7 @@ tags: [
   "memory"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-misinformation-effect-2795353",
   "https://en.wikipedia.org/wiki/Misinformation_effect"
 ]
 ---

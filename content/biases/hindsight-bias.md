@@ -6,6 +6,8 @@ tags: [
   "prediction"
 ]
 reading: [
+  "https://thedecisionlab.com/biases/hindsight-bias/",
+  "https://dscout.com/people-nerds/cognitive-biases-user-research",
   "https://en.wikipedia.org/wiki/Hindsight_bias"
 ]
 ---

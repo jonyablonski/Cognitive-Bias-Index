@@ -6,6 +6,7 @@ tags: [
   "estimation"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030",
   "https://en.wikipedia.org/wiki/False_consensus_effect"
 ]
 ---

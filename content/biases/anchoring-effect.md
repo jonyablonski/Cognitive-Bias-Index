@@ -7,6 +7,8 @@ tags: [
   "reasoning"
 ]
 reading: [
+  "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779",
+  "https://www.verywellmind.com/what-is-the-anchoring-bias-2795029",
   "https://wikipedia.org/wiki/Anchoring_(cognitive_bias)"
 ]
 ---

@@ -7,6 +7,7 @@ tags: [
   "influence"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-actor-observer-bias-2794813",
   "https://en.wikipedia.org/wiki/Actor-observer_bias"
 ]
 ---

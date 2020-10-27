@@ -8,8 +8,10 @@ tags: [
   "interpretation"
 ]
 reading: [
-  "https://en.wikipedia.org/wiki/Confirmation_bias",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
+  "https://www.verywellmind.com/what-is-a-confirmation-bias-2795024",
+  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
+  "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8",
+  "https://en.wikipedia.org/wiki/Confirmation_bias"
 ]
 ---
 

@@ -8,6 +8,8 @@ tags: [
   "identity"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-halo-effect-2795906",
+  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
   "https://en.wikipedia.org/wiki/Halo_effect"
 ]
 ---

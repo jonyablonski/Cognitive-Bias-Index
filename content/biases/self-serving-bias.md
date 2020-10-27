@@ -7,6 +7,7 @@ tags: [
   "evaluation"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-the-self-serving-bias-2795032",
   "https://en.wikipedia.org/wiki/Self-serving_bias"
 ]
 ---

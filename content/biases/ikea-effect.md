@@ -6,8 +6,9 @@ tags: [
   "value"
 ]
 reading: [
+  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
+  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
   "https://en.wikipedia.org/wiki/IKEA_effect",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
 ]
 ---
 

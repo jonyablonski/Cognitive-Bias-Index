@@ -6,6 +6,7 @@ tags: [
   "tradition"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-functional-fixedness-2795484",
   "https://en.wikipedia.org/wiki/Functional_fixedness"
 ]
 ---

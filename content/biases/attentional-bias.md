@@ -7,6 +7,7 @@ tags: [
   "frequency"
 ]
 reading: [
+  "https://www.verywellmind.com/what-is-an-attentional-bias-2795027",
   "https://en.wikipedia.org/wiki/Attentional_bias"
 ]
 ---

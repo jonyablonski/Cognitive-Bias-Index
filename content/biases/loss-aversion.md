@@ -6,6 +6,7 @@ tags: [
   "perception"
 ]
 reading: [
+  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
   "https://en.wikipedia.org/wiki/Loss_aversion"
 ]
 ---

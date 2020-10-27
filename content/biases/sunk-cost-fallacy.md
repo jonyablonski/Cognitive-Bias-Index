@@ -7,6 +7,7 @@ tags: [
   "decision-making"
 ]
 reading: [
+  "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779",
   "https://en.wikipedia.org/wiki/Sunk_cost"
 ]
 ---
