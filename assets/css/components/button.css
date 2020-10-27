@@ -12,7 +12,7 @@
   font-weight: normal;
   color: currentColor;
   border: none;
-  background: transparent;
+  background: none;
   text-decoration: none;
   transition: border var(--base-duration) var(--base-timing),
               color var(--base-duration) var(--base-timing);

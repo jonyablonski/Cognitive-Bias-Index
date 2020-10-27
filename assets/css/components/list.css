@@ -43,8 +43,8 @@
   color: var(--tertiary-font-color);
 }
 
-.list__item-section ul li {
-  display: inline-block;
+.list__item-section ul li:not(:last-child) {
+  margin-bottom: var(--base-spacing);
 }
 
 .list__item-section p,
@@ -70,7 +70,8 @@
 }
 
 .list__item-section--title,
-.list__item-section--context {
+.list__item-section--context,
+.list__item-section--tags {
   @media (--breakpoint-small) {
     grid-column: span 2;
   }

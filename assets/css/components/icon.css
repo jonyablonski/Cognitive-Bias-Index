@@ -9,3 +9,16 @@
   transition: fill var(--base-duration) var(--base-timing);
   pointer-events: none;
 }
+
+
+/* 
+ * Modifiers
+ */
+
+.icon--left {
+  margin-right: calc(var(--base-spacing) / 5);
+}
+
+.icon--right {
+  margin-left: calc(var(--base-spacing) / 5);
+}

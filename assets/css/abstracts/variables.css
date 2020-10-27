@@ -14,7 +14,7 @@
   --base-grid-columns: repeat(6, minmax(0, 1fr));
   --large-grid-columns: repeat(8, minmax(0, 1fr));
   --base-gap: calc(var(--base-spacing) * 2);
-  --base-outer-padding: calc(var(--base-spacing) * 2);
+  --base-outer-padding: calc(var(--base-spacing) * 1);
 
 
   /* Colors */
