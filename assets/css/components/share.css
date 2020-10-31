@@ -1,16 +1,8 @@
 .share {
-  position: relative;
-  grid-column: 5 / 6;
-  margin-right: var(--base-spacing);
 }
 
 .share__content {
-  display: none;
-  position: absolute;
-  left: calc(var(--base-spacing) / 2 * -1);
-  padding: calc(var(--base-spacing) / 2);
   list-style: none;
-  background-color: var(--base-background-color);
 }
 
 /* States */

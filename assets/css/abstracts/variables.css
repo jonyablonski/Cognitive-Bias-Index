@@ -18,10 +18,11 @@
 
 
   /* Colors */
-  --color-black: #111;
+  --color-black: #151515;
   --color-mid-grey: #666;
   --color-off-white: #EEEDE9;
-  --color-blue: #542bff;
+  --color-blue: #2736F6;
+  --color-dark-blue: #212DCF;
 
 
   /* Links */
@@ -41,7 +42,7 @@
   --base-font-size: 1em;
   --medium-font-size: 1.333em;
   --large-font-size: 2.369em;
-  --xlarge-font-size: 4.209em;
+  --xlarge-font-size: 3.157em;
 
 
   /* Text Settings */
@@ -62,17 +63,17 @@
 
 
   /* Borders */
-  --base-border-color: var(--color-mid-grey);
+  --base-border-color: var(--tertiary-font-color);
   --base-border: 1px solid var(--base-border-color);
   --hover-border: 1px solid currentColor;
   --base-focus: 2px solid var(--base-accent-color);
   --base-outline-offset: 0.125em;
-  --base-border-radius: .4rem;
+  --base-border-radius: 1.2rem;
 
 
   /* Box Shadows */
-  --base-box-shadow: 0 1px 2px 0px rgba(0,0,0,.25);
-  --hover-box-shadow: 0 2px 10px 1px rgba(0,0,0,.5);
+  --base-box-shadow: 0 1px 2px 0px rgba(0,0,0,.15);
+  --hover-box-shadow: 0 2px 4px 1px rgba(0,0,0,.25);
 
 
   /* Spacing */

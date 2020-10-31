@@ -20,7 +20,7 @@ summary {
  */
 
 a {
-  color: var(--base-font-color);
+  color: var(--base-accent-color);
   text-decoration: underline;
   transition: color var(--base-duration) var(--base-timing);
 }

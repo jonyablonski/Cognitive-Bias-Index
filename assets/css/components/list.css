@@ -18,8 +18,11 @@
   grid-column-gap: var(--base-gap);
   align-items: start;
   margin: 0;
-  border-top: var(--base-border);
   padding: calc(var(--base-spacing) * 2) 0;
+}
+
+.list__item:not(:first-child) {
+  border-top: var(--base-border);
 }
 
 .list__item-section {

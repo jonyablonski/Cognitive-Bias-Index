@@ -10,7 +10,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: calc(var(--small-font-size) / 2) 0;
+  padding: var(--base-spacing) 0;
+  margin: 0;
   list-style: none;
   background: var(--base-background-color);
 
@@ -18,8 +19,19 @@
     display: grid;
     grid-template-columns: var(--base-grid-columns);
     grid-column-gap: var(--base-gap);
-    margin: var(--base-spacing) 0;
   }
+}
+
+/* Banner backgroud */
+.list-header::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--base-accent-color);
+  z-index: -1;
 }
 
 

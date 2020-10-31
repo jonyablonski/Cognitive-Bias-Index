@@ -28,5 +28,5 @@
 
 /* States */
 .pagination li.active a {
-  color: var(--teritary-font-color);
+  color: var(--tertiary-font-color);
 }

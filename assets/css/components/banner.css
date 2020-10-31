@@ -3,11 +3,26 @@
  */
 
 .banner {
+  position: relative;
   display: grid;
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   align-items: center;
   margin-top: calc(var(--base-spacing) * -1);
+  margin-bottom: 0;
+  color: var(--color-off-white);
+}
+
+/* Banner backgroud */
+.banner::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--base-accent-color);
+  z-index: -1;
 }
 
 
@@ -24,9 +39,12 @@
   }
 }
 
+.banner__body a {
+  color: var(--color-off-white);
+}
+
 .banner__title {
-  max-width: 8ch;
-  margin-bottom: calc(var(--base-spacing) * 2);
+  margin-bottom: var(--base-spacing);
   font-weight: 600;
   line-height: 0.9;
   font-size: var(--xlarge-font-size);
@@ -47,7 +65,7 @@
 }
 
 .banner__graphic svg {
-  stroke: currentColor;
+  stroke: var(--color-off-white);
 }
 
 .banner__subtitle {
@@ -55,7 +73,7 @@
   font-size: var(--small-font-size);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--tertiary-font-color);
+  opacity: 0.5;
 }
 
 .banner__list {

@@ -44,7 +44,11 @@
 
 .button--border {
   border: var(--base-border);
+  border-color: var(--color-off-white);
   border-radius: var(--base-border-radius);
+  color: var(--color-off-white);
+  background-color: var(--base-accent-color);
+  transition: all var(--base-duration) var(--base-timing);
 }
 
 /* Toggle Button */
@@ -61,4 +65,9 @@
 .button--toggle[aria-expanded = "true"] > .button__icon--active,
 .button--toggle[aria-pressed = "true"] > .button__icon--active {
   display: inline-block;
+}
+
+/* States */
+.button--border:hover {
+  box-shadow: var(--hover-box-shadow);
 }

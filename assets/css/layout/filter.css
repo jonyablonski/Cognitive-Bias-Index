@@ -16,7 +16,7 @@
   transition: transform var(--base-duration) var(--base-timing);
   width: 16rem;
   padding: var(--base-spacing);
-  background-color: var(--secondary-background-color);
+  background-color: var(--color-dark-blue);
   color: var(--secondary-font-color);
   overflow: auto;
 
@@ -44,6 +44,7 @@
   margin-bottom: calc(var(--base-spacing) * 2);
   line-height: var(--base-line-height);
   cursor: pointer;
+  opacity: 0.5
 }
 
 .filter__list {
@@ -65,6 +66,7 @@
 
 .filter__close {
   position: absolute;
+  top: calc(var(--base-spacing) / 1.5);
   right: var(--base-spacing);
   z-index: 1;
 }

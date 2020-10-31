@@ -19,7 +19,8 @@ textarea {
   transition: all var(--base-duration) var(--base-timing);
 }
 
-input:hover {
+input:hover,
+input:focus {
   color: var(--base-font-color);
   border: var(--hover-border);
 }
