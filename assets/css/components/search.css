@@ -5,8 +5,8 @@
 .search__clear {
   display: none;
   position: absolute;
-  bottom: calc(var(--base-spacing) / 2);
-  right: calc(var(--base-spacing) / 3);
+  bottom: calc(var(--base-spacing) / 2.2);
+  right: calc(var(--base-spacing) / 2);
 }
 
 

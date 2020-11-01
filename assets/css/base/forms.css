@@ -37,7 +37,7 @@ input { /* 1 */
 
 input {
   width: 100%;
-  padding: calc(var(--base-spacing) / 2);
+  padding: calc(var(--base-spacing) / 2) var(--base-spacing);
   border: var(--base-border);
   border-bottom: var(--base-border);
   background: none;

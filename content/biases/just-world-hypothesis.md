@@ -4,7 +4,8 @@ description: "The tendency for people to want to believe that the world is funda
 categories: ["not enough meaning"]
 tags: [
   "belief",
-  "rationalization"
+  "rationalization",
+  "hypothesis"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Just-world_hypothesis"
