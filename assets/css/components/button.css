@@ -48,7 +48,7 @@
   border-radius: var(--base-border-radius);
   color: var(--color-off-white);
   background-color: var(--base-accent-color);
-  transition: all var(--base-duration) var(--base-timing);
+  transition: box-shadow var(--base-duration) var(--base-timing);
 }
 
 /* Toggle Button */

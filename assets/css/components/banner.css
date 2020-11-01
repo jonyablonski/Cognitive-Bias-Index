@@ -8,7 +8,6 @@
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   align-items: center;
-  margin-top: calc(var(--base-spacing) * -1);
   margin-bottom: 0;
   color: var(--color-off-white);
 }
@@ -61,6 +60,7 @@
   @media (--breakpoint-small) {
     display: block;
     grid-column: 5 / -1;
+    align-self: start;
   }
 }
 

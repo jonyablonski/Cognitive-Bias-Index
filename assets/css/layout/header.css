@@ -8,7 +8,7 @@
   grid-column: 1 / -1;
   display: flex;
   align-items: start;
-  padding: var(--base-spacing) 0;
+  /* padding: var(--base-spacing) 0; */
   background: var(--base-accent-color);
   color: var(--color-off-white);
 
