@@ -53,6 +53,11 @@
 .list__item-section p,
 .list__item-section ul {
   margin: 0;
+  max-width: 60ch;
+}
+
+.list__item-section ul {
+  list-style-type: none;
 }
 
 
@@ -84,6 +89,7 @@
   margin: 0;
   line-height: var(--base-line-height);
   font-size: var(--medium-font-size);
+  letter-spacing: -0.025em;
 }
 
 .list__item-section--toggle {

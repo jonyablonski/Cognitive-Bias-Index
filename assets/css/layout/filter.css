@@ -16,7 +16,7 @@
   transition: transform var(--base-duration) var(--base-timing);
   width: 16rem;
   padding: var(--base-spacing);
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-black);
   color: var(--secondary-font-color);
   overflow: auto;
 

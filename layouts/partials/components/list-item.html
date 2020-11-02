@@ -37,8 +37,8 @@
         {{ range .Params.reading }}
         <li>
           <a href="{{ . }}">
+            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
             {{ . }}
-            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "right") }}
           </a>
         </li>
         {{ end }}

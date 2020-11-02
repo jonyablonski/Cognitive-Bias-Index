@@ -26,13 +26,16 @@
 .list-header::after {
   content: "";
   position: absolute;
-  top: 0;
+  z-index: -1;
+  top: -1px; /* Adjust for 1px gap above */
   width: 100vw;
   height: 100%;
   margin-left: 50%;
   transform: translateX(-50%);
   background-color: var(--base-accent-color);
-  z-index: -1;
+
+  /* Add border to optically adjust for centered child elements */
+  border-bottom: 1px solid var(--base-accent-color); 
 }
 
 
