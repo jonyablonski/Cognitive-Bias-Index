@@ -4,7 +4,7 @@ description: "The belief that a person who has experienced success with a random
 categories: ["not enough meaning"]
 tags: [
   "belief",
-  "logical fallacy"
+  "fallacy"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Hot_hand"

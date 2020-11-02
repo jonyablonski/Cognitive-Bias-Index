@@ -4,7 +4,7 @@ description: "The tendency to think that future probabilities are altered by pas
 categories: ["not enough meaning"]
 tags: [
   "probability",
-  "logical fallacy"
+  "fallacy"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Gambler%27s_fallacy"

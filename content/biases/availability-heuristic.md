@@ -3,7 +3,8 @@ title: "Availability Heuristic"
 description: "A mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic, concept, method or decision."
 categories: ["too much information"]
 tags: [
-  "memory"
+  "memory",
+  "evaluation"
 ]
 reading: [
   "https://www.verywellmind.com/availability-heuristic-2794824",

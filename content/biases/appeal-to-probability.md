@@ -4,7 +4,7 @@ description: "The logical fallacy of taking something for granted because it wou
 categories: ["not enough meaning"]
 tags: [
   "probability",
-  "logical fallacy"
+  "fallacy"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Appeal_to_probability"
