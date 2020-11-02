@@ -29,6 +29,9 @@
     <!-- List Header -->
     {{ partial "components/list-header" }}
 
+    <!-- List Results -->
+    <div id="biases-results"></div>
+
     <!-- List -->
     <ul class="list">
       {{ range where .Site.RegularPages "Section" "biases" }}

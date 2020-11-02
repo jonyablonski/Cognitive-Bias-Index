@@ -22,11 +22,12 @@
   --color-mid-grey: #666;
   --color-off-white: #EEEDE9;
   --color-blue: #2736F6;
-  --color-dark-blue: #212DCF;
+  --color-light-blue: #A8DDFF;
 
 
   /* Links */
   --base-accent-color: var(--color-blue);
+  --secondary-accent-color: var(--color-light-blue);
   --hover-link-color: var(--base-accent-color);
 
 
@@ -69,6 +70,7 @@
   --base-focus: 2px solid var(--base-accent-color);
   --base-outline-offset: 0.125em;
   --base-border-radius: 1.2rem;
+  --min-border-radius: .5rem;
 
 
   /* Box Shadows */

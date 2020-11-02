@@ -1,0 +1,10 @@
+.message {
+  padding: calc(var(--base-spacing) / 2) var(--base-spacing);
+  margin-top: var(--base-spacing);
+  border: var(--base-border);
+  border-radius: var(--min-border-radius);
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}

@@ -21,6 +21,7 @@ import List from "list.js";
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
   let graphic = document.querySelector('[data-graphic] feTurbulence');
+  let results = document.querySelector('#biases-results');
 
 
   /**
@@ -173,6 +174,9 @@ import List from "list.js";
       // Show/hide filter clear button
       showFilterClearButton();
 
+      // Update filter matching results header
+      updateFilterResults();
+
       // Close filter on enter
       if (e.keyCode === 13) {
         
@@ -260,6 +264,37 @@ import List from "list.js";
         return item.values().tags.includes(name);
       });
     });
+
+    // Update filter matching results header
+    updateFilterResults();
+  }
+
+
+  // Update filter results header
+  const updateFilterResults = () => {
+
+    // Clear prior result message
+    clearFilterResults();
+    
+    // Create results elem
+    let result = document.createElement('div');
+    result.className = 'message';
+    
+    // Add text to results elem
+    if (biases.matchingItems.length > 0) {
+      result.textContent = `${biases.matchingItems.length} results found`;
+    } else {
+      result.textContent = 'No results found';
+    }
+
+    // Insert results elem
+    results.appendChild(result);
+  }
+
+
+  // Clear filter results header
+  const clearFilterResults = () => {
+    results.innerHTML = '';
   }
 
 
@@ -310,11 +345,18 @@ import List from "list.js";
 
   // Reset filters
   const resetFilters = () => {
+    
+    // Remove active state on all filters
     filterItem.forEach(element => {
       element.classList.remove(activeClass);
       element.setAttribute('aria-pressed', 'false');
     });
+
+    // Reset filtering
     biases.filter();
+
+    // Clear filter results
+    clearFilterResults();
   }
 
 
