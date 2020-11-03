@@ -14,6 +14,7 @@ import List from "list.js";
    * Selectors
    */
   
+  let biasesList = document.querySelector('#biases');
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
   let filterClear = document.querySelector('[data-clear-filters]');
@@ -22,6 +23,7 @@ import List from "list.js";
   let scrim = document.querySelector('[data-scrim]');
   let graphic = document.querySelector('[data-graphic] feTurbulence');
   let results = document.querySelector('#biases-results');
+  let pagination = document.querySelector('#pagination');
 
 
   /**
@@ -149,7 +151,17 @@ import List from "list.js";
       filterContainer.classList.remove(activeClass);
 
     }
+  }
 
+
+  // Delegate pagination click events
+  const paginationEventHandler = () => {
+
+    // Scroll to top of biases list
+    biasesList.scrollIntoView({
+      behavior: "smooth", 
+      block: "start"
+    });
   }
 
 
@@ -472,6 +484,10 @@ import List from "list.js";
 
   // Listen for keyup events
   document.addEventListener('keyup', keyupEventHandler, false);
+
+
+  // Listen for click events on pagination elem
+  if (pagination) pagination.addEventListener('click', paginationEventHandler, false);
 
 
   // Init filterable list
