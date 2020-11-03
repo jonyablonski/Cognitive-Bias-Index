@@ -31,7 +31,7 @@
 
 .banner__body {
   grid-column: 1 / -1;
-  margin-top: var(--base-spacing);
+  margin: var(--base-spacing) 0;
 
   @media (--breakpoint-small) {
     grid-column: 1 / 5;
@@ -43,7 +43,7 @@
 }
 
 .banner__title {
-  margin-bottom: var(--base-spacing);
+  margin-bottom: calc(var(--base-spacing) * 2);
   font-weight: 600;
   line-height: 0.9;
   font-size: var(--xlarge-font-size);
@@ -79,6 +79,10 @@
 .banner__list {
   margin: 0;
   list-style: none;
+}
+
+.banner hr {
+  background-color: var(--color-off-white);
 }
 
 /* States */

@@ -4,9 +4,13 @@
  */
 
 hr {
+  display: inline-block;
+  width: 100%;
+  margin: var(--base-spacing) 0;
   box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  height: 1px; /* 1 */
+  border: none;
+  background-color: var(--base-border-color);
 }
 
 /**

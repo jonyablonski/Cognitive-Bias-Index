@@ -4,9 +4,7 @@
   <!-- Introduction -->
   <section class="banner">
     <div class="banner__body">
-      <p class="banner__desc">{{ .Site.Params.description }}</p>
       {{ .Content }}
-      {{ partial "components/share" . }}
     </div>
     <div class="banner__graphic" data-graphic>
       {{ readFile "static/images/graphic.svg" | safeHTML }}
