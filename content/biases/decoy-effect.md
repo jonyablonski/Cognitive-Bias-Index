@@ -6,6 +6,7 @@ tags: [
   "preference"
 ]
 reading: [
+  "https://uxdesign.cc/ux-psychology-2-increasing-conversions-with-the-decoy-effect-272500321df7",
   "https://en.wikipedia.org/wiki/Decoy_effect"
 ]
 ---

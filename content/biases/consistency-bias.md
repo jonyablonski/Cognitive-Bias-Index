@@ -6,7 +6,8 @@ tags: [
   "memory"
 ]
 reading: [
-  "https://fs.blog/2016/08/commitment-consistency-bias/"
+  "https://fs.blog/2016/08/commitment-consistency-bias/",
+  "https://uxdesign.cc/deadly-biases-every-designer-needs-to-live-with-94a3ac519c99"
 ]
 ---
 
