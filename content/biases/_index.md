@@ -1,4 +1,4 @@
 ---
 title: "Biases"
-menu: "main"
+headless: true
 ---

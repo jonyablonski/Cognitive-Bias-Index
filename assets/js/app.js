@@ -22,7 +22,6 @@ import List from "list.js";
   let search = document.querySelector('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
-  let graphic = document.querySelector('[data-graphic] feTurbulence');
   let results = document.querySelector('#biases-results');
   let pagination = document.querySelector('#pagination');
 
@@ -64,10 +63,6 @@ import List from "list.js";
     pagination: true,
     page: 50
   };
-
-  // SVG turbulence
-  let frames = 0;
-  let rad = Math.PI / 60;
 
 
   /**
@@ -453,19 +448,6 @@ import List from "list.js";
   };
 
 
-  // Animate SVG turbulence
-  const animateBaseFrequency = () => {
-    let bfx = 0.005;
-    let bfy = 0.005;
-    frames += .15
-    bfx += 0.006 * Math.cos(frames * rad);
-    bfy += 0.006 * Math.sin(frames * rad);
-    let bf = bfx.toString() + ' ' + bfy.toString();
-    graphic.setAttributeNS(null, 'baseFrequency', bf);
-    window.requestAnimationFrame(animateBaseFrequency);
-  }
-
-
 
   /**
    * Events/APIs/init
@@ -498,8 +480,5 @@ import List from "list.js";
   // Check user color scheme preference
   checkColorTheme();
 
-
-  // Initiate SVG turbulence animation
-  if (graphic) window.requestAnimationFrame(animateBaseFrequency);
   
 })();

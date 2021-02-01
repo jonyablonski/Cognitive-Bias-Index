@@ -19,7 +19,7 @@
 
   /* Colors */
   --color-black: #070814;
-  --color-mid-grey: #666;
+  --color-mid-grey: #666666;
   --color-off-white: #EEEDE9;
   --color-blue: #2736F6;
 
@@ -101,6 +101,7 @@
   :root {
     --color-mode: 'dark';
   }
+  
   :root.no-js {
     --base-font-color: var(--secondary-font-color);
     --base-background-color: var(--secondary-background-color);

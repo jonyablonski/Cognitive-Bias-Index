@@ -1,49 +1,13 @@
 {{ define "main" }}
 
   <!-- Introduction -->
-  <section class="banner">
-    <div class="banner__body">
-      <h1 class="banner__title">{{ .Site.Title }}</h1>
-      <h2 class="banner__subtitle">Popular</h2>
-      <ul class="banner__list">
-        <li>
-          <button class="button button--min" aria-pressed="false" data-filter="tag" data-filter-val="Research">Research</button>
-        </li>
-        <li>
-          <button class="button button--min" aria-pressed="false" data-filter="tag" data-filter-val="Decision Making">Decision Making</button>
-        </li>
-        <li>
-          <button class="button button--min" aria-pressed="false" data-filter="tag" data-filter-val="Memory">Memory</button>
-        </li>
-      </ul>
-    </div>
-    <div class="banner__graphic" data-graphic>
-      {{ readFile "static/images/graphic.svg" | safeHTML }}
-    </div>
-  </section>
+  {{ partial "components/banner" . }}
 
-  <!-- Biases -->
-  <section id="biases">
-    <h2 class="visually-hidden">Biases</h2>
-
-    <!-- List Header -->
-    {{ partial "components/list-header" }}
-
-    <!-- List Results -->
-    <div id="biases-results"></div>
-
-    <!-- List -->
-    <ul class="list">
-      {{ range where .Site.RegularPages "Section" "biases" }}
-      {{ partial "components/list-item" . }}
-      {{ end }}
-    </ul> 
-
-    <!-- Pagination -->
-    <ul id="pagination" class="pagination"></ul>
-  </section>
-
-  <!-- Filter -->
-  {{ partial "components/filter" (dict "Context" .) }}
+  <!-- Phases -->
+  <ul class="grid">
+    {{ range where .Site.RegularPages "Section" "phases" }}
+    <li class="grid__item">{{ partial "components/card" . }}</li>
+    {{ end }}
+  </ul>
 
 {{ end }}

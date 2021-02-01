@@ -1,0 +1,16 @@
+<section class="banner">
+  {{ if .IsHome }}
+  <div class="banner__body">
+    <p>{{ .Site.Params.description }}</p>
+  </div>
+  {{ else }}
+  <h1 class="banner__title">{{ .Page.Title }}</h1>
+  <div class="banner__body">
+    <p>{{ .Page.Description | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  <div class="banner__graphic" data-graphic>
+    {{ readFile "static/images/graphic.svg" | safeHTML }}
+  </div>
+</section>

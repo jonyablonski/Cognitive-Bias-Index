@@ -9,19 +9,6 @@
   grid-column-gap: var(--base-gap);
   align-items: center;
   margin-bottom: 0;
-  color: var(--color-off-white);
-}
-
-/* Banner backgroud */
-.banner::after {
-  content: "";
-  position: absolute;
-  width: 100vw;
-  height: 100%;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--base-accent-color);
-  z-index: -1;
 }
 
 
@@ -36,10 +23,6 @@
   @media (--breakpoint-small) {
     grid-column: 1 / 5;
   }
-}
-
-.banner__body a {
-  color: var(--color-off-white);
 }
 
 .banner__title {

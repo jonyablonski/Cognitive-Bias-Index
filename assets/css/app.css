@@ -20,7 +20,9 @@
 /* Components */
 @import "components/banner";
 @import "components/button";
+@import "components/card";
 @import "components/container";
+@import "components/filter";
 @import "components/grid";
 @import "components/icon";
 @import "components/list";
@@ -33,5 +35,4 @@
 
 /* Layout */
 @import "layout/header";
-@import "layout/filter";
 @import "layout/footer";

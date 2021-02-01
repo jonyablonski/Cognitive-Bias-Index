@@ -1,0 +1,4 @@
+.card {
+  padding: var(--base-spacing);
+  border: var(--base-border);
+}
