@@ -10,7 +10,7 @@
 
 
   /* Layout */
-  --base-max-width: 100em; /* 1600px */
+  --base-max-width: var(--breakpoint-large); /* 1600px */
   --base-grid-columns: repeat(6, minmax(0, 1fr));
   --large-grid-columns: repeat(8, minmax(0, 1fr));
   --base-gap: calc(var(--base-spacing) * 2);

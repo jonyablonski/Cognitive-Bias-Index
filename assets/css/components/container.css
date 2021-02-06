@@ -8,4 +8,5 @@
   grid-column-gap: var(--base-gap);
   max-width: var(--base-max-width);
   padding: 0 var(--base-outer-padding);
+  margin: 0 auto;
 }

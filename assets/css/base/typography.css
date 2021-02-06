@@ -4,21 +4,21 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin: 0 0 calc(var(--base-spacing) / 2);
   line-height: var(--header-line-height);
   font-weight: normal;
 }
 
 h1 {
-  font-size: var(--medium-font-size);
+  font-size: var(--large-font-size);
 }
 
 h2 {
-  font-size: var(--smedium-font-size);
+  font-size: var(--medium-font-size);
 }
 
 h3 {
-  font-size: var(--base-font-size);
+  font-size: var(--smedium-font-size);
 }
 
 p {

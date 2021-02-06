@@ -1,12 +1,13 @@
 ---
 title: "Confirmation Bias"
 description: "The tendency to search for, interpret, focus on and remember information in a way that confirms one's preconceptions."
-categories: ["too much information"]
+categories: ["discovery"]
 tags: [
   "research",
   "belief",
   "reasoning",
-  "interpretation"
+  "interpretation",
+  "understanding"
 ]
 reading: [
   "https://www.antonsten.com/confirmation-bias/",

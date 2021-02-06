@@ -2,3 +2,6 @@
   padding: var(--base-spacing);
   border: var(--base-border);
 }
+
+.card__title {
+}

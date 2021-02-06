@@ -1,0 +1,12 @@
+<p>Topics</p>
+<ul>
+  {{ $item := split .Inner "\n" }}
+  {{ $len := (len $item) }}
+  {{ range $index, $element := $item }}
+  {{ if and (ne $index 0) (ne $index (sub $len 1)) }}
+  <li>
+    <a href="#{{ printf `%s` . | urlize }}">{{ printf "%s\n" . }}</a>
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>

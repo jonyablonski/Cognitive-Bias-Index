@@ -1,0 +1,20 @@
+{{ $src := $.Page.Resources.GetMatch (print (.Get "src")) }}
+
+<div class="media">
+  <div class="media__item">
+    <img
+      width="800"
+      height="600"
+      sizes="(min-width: 800px) 600px, 100vw"
+      srcset="
+        {{ ($src.Resize `600x`).RelPermalink }} 800w,
+        {{ ($src.Resize `900x`).RelPermalink }} 1000w,
+        {{ ($src.Resize `1200x`).RelPermalink }} 1200w"
+      src="{{ ($src.Resize `1200x`).RelPermalink }}"
+      loading="lazy"
+      alt="{{ with .Get `alt`}}{{ . }}{{ end }}">
+  </div>
+  <div class="media__body">
+    {{ .Inner }}
+  </div>
+</div>

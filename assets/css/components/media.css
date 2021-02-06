@@ -1,11 +1,40 @@
-.media {
-  display: flex;
-  grid-gap: calc(var(--base-spacing) / 2);
-  align-items: center;
+/**
+ * Parent
+ */
+
+ .media {
+  position: relative;
+  margin: calc(var(--base-spacing) * 2) 0;
+  border: var(--base-border);
+  border-radius: var(--base-border-radius);
+  overflow: hidden;
+
+  @media (--breakpoint-small) {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.media > a {
-  text-decoration: none;
+
+/**
+ * Elements
+ */
+
+.media__item {
+  height: auto;
+  margin-bottom: var(--base-spacing);
+
+  @media (--breakpoint-small) {
+    margin-bottom: 0;
+  }
+}
+
+.media__body {
+  padding: var(--base-spacing);
+}
+
+.media__body > p {
+  max-width: 32ch;
 }
 
 .media__body > *:last-child {
