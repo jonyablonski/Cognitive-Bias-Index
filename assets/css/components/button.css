@@ -2,7 +2,7 @@
  * Parent
  */
 
- .button {
+.button {
   position: relative;
   display: inline-block;
   padding: calc(var(--base-spacing) / 3) calc(var(--base-spacing) / 2);
@@ -40,6 +40,14 @@
 
 .button--min {
   padding: calc(var(--base-spacing) / 3) 0;
+}
+
+.button--toggle[aria-expanded="false"] + * {
+  display: none;
+}
+
+.button--toggle[aria-expanded="true"] + * {
+  display: block;
 }
 
 .button--border {

@@ -67,8 +67,7 @@
   --hover-border: 1px solid currentColor;
   --base-focus: 2px solid var(--base-accent-color);
   --base-outline-offset: 0.125em;
-  --base-border-radius: 1.2rem;
-  --min-border-radius: .5rem;
+  --base-border-radius: 0.4rem;
 
 
   /* Box Shadows */

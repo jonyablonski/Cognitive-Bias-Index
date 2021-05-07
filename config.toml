@@ -6,7 +6,7 @@ disableAliases = true
 
 [params]
   disallow_search_engines = false # set robots.txt to disallow everything
-  description = "An index of the systematic errors in thinking that affects the decisions and judgments that people make."
+  description = "An index of the systematic errors in thinking that affects the decisions and judgment during the design process."
 
 # add redirects/headers
 [outputs]

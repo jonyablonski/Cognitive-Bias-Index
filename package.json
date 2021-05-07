@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "prestart": "npm run build:icons",
-    "start": "hugo server",
+    "start": "hugo server --bind=192.168.86.32 --baseURL=http://192.168.86.32:1313",
     "prebuild": "npm run build:icons",
     "build": "hugo && npm run build:functions && hugo --minify",
     "build:icons": "svgstore assets/svg/**/*.svg > static/sprite.svg --inline",

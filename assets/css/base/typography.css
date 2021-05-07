@@ -10,15 +10,15 @@ h6 {
 }
 
 h1 {
-  font-size: var(--large-font-size);
+  font-size: var(--xlarge-font-size);
 }
 
 h2 {
-  font-size: var(--medium-font-size);
+  font-size: var(--large-font-size);
 }
 
 h3 {
-  font-size: var(--smedium-font-size);
+  font-size: var(--medium-font-size);
 }
 
 p {

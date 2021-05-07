@@ -19,9 +19,6 @@
   align-items: start;
   margin: 0;
   padding: calc(var(--base-spacing) * 2) 0;
-}
-
-.list__item:not(:first-child) {
   border-top: var(--base-border);
 }
 

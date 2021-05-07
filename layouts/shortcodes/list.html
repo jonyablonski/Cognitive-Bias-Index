@@ -1,6 +1,8 @@
 <ul class="list">
   {{ $items := (where (where .Site.RegularPages "Section" "biases") ".Params.categories" "intersect" (slice ($.Page.Title | lower ))) }}
-  {{ $items = where $items ".Params.tags" "intersect" (slice (.Get "tag" )) }}
+  {{ with .Get "tag" }}
+  {{ $items = where $items ".Params.tags" "intersect" (slice (.)) }}
+  {{ end }}
   {{ range $items }}
   {{ partial "components/list-item" . }}
   {{ end }}

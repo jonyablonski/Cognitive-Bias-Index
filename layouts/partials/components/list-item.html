@@ -32,7 +32,11 @@
 
     <!-- Further Reading -->
     <div class="list__item-meta list__item-meta--reading">
-      <h4 class="list__item-title">Futher Reading</h4>
+      
+      <!-- Toggle -->
+      <button class="button button--toggle" aria-expanded="false" data-toggle>Futher Reading</button>
+
+      <!-- List -->
       <ul>
         {{ range .Params.reading }}
         <li>
