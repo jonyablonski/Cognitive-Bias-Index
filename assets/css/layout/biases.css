@@ -1,0 +1,28 @@
+#biases {
+  @media (--breakpoint-small) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: var(--base-gap);
+    align-items: start;
+  }
+}
+
+.biases__sidebar {
+  padding: var(--base-spacing);
+  margin-bottom: var(--base-spacing);
+  background-color: var(--sidebar-background-color);
+  border-radius: var(--base-border-radius);
+
+  @media (--breakpoint-small) {
+    position: sticky;
+    top: var(--base-spacing);
+  }
+}
+
+.biases__sidebar > *:last-child {
+  margin-bottom: 0;
+}
+
+.biases__main {
+  min-width: 0;
+}

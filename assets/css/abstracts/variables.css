@@ -18,14 +18,16 @@
 
 
   /* Colors */
-  --color-black: #070814;
-  --color-mid-grey: #666;
-  --color-off-white: #EEEDE9;
-  --color-blue: #2736F6;
+  --color-black: #191c17;
+  --color-dark-grey: #33382e;
+  --color-light-grey: #ccd1c7;
+  --color-mid-grey: #7f8c73;
+  --color-off-white: #e5edde;
+  --color-earth: hsl(92, 40%, 40%);
 
 
   /* Links */
-  --base-accent-color: var(--color-blue);
+  --base-accent-color: var(--color-earth);
   --hover-link-color: var(--base-accent-color);
 
 
@@ -33,6 +35,9 @@
   --base-background-color: var(--color-off-white);
   --secondary-background-color: var(--color-black);
   --tertiary-background-color: var(--color-mid-grey);
+  --sidebar-background-color: var(--color-light-grey);
+  --filter-background-color: var(--color-light-grey);
+  --filter-font-color: var(--color-black);
 
 
   /* Font Sizes (3:4 / Perfect Forth) */
@@ -94,6 +99,10 @@
 :root[data-color-mode="dark"] {
   --base-font-color: var(--secondary-font-color);
   --base-background-color: var(--secondary-background-color);
+  --base-border-color: rgba(238, 237, 233, 0.25);
+  --sidebar-background-color: var(--color-dark-grey);
+  --filter-background-color: var(--color-dark-grey);
+  --filter-font-color: var(--color-off-white);
 }
 
 /* User preference theming */
@@ -104,5 +113,6 @@
   :root.no-js {
     --base-font-color: var(--secondary-font-color);
     --base-background-color: var(--secondary-background-color);
+    --base-border-color: rgba(238, 237, 233, 0.25);
   }
 }

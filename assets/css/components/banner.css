@@ -8,20 +8,23 @@
   grid-template-columns: var(--base-grid-columns);
   grid-column-gap: var(--base-gap);
   align-items: center;
-  margin-bottom: 0;
+  margin: 0 0 calc(var(--base-spacing) * 2);
+  padding: calc(var(--base-spacing) * 2);
   color: var(--color-off-white);
+  background-color: var(--base-accent-color);
+  border-radius: var(--base-border-radius);
+  overflow: hidden;
 }
 
-/* Banner backgroud */
-.banner::after {
+.banner::before {
   content: "";
   position: absolute;
-  width: 100vw;
-  height: 100%;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--base-accent-color);
-  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+  pointer-events: none;
 }
 
 
@@ -30,11 +33,12 @@
  */
 
 .banner__body {
+  position: relative;
   grid-column: 1 / -1;
-  margin: var(--base-spacing) 0;
+  margin: calc(var(--base-spacing) * 0.5) 0;
 
   @media (--breakpoint-small) {
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
   }
 }
 
@@ -51,20 +55,24 @@
 }
 
 .banner__desc {
+  margin: 0;
   font-size: var(--medium-font-size);
 }
 
 .banner__graphic {
+  position: relative;
   display: none;
 
   @media (--breakpoint-small) {
     display: block;
     grid-column: 5 / -1;
-    align-self: start;
+    align-self: center;
   }
 }
 
 .banner__graphic svg {
+  width: 100%;
+  height: 100%;
   stroke: var(--color-off-white);
 }
 
@@ -81,8 +89,20 @@
   list-style: none;
 }
 
+.banner__list .button {
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 .banner hr {
   background-color: var(--color-off-white);
+}
+
+/* Modifiers */
+.banner--full .banner__body {
+  grid-column: 1 / -1;
 }
 
 /* States */

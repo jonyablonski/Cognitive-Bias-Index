@@ -19,10 +19,11 @@ import List from "list.js";
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
   let filterClear = document.querySelector('[data-clear-filters]');
+  let filterToggle = document.querySelector('[data-active-filters]');
   let search = document.querySelector('[data-search]');
   let themeToggle = document.querySelector('[data-theme-toggle]');
   let scrim = document.querySelector('[data-scrim]');
-  let graphic = document.querySelector('[data-graphic] feTurbulence');
+
   let results = document.querySelector('#biases-results');
   let pagination = document.querySelector('#pagination');
 
@@ -65,9 +66,6 @@ import List from "list.js";
     page: 50
   };
 
-  // SVG turbulence
-  let frames = 0;
-  let rad = Math.PI / 60;
 
 
   /**
@@ -103,6 +101,7 @@ import List from "list.js";
       clearSearch();
       resetFilters();
       showFilterClearButton();
+      updateClearButtonCount();
     }
 
     // Content toggle
@@ -188,7 +187,11 @@ import List from "list.js";
       showFilterClearButton();
 
       // Update filter matching results header
-      updateFilterResults();
+      if (val.length === 0) {
+        clearFilterResults();
+      } else {
+        updateFilterResults();
+      }
 
       // Close filter on enter
       if (e.keyCode === 13) {
@@ -273,13 +276,19 @@ import List from "list.js";
 
     // Apply filters
 		biases.filter(function (item) {
-      return item.values().context.includes(getContextFilters()) && getTagFilters().every(name => {
-        return item.values().tags.includes(name);
-      });
+      let contextFilters = getContextFilters();
+      let tagFilters = getTagFilters();
+      let matchesContext = contextFilters.length === 0 || contextFilters.some(name => item.values().context.includes(name));
+      let matchesTag = tagFilters.length === 0 || tagFilters.some(name => item.values().tags.includes(name));
+      return matchesContext || matchesTag;
     });
 
     // Update filter matching results header
     updateFilterResults();
+
+    // Show/hide clear button and update count
+    showFilterClearButton();
+    updateClearButtonCount();
   }
 
 
@@ -328,7 +337,8 @@ import List from "list.js";
 
   // Show/Hide clear filter button
   const showFilterClearButton = () => {
-    if (biases.matchingItems.length !== biases.items.length) {
+    let hasActiveFilters = getContextFilters().length > 0 || getTagFilters().length > 0 || biases.searched;
+    if (hasActiveFilters) {
       filterClear.classList.add(activeClass);
     } else {
       filterClear.classList.remove(activeClass);
@@ -338,7 +348,7 @@ import List from "list.js";
 
   // Clear search
   const clearSearch = () => {
-    
+
     // Clear value in input
     search.value = '';
 
@@ -347,6 +357,9 @@ import List from "list.js";
 
     // Reset search
     biases.search();
+
+    // Clear results message
+    clearFilterResults();
 
     // Update active filter count
     updateClearButtonCount();
@@ -389,18 +402,14 @@ import List from "list.js";
   }
 
 
-  // Update active filter count on clear button
+  // Update active filter count on filter toggle button
   const updateClearButtonCount = () => {
-    
+
     // Get active filter count
     let filterCount = getContextFilters().length + getTagFilters().length;
+    let totalCount = biases.searched ? filterCount + 1 : filterCount;
 
-    // Update value from active fitlers + search
-    if (biases.searched) {
-      filterClear.setAttribute('data-clear-filters', filterCount + 1);
-    } else {
-      filterClear.setAttribute('data-clear-filters', filterCount);
-    }
+    filterToggle.setAttribute('data-active-filters', totalCount);
   }
 
 
@@ -453,18 +462,6 @@ import List from "list.js";
   };
 
 
-  // Animate SVG turbulence
-  const animateBaseFrequency = () => {
-    let bfx = 0.005;
-    let bfy = 0.005;
-    frames += .15
-    bfx += 0.006 * Math.cos(frames * rad);
-    bfy += 0.006 * Math.sin(frames * rad);
-    let bf = bfx.toString() + ' ' + bfy.toString();
-    graphic.setAttributeNS(null, 'baseFrequency', bf);
-    window.requestAnimationFrame(animateBaseFrequency);
-  }
-
 
 
   /**
@@ -499,7 +496,4 @@ import List from "list.js";
   checkColorTheme();
 
 
-  // Initiate SVG turbulence animation
-  if (graphic) window.requestAnimationFrame(animateBaseFrequency);
-  
 })();

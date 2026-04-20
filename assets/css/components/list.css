@@ -3,6 +3,7 @@
  */
 
 .list {
+  list-style: none;
   margin: 0 0 calc(var(--base-spacing) * 2);
 }
 
@@ -13,25 +14,18 @@
 
 .list__item {
   position: relative;
-  display: grid;
-  grid-template-columns: var(--base-grid-columns);
-  grid-column-gap: var(--base-gap);
-  align-items: start;
   margin: 0;
   padding: calc(var(--base-spacing) * 2) 0;
+}
+
+.list__item:first-child {
+  padding-top: 0;
 }
 
 .list__item:not(:first-child) {
   border-top: var(--base-border);
 }
 
-.list__item-section {
-  grid-column: 1 / -1;
-
-  @media (--breakpoint-small) {
-    grid-column: span 1;
-  }
-}
 
 .list__item-section:not(:last-child) {
   margin-bottom: var(--base-spacing);

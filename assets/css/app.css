@@ -33,5 +33,6 @@
 
 /* Layout */
 @import "layout/header";
+@import "layout/biases";
 @import "layout/filter";
 @import "layout/footer";

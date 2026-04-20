@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Hugo Dev Server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start"],
+      "port": 1313
+    },
+    {
+      "name": "Netlify Lambda Functions",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "build:functions"],
+      "port": 9000
+    }
+  ]
+}

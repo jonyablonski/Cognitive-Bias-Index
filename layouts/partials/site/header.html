@@ -1,7 +1,30 @@
 <header class="header" role="banner">
 
+  <!-- Site Title -->
+  <a class="header__title" href="/">
+    <span class="header__logo">{{ readFile "static/images/graphic.svg" | safeHTML }}</span>
+    {{ .Site.Title }}
+  </a>
+
   <!-- Site Navigation -->
   {{ partial "site/navigation" . }}
+
+  <!-- Utility Navigation -->
+  <nav class="header__utility-nav" role="navigation">
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.utility }}
+      <li>
+        <a
+          class="{{ if or ($currentPage.IsMenuCurrent `utility` .) ($currentPage.HasMenuCurrent `utility` .) }}is-active{{ end }}"
+          href="{{ .URL }}"
+          title="{{ .Name }}"
+          data-page-link>{{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
 
   <!-- Theme Toggle -->
   <button class="header__theme-toggle button button--toggle" aria-pressed="false" data-theme-toggle>

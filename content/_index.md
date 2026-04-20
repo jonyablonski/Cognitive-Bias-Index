@@ -1,4 +1,3 @@
 ---
 title: "Biases"
-menu: "main"
 ---

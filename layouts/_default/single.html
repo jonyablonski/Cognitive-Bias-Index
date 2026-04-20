@@ -2,12 +2,9 @@
 <article>
   
   <!-- Introduction -->
-  <section class="banner">
+  <section class="banner banner--full">
     <div class="banner__body">
       {{ .Content }}
-    </div>
-    <div class="banner__graphic" data-graphic>
-      {{ readFile "static/images/graphic.svg" | safeHTML }}
     </div>
   </section>
 

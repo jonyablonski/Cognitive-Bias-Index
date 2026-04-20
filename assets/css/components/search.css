@@ -2,15 +2,24 @@
   position: relative;
 }
 
+.search__field {
+  position: relative;
+}
+
+.search__input {
+  font-size: var(--small-font-size);
+}
+
 .search__clear {
-  display: none;
+  visibility: hidden;
   position: absolute;
-  bottom: calc(var(--base-spacing) / 2.2);
-  right: calc(var(--base-spacing) / 2);
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 
 /* States */
-.search.is-active .search__clear {
-  display: block;
+.search__field.is-active .search__clear {
+  visibility: visible;
 }

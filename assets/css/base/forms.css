@@ -182,5 +182,9 @@ label {
   margin-bottom: calc(var(--base-spacing) / 2);
   line-height: var(--base-line-height);
   cursor: pointer;
+  font-family: var(--secondary-font-family);
   font-size: var(--small-font-size);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }

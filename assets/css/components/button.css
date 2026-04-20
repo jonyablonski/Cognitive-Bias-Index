@@ -4,11 +4,11 @@
 
  .button {
   position: relative;
-  display: inline-block;
-  padding: calc(var(--base-spacing) / 3) calc(var(--base-spacing) / 2);
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--base-spacing) / 2);
   line-height: normal;
   white-space: nowrap;
-  text-align: center;
   font-weight: normal;
   color: currentColor;
   border: none;
@@ -17,10 +17,6 @@
   transition: border var(--base-duration) var(--base-timing),
               color var(--base-duration) var(--base-timing);
   cursor: pointer;
-}
-
-/* States */
-.button:hover {
 }
 
 
@@ -44,10 +40,7 @@
 
 .button--border {
   border: var(--base-border);
-  border-color: var(--color-off-white);
   border-radius: var(--base-border-radius);
-  color: var(--color-off-white);
-  background-color: var(--base-accent-color);
   transition: box-shadow var(--base-duration) var(--base-timing);
 }
 

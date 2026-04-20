@@ -1,26 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
-  <filter id="noise">
-    <feTurbulence
-      type="turbulence"
-      id="turbulence"
-      baseFrequency="0.2 0.2"
-      numOctaves="2"
-      result="turbulence"
-      seed="20"
-    />
-    <feDisplacementMap
-      in="SourceGraphic"
-      in2="turbulence"
-      result="map"
-      scale="20"
-      xChannelSelector="A"
-      yChannelSelector="A"
-    />
-  </filter>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="140 121 799 799">
   <defs>
     <circle id="a" cx="399.5" cy="399.5" r="399.5"/>
   </defs>
-  <g fill="none" fill-rule="evenodd" filter="url(#noise)">
+  <g fill="none" fill-rule="evenodd">
     <g transform="translate(140 121)">
       <mask id="b" fill="#fff">
         <use xlink:href="#a"/>

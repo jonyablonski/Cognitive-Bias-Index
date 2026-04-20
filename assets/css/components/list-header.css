@@ -3,23 +3,14 @@
  */
 
 .list-header {
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 1;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: var(--base-spacing);
   width: 100%;
-  padding: var(--base-spacing) 0;
-  margin: 0;
   list-style: none;
-  background: var(--base-background-color);
-
-  @media (--breakpoint-small) {
-    display: grid;
-    grid-template-columns: var(--base-grid-columns);
-    grid-column-gap: var(--base-gap);
-  }
+  background: transparent;
 }
 
 /* Banner backgroud */
@@ -32,10 +23,6 @@
   height: 100%;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: var(--base-accent-color);
-
-  /* Add border to optically adjust for centered child elements */
-  border-bottom: 1px solid var(--base-accent-color); 
 }
 
 
@@ -55,38 +42,19 @@
  * Modifiers 
  */
 
-.list-header__item--name {
-  grid-column: span 2;
+
+.list-header__item--filter .button,
+.list-header__item--clear .button {
+  width: 100%;
+  justify-content: space-between;
 }
 
-.list-header__item--tags {
-  grid-column: 5;
+.list-header__item--clear:not(:has(.is-active)) {
+  display: none;
 }
 
-.list-header__item--clear {
-  justify-self: end;
+/* Active filter count on filter toggle */
+.list-header__item--filter button[data-active-filters]:not([data-active-filters="0"])::after {
+  content: attr(data-active-filters);
 }
 
-.list-header__item--clear button {
-  visibility: hidden;
-}
-
-/* Filter count */
-.list-header__item--clear button:after {
-  content: attr(data-clear-filters);
-  display: inline-block;
-  height: 18px; /* Match height of filter icons */
-  margin-left: calc(var(--base-spacing) / 4);
-  vertical-align: middle;
-  position: relative;
-  top: 1px;
-
-  @media (--breakpoint-large) {
-    top: -1px;
-  }
-}
-
-/* States */
-.list-header__item--clear button.is-active {
-  visibility: visible;
-}
