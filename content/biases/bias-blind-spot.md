@@ -8,6 +8,7 @@ tags: [
   "Judgment"
 ]
 reading: [
+  "https://biasedbydesign.com/principles/know-your-blind-spots/",
   "https://en.wikipedia.org/wiki/Bias_blind_spot"
 ]
 ---

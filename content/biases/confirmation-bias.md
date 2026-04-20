@@ -9,6 +9,7 @@ tags: [
   "Memory"
 ]
 reading: [
+  "https://biasedbydesign.com/principles/dont-build-solutions-in-search-of-problem/",
   "https://www.antonsten.com/confirmation-bias/",
   "https://www.verywellmind.com/what-is-a-confirmation-bias-2795024",
   "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",

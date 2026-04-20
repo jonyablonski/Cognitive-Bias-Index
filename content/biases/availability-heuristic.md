@@ -8,6 +8,7 @@ tags: [
   "Judgment"
 ]
 reading: [
+  "https://biasedbydesign.com/principles/reason-over-recall/",
   "https://www.verywellmind.com/availability-heuristic-2794824",
   "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
   "https://en.wikipedia.org/wiki/Availability_heuristic"

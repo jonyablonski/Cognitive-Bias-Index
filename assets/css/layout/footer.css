@@ -1,5 +1,5 @@
 .footer {
   grid-column: 1 / -1;
-  padding: var(--base-spacing) 0;
+  padding: var(--base-spacing) calc(var(--base-spacing) / 2);
   color: var(--base-font-color);
 }

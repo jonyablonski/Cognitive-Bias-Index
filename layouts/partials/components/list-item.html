@@ -10,43 +10,55 @@
     <span class="list__item-marker"></span>{{ $page.Title }}
   </h3>
 
-  <!-- Context -->
-  <div class="list__item-section list__item-section--context" data-label="Category">
-    <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
-  </div>
-
-  <!-- Tags -->
-  <div class="list__item-section list__item-section--tags" data-label="Tags">
-    <span>
-      {{- range $i, $e := $page.Params.tags -}}
-      {{ if ne $i 0 }}, {{ end }}
-      {{ . | humanize | title }}
-      {{- end -}}
-    </span>
-  </div>
-
-  <!-- Info -->
+  <!-- Description -->
   <div id="#{{ $page.Title | urlize}}-info" class="list__item-section list__item-section--info">
-
-    <!-- Description -->
     <div class="list__item-meta list__item-meta--desc desc">
       <h4 class="list__item-title">Description</h4>
       <p>{{ $page.Description | markdownify }}</p>
     </div>
+  </div>
+
+  <!-- More Info Toggle -->
+  <div class="list__item-section list__item-section--toggle">
+    <button class="button button--min button--toggle" data-toggle aria-expanded="false">
+      <span class="button__icon--default">More Info {{ partial "components/icon" (dict "name" "caret-down" "size" "12" "align" "right") }}</span>
+      <span class="button__icon--active">Less Info {{ partial "components/icon" (dict "name" "caret-up" "size" "12" "align" "right") }}</span>
+    </button>
+  </div>
+
+  <!-- More Info Content -->
+  <div class="list__item-more">
+
+    <!-- Context -->
+    <div class="list__item-section list__item-section--context" data-label="Category">
+      <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
+    </div>
+
+    <!-- Tags -->
+    <div class="list__item-section list__item-section--tags" data-label="Tags">
+      <span>
+        {{- range $i, $e := $page.Params.tags -}}
+        {{ if ne $i 0 }}, {{ end }}
+        {{ . | humanize | title }}
+        {{- end -}}
+      </span>
+    </div>
 
     <!-- Further Reading -->
-    <div class="list__item-meta list__item-meta--reading">
-      <h4 class="list__item-title">Futher Reading</h4>
-      <ul>
-        {{ range $page.Params.reading }}
-        <li>
-          <a href="{{ . }}">
-            {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
-            {{ . }}
-          </a>
-        </li>
-        {{ end }}
-      </ul>
+    <div class="list__item-section list__item-section--info">
+      <div class="list__item-meta list__item-meta--reading">
+        <h4 class="list__item-title">Further Reading</h4>
+        <ul>
+          {{ range $page.Params.reading }}
+          <li>
+            <a href="{{ . }}">
+              {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
+              {{ . }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
 
   </div>

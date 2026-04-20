@@ -8,6 +8,7 @@ tags: [
   "Judgment"
 ]
 reading: [
+  "https://biasedbydesign.com/principles/you-are-not-the-user/",
   "https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030",
   "https://en.wikipedia.org/wiki/False_consensus_effect"
 ]

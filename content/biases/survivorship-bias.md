@@ -8,8 +8,9 @@ tags: [
   "Judgment"
 ]
 reading: [
+  "https://biasedbydesign.com/principles/consider-what-you-dont-see/",
+  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
   "https://en.wikipedia.org/wiki/Survivorship_bias",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
 ]
 ---
 
