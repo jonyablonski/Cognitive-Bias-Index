@@ -2,7 +2,9 @@
 
   <!-- Site Title -->
   <a class="header__title" href="/">
-    <span class="header__logo">{{ readFile "static/images/graphic.svg" | safeHTML }}</span>
+    <span class="header__logo">
+      {{ readFile "static/images/logo.svg" | safeHTML }}
+    </span>
     {{ .Site.Title }}
   </a>
 

@@ -71,9 +71,10 @@
 }
 
 .banner__graphic svg {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  stroke: var(--color-off-white);
+  stroke: var(--color-off-white); */
+  fill: white;
 }
 
 .banner__subtitle {
