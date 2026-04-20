@@ -59,6 +59,19 @@
   background-color: var(--category-color, var(--color-mid-grey));
 }
 
+/* Hash fragment highlight */
+.list__item.is-highlighted {
+  outline: 2px solid var(--base-accent-color);
+  outline-offset: 3px;
+  animation: bias-highlight 2.5s var(--base-timing) forwards;
+}
+
+@keyframes bias-highlight {
+  0%   { outline-color: var(--base-accent-color); }
+  60%  { outline-color: var(--base-accent-color); }
+  100% { outline-color: transparent; }
+}
+
 .list__item[data-context="Need To Act Fast"]   { --category-color: #3A4B62; }
 .list__item[data-context="Not Enough Meaning"] { --category-color: #939B7B; }
 .list__item[data-context="Too Much Information"] { --category-color: #936A3A; }

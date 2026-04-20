@@ -525,6 +525,21 @@ import List from "list.js";
   let biases = new List('biases', listSettings);
 
 
+  // Scroll to and highlight bias if URL contains a matching hash fragment
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const target = document.getElementById(hash);
+    if (target) {
+      biases.show(1, biases.size());
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('is-highlighted');
+        setTimeout(() => target.classList.remove('is-highlighted'), 2500);
+      }, 100);
+    }
+  }
+
+
   // Check user color scheme preference
   checkColorTheme();
 

@@ -1,6 +1,7 @@
 {{ $page := .Page }}
 {{ $class := .Class | default "" }}
 <li
+  id="{{ $page.Title | urlize }}"
   class="list__item{{ if $class }} {{ $class }}{{ end }}"
   data-context="{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}"
   data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
