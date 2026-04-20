@@ -7,8 +7,6 @@ url: "/info.html"
 # Overview
 Cognitive bias are the systematic errors in thinking that affects the decisions and judgments that people make. There are many kinds of cognitive biases that influence individuals differently, usually without our awareness of their influence. The challenge becomes identifying biases could be affecting us, given a particular context. The Cognitive Bias Index is a tool that aims to help narrow down which biases that might be affecting us.
 
-{{< share >}}
-
 ---
 
 # Resources
