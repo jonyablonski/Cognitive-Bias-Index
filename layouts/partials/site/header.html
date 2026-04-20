@@ -3,7 +3,7 @@
   <!-- Site Title -->
   <a class="header__title" href="/">
     <span class="header__logo">
-      {{ readFile "static/images/logo.svg" | safeHTML }}
+        {{ partial "components/icon" (dict "name" "logo" "size" "24" "align" "left") }}
     </span>
     {{ .Site.Title }}
   </a>
