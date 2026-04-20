@@ -19,11 +19,11 @@
 
   /* Colors */
   --color-black: #191c17;
-  --color-dark-grey: #33382e;
-  --color-light-grey: #ccd1c7;
-  --color-mid-grey: #7f8c73;
+  --color-dark-grey: color-mix(in srgb, var(--base-background-color) 50%, black);
+  --color-mid-grey: color-mix(in srgb, var(--base-background-color) 75%, black);
+  --color-light-grey: color-mix(in srgb, var(--base-background-color) 95%, black);
   --color-off-white: #e5edde;
-  --color-earth: hsl(92, 40%, 40%);
+  --color-earth: #638f3d;
 
 
   /* Links */
@@ -54,7 +54,7 @@
   --secondary-font-family: "Roboto Mono", monospace;
   --base-font-color: var(--color-black);
   --secondary-font-color: var(--color-off-white);
-  --tertiary-font-color: var(--color-mid-grey);
+  --tertiary-font-color: color-mix(in srgb, var(--base-background-color) 60%, black);
   --base-line-height: 1.4;
   --header-line-height: 1.2;
   --min-font-size: var(--base-font-size);
@@ -100,6 +100,7 @@
   --base-font-color: var(--secondary-font-color);
   --base-background-color: var(--secondary-background-color);
   --base-border-color: rgba(238, 237, 233, 0.25);
+  --tertiary-font-color: hsl(92, 10%, 65%);
   --sidebar-background-color: var(--color-dark-grey);
   --filter-background-color: var(--color-dark-grey);
   --filter-font-color: var(--color-off-white);

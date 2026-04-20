@@ -275,11 +275,12 @@ import List from "list.js";
     setActiveFilter(target);
 
     // Apply filters
+    const contextFilters = getContextFilters();
+    const tagFilters = getTagFilters();
 		biases.filter(function (item) {
-      let contextFilters = getContextFilters();
-      let tagFilters = getTagFilters();
-      let matchesContext = contextFilters.length === 0 || contextFilters.some(name => item.values().context.includes(name));
-      let matchesTag = tagFilters.length === 0 || tagFilters.some(name => item.values().tags.includes(name));
+      if (contextFilters.length === 0 && tagFilters.length === 0) return true;
+      let matchesContext = contextFilters.some(name => item.values().context.includes(name));
+      let matchesTag = tagFilters.some(name => item.values().tags.includes(name));
       return matchesContext || matchesTag;
     });
 

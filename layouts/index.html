@@ -31,7 +31,7 @@
       <!-- List -->
       <ul class="list">
         {{ range where .Site.RegularPages "Section" "biases" }}
-        {{ partial "components/list-item" . }}
+        {{ partial "components/list-item" (dict "Page" . "Class" "card") }}
         {{ end }}
       </ul>
 

@@ -3,8 +3,9 @@ title: "Dunning Kruger Effect"
 description: "The tendency for unskilled individuals to overestimate their own ability and the tendency for experts to underestimate their own ability."
 categories: ["need to act fast"]
 tags: [
-  "estimation",
-  "ability"
+  "Self",
+  "Judgment",
+  "Reasoning"
 ]
 reading: [
   "https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740",

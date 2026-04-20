@@ -1,20 +1,24 @@
-<li 
-  class="list__item"
-  data-context="{{ range .Params.categories }}{{ . | humanize | title }}{{ end }}"
-  data-tags="{{ range $i, $e := .Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
+{{ $page := .Page }}
+{{ $class := .Class | default "" }}
+<li
+  class="list__item{{ if $class }} {{ $class }}{{ end }}"
+  data-context="{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}"
+  data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
 
   <!-- Title -->
-  <h3 class="list__item-section list__item-section--title title">{{ .Title }}</h3>
+  <h3 class="list__item-section list__item-section--title title">
+    <span class="list__item-marker"></span>{{ $page.Title }}
+  </h3>
 
   <!-- Context -->
   <div class="list__item-section list__item-section--context" data-label="Category">
-    <span>{{ range .Params.categories }}{{ . | humanize | title }}{{ end }}</span>
+    <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
   </div>
 
   <!-- Tags -->
   <div class="list__item-section list__item-section--tags" data-label="Tags">
     <span>
-      {{- range $i, $e := .Params.tags -}}
+      {{- range $i, $e := $page.Params.tags -}}
       {{ if ne $i 0 }}, {{ end }}
       {{ . | humanize | title }}
       {{- end -}}
@@ -22,19 +26,19 @@
   </div>
 
   <!-- Info -->
-  <div id="#{{ .Title | urlize}}-info" class="list__item-section list__item-section--info">
+  <div id="#{{ $page.Title | urlize}}-info" class="list__item-section list__item-section--info">
 
     <!-- Description -->
     <div class="list__item-meta list__item-meta--desc desc">
       <h4 class="list__item-title">Description</h4>
-      <p>{{ .Description | markdownify }}</p>
+      <p>{{ $page.Description | markdownify }}</p>
     </div>
 
     <!-- Further Reading -->
     <div class="list__item-meta list__item-meta--reading">
       <h4 class="list__item-title">Futher Reading</h4>
       <ul>
-        {{ range .Params.reading }}
+        {{ range $page.Params.reading }}
         <li>
           <a href="{{ . }}">
             {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
@@ -46,5 +50,5 @@
     </div>
 
   </div>
-  
+
 </li>

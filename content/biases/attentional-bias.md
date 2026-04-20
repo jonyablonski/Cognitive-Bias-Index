@@ -3,8 +3,9 @@ title: "Attentional Bias"
 description: "The tendency of perception to be affected by recurring thoughts."
 categories: ["too much information"]
 tags: [
-  "perception",
-  "frequency"
+  "Attention",
+  "Perception",
+  "Emotion"
 ]
 reading: [
   "https://www.verywellmind.com/what-is-an-attentional-bias-2795027",

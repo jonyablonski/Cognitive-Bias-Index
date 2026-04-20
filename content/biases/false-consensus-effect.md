@@ -3,7 +3,9 @@ title: "False Consensus Effect"
 description: "The tendency for people to overestimate the degree to which others agree with them."
 categories: ["need to act fast"]
 tags: [
-  "estimation"
+  "Social",
+  "Self",
+  "Judgment"
 ]
 reading: [
   "https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030",

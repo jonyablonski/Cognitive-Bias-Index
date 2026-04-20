@@ -3,7 +3,9 @@ title: "Social Desirability Bias"
 description: "The tendency to over-report socially desirable characteristics or behaviours in oneself and under-report socially undesirable characteristics or behaviours."
 categories: ["need to act fast"]
 tags: [
-  "desirability"
+  "Social",
+  "Self",
+  "Research"
 ]
 reading: [
   "https://dscout.com/people-nerds/cognitive-biases-user-research",

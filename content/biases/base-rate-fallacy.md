@@ -3,8 +3,9 @@ title: "Base Rate Fallacy"
 description: "The tendency to ignore general information and focus on information only pertaining to the specific case, even when the general information is more important."
 categories: ["not enough meaning"]
 tags: [
-  "fallacy",
-  "focus"
+  "Reasoning",
+  "Probability",
+  "Judgment"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Base_rate_fallacy"

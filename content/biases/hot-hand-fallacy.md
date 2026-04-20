@@ -3,8 +3,9 @@ title: "Hot-Hand Fallacy"
 description: "The belief that a person who has experienced success with a random event has a greater chance of further success in additional attempts."
 categories: ["not enough meaning"]
 tags: [
-  "belief",
-  "fallacy"
+  "Probability",
+  "Reasoning",
+  "Judgment"
 ]
 reading: [
   "https://en.wikipedia.org/wiki/Hot_hand"

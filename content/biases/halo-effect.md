@@ -3,9 +3,9 @@ title: "Halo Effect"
 description: "The tendency for a person's positive or negative traits to ‘spill over’ from one personality area to another in others' perceptions of them (see also physical attractiveness stereotype)."
 categories: ["not enough meaning"]
 tags: [
-  "personality",
-  "perception",
-  "identity"
+  "Perception",
+  "Social",
+  "Judgment"
 ]
 reading: [
   "https://www.verywellmind.com/what-is-the-halo-effect-2795906",

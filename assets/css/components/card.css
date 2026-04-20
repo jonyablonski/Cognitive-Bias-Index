@@ -1,0 +1,38 @@
+.card {
+  padding: var(--base-spacing);
+  padding-bottom: calc(var(--base-spacing) * 1.5);
+  margin-bottom: var(--base-spacing);
+  background-color: var(--color-light-grey);
+  border-radius: var(--base-border-radius);
+}
+
+.card .list__item-section--title {
+  @media (--breakpoint-small) {
+    grid-column: 1 / -1;
+    margin-bottom: var(--base-spacing);
+  }
+}
+
+.list__item.card:not(:first-child) {
+  border-top: none;
+}
+
+/* Category marker */
+.list__item-section--title {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--base-spacing) * 0.6);
+}
+
+.list__item-marker {
+  flex-shrink: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 0.25rem;
+  background-color: var(--category-color, var(--color-mid-grey));
+}
+
+.list__item[data-context="Need To Act Fast"]   { --category-color: #3A4B62; }
+.list__item[data-context="Not Enough Meaning"] { --category-color: #939B7B; }
+.list__item[data-context="Too Much Information"] { --category-color: #936A3A; }
+.list__item[data-context="What Should We Remember"] { --category-color: #C46541; }

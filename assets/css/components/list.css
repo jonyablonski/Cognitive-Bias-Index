@@ -14,12 +14,6 @@
 
 .list__item {
   position: relative;
-  margin: 0;
-  padding: calc(var(--base-spacing) * 2) 0;
-}
-
-.list__item:first-child {
-  padding-top: 0;
 }
 
 .list__item:not(:first-child) {
