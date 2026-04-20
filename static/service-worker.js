@@ -2,7 +2,7 @@
  * Cache
  */
 
-const staticCacheName = 'pages-cache-v18';
+const staticCacheName = 'pages-cache-v19';
 const filesToCache = [
   '/',
   'css/app.min.css',

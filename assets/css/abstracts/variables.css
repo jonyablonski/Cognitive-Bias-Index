@@ -57,7 +57,7 @@
   --tertiary-font-color: color-mix(in srgb, var(--base-background-color) 60%, black);
   --base-line-height: 1.4;
   --header-line-height: 1.2;
-  --min-font-size: var(--base-font-size);
+  --min-font-size: 16px;
   --max-font-size: var(--xlarge-font-size);
 
 

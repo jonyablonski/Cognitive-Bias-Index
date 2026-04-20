@@ -68,10 +68,19 @@
 }
 
 .list__item-section--title {
-  margin: 0;
+  margin: 0 0 calc(var(--base-spacing) * 0.5);
+  padding-right: calc(2rem + var(--base-spacing));
+  overflow: hidden;
   line-height: var(--base-line-height);
   font-size: var(--medium-font-size);
   letter-spacing: -0.025em;
+}
+
+.list__item-title-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .list__item-section--toggle {
