@@ -7,7 +7,7 @@
   data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
 
   <!-- Copy Link -->
-  <button class="list__item-copy button button--border" data-copy-url="{{ $page.Permalink }}" aria-label="Copy link to {{ $page.Title }}">
+  <button class="list__item-copy button button--border" data-copy-url="https://cognitivebiasindex.com/index.html#{{ $page.Title | urlize }}" aria-label="Copy link to {{ $page.Title }}">
     <span class="list__item-copy__default">{{ partial "components/icon" (dict "name" "link" "size" "16") }}</span>
     <span class="list__item-copy__confirm">{{ partial "components/icon" (dict "name" "check" "size" "16") }}</span>
   </button>
