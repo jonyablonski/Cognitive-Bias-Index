@@ -29,19 +29,41 @@
   <!-- More Info Content -->
   <div class="list__item-more">
 
-    <!-- Context -->
-    <div class="list__item-section list__item-section--context" data-label="Category">
-      <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
+    <!-- How It Occurs / How to Avoid -->
+    {{ if or $page.Params.how_it_occurs $page.Params.how_to_avoid }}
+    <div class="list__item-section list__item-section--info list__item-section--how">
+      {{ if $page.Params.how_it_occurs }}
+      <div class="list__item-meta list__item-meta--how">
+        <h4 class="list__item-title">How It Occurs</h4>
+        <ul>
+          {{ range $page.Params.how_it_occurs }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ if $page.Params.how_to_avoid }}
+      <div class="list__item-meta list__item-meta--how">
+        <h4 class="list__item-title">How to Avoid</h4>
+        <ul>
+          {{ range $page.Params.how_to_avoid }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
     </div>
+    {{ end }}
 
-    <!-- Tags -->
-    <div class="list__item-section list__item-section--tags" data-label="Tags">
-      <span>
-        {{- range $i, $e := $page.Params.tags -}}
-        {{ if ne $i 0 }}, {{ end }}
-        {{ . | humanize | title }}
-        {{- end -}}
-      </span>
+    <!-- Context / Tags -->
+    <div class="list__item-section list__item-section--meta">
+      <div class="list__item-section list__item-section--context" data-label="Category">
+        <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
+      </div>
+      <div class="list__item-section list__item-section--tags" data-label="Tags">
+        <span>
+          {{- range $i, $e := $page.Params.tags -}}
+          {{ if ne $i 0 }}, {{ end }}
+          {{ . | humanize | title }}
+          {{- end -}}
+        </span>
+      </div>
     </div>
 
     <!-- Further Reading -->

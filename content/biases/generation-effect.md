@@ -10,5 +10,15 @@ tags: [
 reading: [
   "https://en.wikipedia.org/wiki/Generation_effect"
 ]
+how_it_occurs:
+  - "Active generation of information requires deeper processing than passive reading, enhancing memory encoding."
+  - "Self-generated information is associated with greater elaborative processing and personal relevance."
+  - "The effort involved in generation strengthens the memory trace through the desirable difficulties principle."
+  - "Generating information activates a broader network of related concepts, creating more retrieval pathways."
+how_to_avoid:
+  - "Use generation-based study strategies like flashcards and practice testing rather than re-reading."
+  - "Summarize information in your own words rather than copying or highlighting."
+  - "Teach concepts to others, which forces generation and reveals gaps in understanding."
+  - "Recognize that passive review feels easier but produces weaker long-term memory."
 ---
 

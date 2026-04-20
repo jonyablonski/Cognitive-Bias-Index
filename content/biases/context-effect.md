@@ -10,5 +10,15 @@ tags: [
 reading: [
   "https://en.wikipedia.org/wiki/Cue-dependent_forgetting"
 ]
+how_it_occurs:
+  - "Memory encoding is associated with the physical and mental context present at encoding time."
+  - "Retrieval cues that match encoding context activate associated memories more readily."
+  - "Environmental state-dependence means mismatch between encoding and retrieval contexts hinders recall."
+  - "Internal states like mood and arousal also form part of the encoding context."
+how_to_avoid:
+  - "Study or practice skills in conditions as similar as possible to where you will need to use them."
+  - "Use environmental cues strategically to trigger relevant memories when needed."
+  - "Recognize that poor recall in unfamiliar contexts does not reflect the limits of your knowledge."
+  - "Test yourself in varied contexts to build context-independent retrieval pathways."
 ---
 

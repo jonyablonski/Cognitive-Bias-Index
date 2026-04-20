@@ -10,5 +10,15 @@ tags: [
 reading: [
   "https://www.wired.com/2017/03/the-invisible-force-that-warps-what-you-read-in-the-news/"
 ]
+how_it_occurs:
+  - "Widely accepted narratives create cognitive frameworks that filter and interpret incoming facts."
+  - "The more a narrative is repeated and shared, the more it functions as a default explanatory lens."
+  - "Facts that fit the dominant narrative are amplified while contradicting facts are minimized or ignored."
+  - "Media attention naturally concentrates on narratives with high social mass, creating a feedback loop."
+how_to_avoid:
+  - "Actively seek facts that do not fit the prevailing narrative before accepting it."
+  - "Ask who benefits from a narrative's widespread acceptance and what perspectives it marginalizes."
+  - "Consult primary sources and disaggregated data rather than narrative summaries."
+  - "Practice epistemic humility—acknowledge when a narrative is guiding your interpretation."
 ---
 

@@ -10,5 +10,15 @@ tags: [
 reading: [
   "https://en.wikipedia.org/wiki/Barnum_effect"
 ]
+how_it_occurs:
+  - "Vague descriptions are interpreted as highly personal through the lens of one's own self-concept."
+  - "The desire for self-knowledge and validation makes us accept flattering or plausible descriptions."
+  - "Confirmation bias leads us to recall only the parts of a description that fit, ignoring what does not."
+  - "Social authority of a 'professional' assessment (horoscope, personality test) lowers critical scrutiny."
+how_to_avoid:
+  - "Ask whether a personality description would apply equally well to most other people."
+  - "Test descriptions by checking how many friends or acquaintances they would also accurately describe."
+  - "Require specific, falsifiable claims from personality assessments rather than vague generalities."
+  - "Be skeptical of any profile that feels uncannily accurate without a rigorous empirical basis."
 ---
 

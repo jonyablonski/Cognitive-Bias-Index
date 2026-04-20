@@ -11,5 +11,15 @@ reading: [
   "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
   "https://en.wikipedia.org/wiki/Hyperbolic_discounting"
 ]
+how_it_occurs:
+  - "The brain's reward systems heavily discount future rewards, creating a present-bias in valuation."
+  - "Immediate rewards are processed by emotional, impulsive brain systems; future rewards require effortful deliberation."
+  - "The preference for immediacy reverses as rewards approach, creating time-inconsistent preferences."
+  - "Evolutionarily, prioritizing immediate rewards was adaptive—the future was uncertain and resources were scarce."
+how_to_avoid:
+  - "Use commitment devices that bind your future self to present intentions (e.g., automatic savings)."
+  - "Make long-term consequences vivid and immediate by imagining them concretely."
+  - "Create implementation intentions that specify exactly when and how future goals will be pursued."
+  - "Remove friction from beneficial future-oriented behaviors and add friction to impulsive ones."
 ---
 

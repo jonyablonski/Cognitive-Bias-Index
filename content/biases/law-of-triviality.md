@@ -10,5 +10,15 @@ tags: [
 reading: [
   "https://en.wikipedia.org/wiki/Law_of_triviality"
 ]
+how_it_occurs:
+  - "Complex technical topics require specialized knowledge that most participants lack, creating avoidance."
+  - "Trivial topics are universally accessible, giving all participants the confidence to contribute."
+  - "The desire to feel useful and engaged motivates disproportionate attention to comprehensible items."
+  - "Discussion time on an agenda item does not correlate with its actual importance or complexity."
+how_to_avoid:
+  - "Allocate meeting time and energy in proportion to the importance and complexity of agenda items."
+  - "Define in advance what decisions require group input versus what can be delegated to experts."
+  - "Limit discussion of simple, low-stakes items and protect time for high-stakes complex decisions."
+  - "Use structured decision frameworks that ensure proportionate attention to issue importance."
 ---
 
