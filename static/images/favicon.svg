@@ -4,7 +4,7 @@
     <circle id="a" cx="190" cy="190" r="190"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect fill="#000" width="512" height="512" rx="54"/>
+    <rect fill="#638f3d" width="512" height="512" rx="54"/>
     <g transform="translate(66 66)">
       <mask id="b" fill="#fff">
         <use xlink:href="#a"/>
