@@ -1,4 +1,6 @@
 <ul class="list-header" data-list-header>
+
+  <!-- Name -->
   <li class="list-header__item list-header__item--name">
     <div class="search">
       <label for="search-input" class="visually-hidden">Name</label>
@@ -11,6 +13,7 @@
     </div>
   </li>
 
+  <!-- Filter Toggle -->
   <li class="list-header__item list-header__item--filter">
     <button class="button button--border" data-toggle-filter="all" data-active-filters="0" aria-controls="#filter">
       {{ partial "components/icon" (dict "name" "filter" "size" "18" "align" "left") }}
@@ -18,7 +21,9 @@
     </button>
   </li>
 
+  <!-- Clear Button -->
   <li class="list-header__item list-header__item--clear">
     <button class="button" data-clear-filters="0" aria-controls="#filter">Clear Filters</button>
   </li>
+
 </ul>
