@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Perception"
 ]
+
 reading: [
-  "https://www.nngroup.com/articles/peak-end-rule/"
+  { title: "Peak End Rule", url: "https://www.nngroup.com/articles/peak-end-rule/" }
 ]
 how_it_occurs:
   - "Memory of an experience is dominated by its peak emotional intensity and its ending rather than its average."

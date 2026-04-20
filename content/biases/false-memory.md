@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Attribution"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Confabulation"
+  { title: "Confabulation", url: "https://en.wikipedia.org/wiki/Confabulation" }
 ]
 how_it_occurs:
   - "Memory is reconstructive: the brain fills in gaps with plausible but sometimes inaccurate information."

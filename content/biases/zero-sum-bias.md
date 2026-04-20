@@ -7,9 +7,10 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3153800/",
-  "https://en.wikipedia.org/wiki/Zero-sum_thinking"
+  { title: "Pmc3153800", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3153800/" },
+  { title: "Zero Sum Thinking", url: "https://en.wikipedia.org/wiki/Zero-sum_thinking" }
 ]
 how_it_occurs:
   - "Evolutionary competition for scarce resources may have created a default zero-sum frame for social interactions."

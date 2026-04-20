@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Normalcy_bias"
+  { title: "Normalcy Bias", url: "https://en.wikipedia.org/wiki/Normalcy_bias" }
 ]
 how_it_occurs:
   - "Past experience of no disaster creates a strong prior expectation that nothing catastrophic will occur."

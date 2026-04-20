@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Hard%E2%80%93easy_effect"
+  { title: "Hard%E2%80%93Easy Effect", url: "https://en.wikipedia.org/wiki/Hard%E2%80%93easy_effect" }
 ]
 how_it_occurs:
   - "We misjudge task difficulty because we lack accurate insight into our own competence limits."

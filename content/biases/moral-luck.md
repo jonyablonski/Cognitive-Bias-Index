@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Attribution"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Moral_luck"
+  { title: "Moral Luck", url: "https://en.wikipedia.org/wiki/Moral_luck" }
 ]
 how_it_occurs:
   - "Outcomes are more salient and emotionally charged than intentions, making them the dominant basis for moral judgment."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Automation_bias"
+  { title: "Automation Bias", url: "https://en.wikipedia.org/wiki/Automation_bias" }
 ]
 how_it_occurs:
   - "Automated systems are perceived as more objective and error-free than human judgment."

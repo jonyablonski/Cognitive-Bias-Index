@@ -7,10 +7,11 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779",
-  "https://www.verywellmind.com/what-is-the-anchoring-bias-2795029",
-  "https://wikipedia.org/wiki/Anchoring_(cognitive_bias)"
+  { title: "Cognitive Bias In Ux The User Side And The Designer Side 6F6Ae0185779", url: "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779" },
+  { title: "What Is The Anchoring Bias", url: "https://www.verywellmind.com/what-is-the-anchoring-bias-2795029" },
+  { title: "Anchoring (Cognitive Bias)", url: "https://wikipedia.org/wiki/Anchoring_(cognitive_bias)" }
 ]
 how_it_occurs:
   - "The first piece of information encountered sets a cognitive reference point that all subsequent judgments are measured against."

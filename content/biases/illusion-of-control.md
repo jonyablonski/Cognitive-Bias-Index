@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusion_of_control"
+  { title: "Illusion Of Control", url: "https://en.wikipedia.org/wiki/Illusion_of_control" }
 ]
 how_it_occurs:
   - "Repeated pairing of action and positive outcome creates the illusion of causal control even in random processes."

@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Projection_bias"
+  { title: "Projection Bias", url: "https://en.wikipedia.org/wiki/Projection_bias" }
 ]
 how_it_occurs:
   - "Current preferences and emotional states are more vivid and accessible than imagined future states."

@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Reasoning"
 ]
+
 reading: [
-  "https://www.wired.com/2017/03/the-invisible-force-that-warps-what-you-read-in-the-news/"
+  { title: "The Invisible Force That Warps What You Read In The News", url: "https://www.wired.com/2017/03/the-invisible-force-that-warps-what-you-read-in-the-news/" }
 ]
 how_it_occurs:
   - "Widely accepted narratives create cognitive frameworks that filter and interpret incoming facts."

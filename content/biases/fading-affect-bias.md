@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Fading_affect_bias"
+  { title: "Fading Affect Bias", url: "https://en.wikipedia.org/wiki/Fading_affect_bias" }
 ]
 how_it_occurs:
   - "Negative emotional memories are processed and resolved over time through cognitive reappraisal."

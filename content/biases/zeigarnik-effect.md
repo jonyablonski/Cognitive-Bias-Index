@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+  { title: "Zeigarnik Effect", url: "https://en.wikipedia.org/wiki/Zeigarnik_effect" }
 ]
 how_it_occurs:
   - "Incomplete tasks remain in an active cognitive state that keeps them more available in working memory."

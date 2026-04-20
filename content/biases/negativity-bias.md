@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Negativity_bias"
+  { title: "Negativity Bias", url: "https://en.wikipedia.org/wiki/Negativity_bias" }
 ]
 how_it_occurs:
   - "The brain evolved to prioritize threats over opportunities, making negative information more salient and memorable."

@@ -7,8 +7,9 @@ tags: [
   "Research",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Insensitivity_to_sample_size"
+  { title: "Insensitivity To Sample Size", url: "https://en.wikipedia.org/wiki/Insensitivity_to_sample_size" }
 ]
 how_it_occurs:
   - "Intuitive probability judgments are based on representativeness rather than formal statistical properties."

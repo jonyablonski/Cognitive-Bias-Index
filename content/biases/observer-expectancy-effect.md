@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Reasoning"
 ]
+
 reading: [
-  "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8",
-  "https://en.wikipedia.org/wiki/Observer-expectancy_effect"
+  { title: "6 Common Cognitive Biases Uxers Should Know 750B8C7Af1A8", url: "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8" },
+  { title: "Observer Expectancy Effect", url: "https://en.wikipedia.org/wiki/Observer-expectancy_effect" }
 ]
 how_it_occurs:
   - "Researcher expectations create unconscious behavioral cues that influence participants' responses."

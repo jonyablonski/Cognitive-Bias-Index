@@ -7,8 +7,9 @@ tags: [
   "Probability",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Appeal_to_probability"
+  { title: "Appeal To Probability", url: "https://en.wikipedia.org/wiki/Appeal_to_probability" }
 ]
 how_it_occurs:
   - "The brain conflates high probability with certainty, treating likely outcomes as guaranteed."

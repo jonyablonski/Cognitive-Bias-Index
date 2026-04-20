@@ -7,9 +7,10 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://dscout.com/people-nerds/cognitive-biases-user-research",
-  "https://en.wikipedia.org/wiki/Serial_position_effect"
+  { title: "Cognitive Biases User Research", url: "https://dscout.com/people-nerds/cognitive-biases-user-research" },
+  { title: "Serial Position Effect", url: "https://en.wikipedia.org/wiki/Serial_position_effect" }
 ]
 how_it_occurs:
   - "Items at the beginning of a list benefit from repeated rehearsal during the list's presentation (primacy effect)."

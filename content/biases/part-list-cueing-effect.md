@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Part-list_cueing_effect"
+  { title: "Part List Cueing Effect", url: "https://en.wikipedia.org/wiki/Part-list_cueing_effect" }
 ]
 how_it_occurs:
   - "Presented list items are used as retrieval cues but crowd out alternative retrieval strategies."

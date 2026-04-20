@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Stereotype"
+  { title: "Stereotype", url: "https://en.wikipedia.org/wiki/Stereotype" }
 ]
 how_it_occurs:
   - "Cognitive efficiency motivates grouping individuals into categories and assigning category-level attributes."

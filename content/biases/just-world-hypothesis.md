@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Just-world_hypothesis"
+  { title: "Just World Hypothesis", url: "https://en.wikipedia.org/wiki/Just-world_hypothesis" }
 ]
 how_it_occurs:
   - "Belief in a just world is psychologically protective—it preserves the feeling that good behavior leads to good outcomes."

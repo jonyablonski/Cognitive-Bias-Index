@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://uxdesign.cc/ux-psychology-2-increasing-conversions-with-the-decoy-effect-272500321df7",
-  "https://en.wikipedia.org/wiki/Decoy_effect"
+  { title: "Ux Psychology 2 Increasing Conversions With The Decoy Effect 272500321Df7", url: "https://uxdesign.cc/ux-psychology-2-increasing-conversions-with-the-decoy-effect-272500321df7" },
+  { title: "Decoy Effect", url: "https://en.wikipedia.org/wiki/Decoy_effect" }
 ]
 how_it_occurs:
   - "The presence of an inferior 'decoy' option makes a nearby superior option look better by comparison."

@@ -7,9 +7,10 @@ tags: [
   "Attribution",
   "Judgment"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-the-self-serving-bias-2795032",
-  "https://en.wikipedia.org/wiki/Self-serving_bias"
+  { title: "What Is The Self Serving Bias", url: "https://www.verywellmind.com/what-is-the-self-serving-bias-2795032" },
+  { title: "Self Serving Bias", url: "https://en.wikipedia.org/wiki/Self-serving_bias" }
 ]
 how_it_occurs:
   - "Protecting and enhancing self-esteem motivates attributing success to personal ability and failure to external factors."

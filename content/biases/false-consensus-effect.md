@@ -7,10 +7,11 @@ tags: [
   "Self",
   "Judgment"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/you-are-not-the-user/",
-  "https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030",
-  "https://en.wikipedia.org/wiki/False_consensus_effect"
+  { title: "You Are Not The User", url: "https://biasedbydesign.com/principles/you-are-not-the-user/" },
+  { title: "What Is The False Consensus Effect", url: "https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030" },
+  { title: "False Consensus Effect", url: "https://en.wikipedia.org/wiki/False_consensus_effect" }
 ]
 how_it_occurs:
   - "We use ourselves as the primary data point for estimating what others think, which skews estimates toward our own views."

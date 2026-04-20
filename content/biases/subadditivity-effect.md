@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Subadditivity_effect"
+  { title: "Subadditivity Effect", url: "https://en.wikipedia.org/wiki/Subadditivity_effect" }
 ]
 how_it_occurs:
   - "Unpacking a general category into specific components makes each component more imaginable and salient."

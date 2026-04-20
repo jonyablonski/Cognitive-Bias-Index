@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Mere-exposure_effect"
+  { title: "Mere Exposure Effect", url: "https://en.wikipedia.org/wiki/Mere-exposure_effect" }
 ]
 how_it_occurs:
   - "Repeated exposure to a stimulus increases perceptual fluency, which is misattributed as liking."

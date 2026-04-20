@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Denomination_effect"
+  { title: "Denomination Effect", url: "https://en.wikipedia.org/wiki/Denomination_effect" }
 ]
 how_it_occurs:
   - "Large-denomination currency feels more 'real' and valuable, creating psychological resistance to breaking it."

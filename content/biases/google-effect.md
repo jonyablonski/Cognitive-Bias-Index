@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Google_effect"
+  { title: "Google Effect", url: "https://en.wikipedia.org/wiki/Google_effect" }
 ]
 how_it_occurs:
   - "When external memory is reliably available, the brain deprioritizes effort-intensive internal encoding."

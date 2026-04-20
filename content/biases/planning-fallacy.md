@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Planning_fallacy"
+  { title: "Planning Fallacy", url: "https://en.wikipedia.org/wiki/Planning_fallacy" }
 ]
 how_it_occurs:
   - "Plans are evaluated from an inside view that focuses on the specific task, ignoring how long similar tasks have taken."

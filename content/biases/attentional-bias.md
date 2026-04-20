@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Emotion"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-an-attentional-bias-2795027",
-  "https://en.wikipedia.org/wiki/Attentional_bias"
+  { title: "What Is An Attentional Bias", url: "https://www.verywellmind.com/what-is-an-attentional-bias-2795027" },
+  { title: "Attentional Bias", url: "https://en.wikipedia.org/wiki/Attentional_bias" }
 ]
 how_it_occurs:
   - "Recurring anxious or emotional thoughts compete for cognitive resources, directing attention toward related stimuli."

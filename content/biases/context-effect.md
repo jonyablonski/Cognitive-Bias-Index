@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Cue-dependent_forgetting"
+  { title: "Cue Dependent Forgetting", url: "https://en.wikipedia.org/wiki/Cue-dependent_forgetting" }
 ]
 how_it_occurs:
   - "Memory encoding is associated with the physical and mental context present at encoding time."

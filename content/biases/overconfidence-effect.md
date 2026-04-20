@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Overconfidence_effect"
+  { title: "Overconfidence Effect", url: "https://en.wikipedia.org/wiki/Overconfidence_effect" }
 ]
 how_it_occurs:
   - "People are rarely given feedback that allows them to calibrate the relationship between confidence and accuracy."

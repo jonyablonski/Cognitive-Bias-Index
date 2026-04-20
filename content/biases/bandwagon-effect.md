@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Bandwagon_effect"
+  { title: "Bandwagon Effect", url: "https://en.wikipedia.org/wiki/Bandwagon_effect" }
 ]
 how_it_occurs:
   - "Social proof is a powerful heuristic: if many people believe or do something, it signals it is likely correct or safe."

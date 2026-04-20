@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusory_correlation"
+  { title: "Illusory Correlation", url: "https://en.wikipedia.org/wiki/Illusory_correlation" }
 ]
 how_it_occurs:
   - "Co-occurring distinctive events are more memorable together and feel meaningfully linked."

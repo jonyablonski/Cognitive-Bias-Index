@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/System_justification"
+  { title: "System Justification", url: "https://en.wikipedia.org/wiki/System_justification" }
 ]
 how_it_occurs:
   - "Uncertainty and unpredictability motivate endorsement of existing systems as a source of stability and meaning."

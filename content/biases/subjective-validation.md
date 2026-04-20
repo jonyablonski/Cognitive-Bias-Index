@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Subjective_validation"
+  { title: "Subjective Validation", url: "https://en.wikipedia.org/wiki/Subjective_validation" }
 ]
 how_it_occurs:
   - "The desire to find meaning causes us to actively search for connections between coincidences."

@@ -7,11 +7,12 @@ tags: [
   "Decision Making",
   "Judgment"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/reason-over-recall/",
-  "https://www.verywellmind.com/availability-heuristic-2794824",
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/Availability_heuristic"
+  { title: "Reason Over Recall", url: "https://biasedbydesign.com/principles/reason-over-recall/" },
+  { title: "Availability Heuristic", url: "https://www.verywellmind.com/availability-heuristic-2794824" },
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Availability Heuristic", url: "https://en.wikipedia.org/wiki/Availability_heuristic" }
 ]
 how_it_occurs:
   - "The brain uses ease of mental retrieval as a proxy for frequency or probability."

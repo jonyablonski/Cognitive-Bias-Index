@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Generation_effect"
+  { title: "Generation Effect", url: "https://en.wikipedia.org/wiki/Generation_effect" }
 ]
 how_it_occurs:
   - "Active generation of information requires deeper processing than passive reading, enhancing memory encoding."

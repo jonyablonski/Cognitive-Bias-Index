@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Modality_effect"
+  { title: "Modality Effect", url: "https://en.wikipedia.org/wiki/Modality_effect" }
 ]
 how_it_occurs:
   - "Auditory presentation of the final items in a list benefits from a separate phonological store that persists briefly."

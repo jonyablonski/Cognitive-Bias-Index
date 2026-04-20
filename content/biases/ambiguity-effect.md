@@ -7,8 +7,9 @@ tags: [
   "Probability",
   "Risk"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Ambiguity_effect"
+  { title: "Ambiguity Effect", url: "https://en.wikipedia.org/wiki/Ambiguity_effect" }
 ]
 how_it_occurs:
   - "The brain treats unknown probabilities as threats, triggering risk-averse behavior to minimize potential regret."

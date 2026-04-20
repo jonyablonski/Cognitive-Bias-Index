@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Memory"
 ]
+
 reading: [
-  "https://uxplanet.org/design-principles-selection-bias-bf51ff9ac69b",
-  "https://en.wikipedia.org/wiki/Selection_bias"
+  { title: "Design Principles Selection Bias Bf51Ff9Ac69B", url: "https://uxplanet.org/design-principles-selection-bias-bf51ff9ac69b" },
+  { title: "Selection Bias", url: "https://en.wikipedia.org/wiki/Selection_bias" }
 ]
 how_it_occurs:
   - "Recent acquisition of a category (e.g., buying a car) primes selective attention to related instances."

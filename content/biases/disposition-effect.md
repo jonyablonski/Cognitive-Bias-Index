@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Disposition_effect"
+  { title: "Disposition Effect", url: "https://en.wikipedia.org/wiki/Disposition_effect" }
 ]
 how_it_occurs:
   - "Loss aversion makes holding a losing asset feel preferable to realizing the loss."

@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Reasoning"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-the-misinformation-effect-2795353",
-  "https://en.wikipedia.org/wiki/Misinformation_effect"
+  { title: "What Is The Misinformation Effect", url: "https://www.verywellmind.com/what-is-the-misinformation-effect-2795353" },
+  { title: "Misinformation Effect", url: "https://en.wikipedia.org/wiki/Misinformation_effect" }
 ]
 how_it_occurs:
   - "Post-event information is integrated with original memory during reconstruction, altering the stored trace."

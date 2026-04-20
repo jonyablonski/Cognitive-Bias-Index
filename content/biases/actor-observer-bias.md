@@ -7,9 +7,10 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-the-actor-observer-bias-2794813",
-  "https://en.wikipedia.org/wiki/Actor-observer_bias"
+  { title: "What Is The Actor Observer Bias", url: "https://www.verywellmind.com/what-is-the-actor-observer-bias-2794813" },
+  { title: "Actor Observer Bias", url: "https://en.wikipedia.org/wiki/Actor-observer_bias" }
 ]
 how_it_occurs:
   - "We have direct access to our own situational pressures but can only observe others' behavior without context."

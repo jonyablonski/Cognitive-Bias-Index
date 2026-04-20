@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Ostrich_effect"
+  { title: "Ostrich Effect", url: "https://en.wikipedia.org/wiki/Ostrich_effect" }
 ]
 how_it_occurs:
   - "Monitoring negative information triggers anxiety, and avoidance reduces short-term emotional discomfort."

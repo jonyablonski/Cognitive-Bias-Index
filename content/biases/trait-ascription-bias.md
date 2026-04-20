@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Trait_ascription_bias"
+  { title: "Trait Ascription Bias", url: "https://en.wikipedia.org/wiki/Trait_ascription_bias" }
 ]
 how_it_occurs:
   - "We experience our own situational variability directly but see others primarily in a limited range of contexts."

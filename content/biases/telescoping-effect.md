@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Telescoping_effect"
+  { title: "Telescoping Effect", url: "https://en.wikipedia.org/wiki/Telescoping_effect" }
 ]
 how_it_occurs:
   - "The subjective time distance of an event is influenced by its distinctiveness and emotional significance."

@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Egocentric_bias"
+  { title: "Egocentric Bias", url: "https://en.wikipedia.org/wiki/Egocentric_bias" }
 ]
 how_it_occurs:
   - "Our own contributions are more vividly available in memory than others' contributions are."

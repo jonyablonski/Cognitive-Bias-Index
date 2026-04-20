@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Rhyme_as_reason_effect"
+  { title: "Rhyme As Reason Effect", url: "https://en.wikipedia.org/wiki/Rhyme_as_reason_effect" }
 ]
 how_it_occurs:
   - "Rhyming increases processing fluency, and fluency is misattributed to the truthfulness or wisdom of the statement."

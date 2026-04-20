@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Von_Restorff_effect"
+  { title: "Von Restorff Effect", url: "https://en.wikipedia.org/wiki/Von_Restorff_effect" }
 ]
 how_it_occurs:
   - "Distinctive items recruit more attentional resources during encoding, creating stronger memory traces."

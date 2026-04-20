@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Self-reference_effect"
+  { title: "Self Reference Effect", url: "https://en.wikipedia.org/wiki/Self-reference_effect" }
 ]
 how_it_occurs:
   - "Self-referential processing activates a rich network of personal memories and associations, deepening encoding."

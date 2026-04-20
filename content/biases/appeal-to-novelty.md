@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Appeal_to_novelty"
+  { title: "Appeal To Novelty", url: "https://en.wikipedia.org/wiki/Appeal_to_novelty" }
 ]
 how_it_occurs:
   - "Novelty triggers dopamine release, making new things feel inherently rewarding and superior."

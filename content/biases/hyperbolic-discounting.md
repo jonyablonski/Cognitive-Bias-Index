@@ -7,9 +7,10 @@ tags: [
   "Reasoning",
   "Emotion"
 ]
+
 reading: [
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/Hyperbolic_discounting"
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Hyperbolic Discounting", url: "https://en.wikipedia.org/wiki/Hyperbolic_discounting" }
 ]
 how_it_occurs:
   - "The brain's reward systems heavily discount future rewards, creating a present-bias in valuation."

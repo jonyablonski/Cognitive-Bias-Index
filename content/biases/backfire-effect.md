@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Backfire_effect"
+  { title: "Backfire Effect", url: "https://en.wikipedia.org/wiki/Backfire_effect" }
 ]
 how_it_occurs:
   - "Deeply held beliefs are tied to personal identity, so contradictory evidence feels like a personal threat."

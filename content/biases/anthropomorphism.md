@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Anthropomorphism#Psychology_of_Anthropomorphism"
+  { title: "Anthropomorphism", url: "https://en.wikipedia.org/wiki/Anthropomorphism#Psychology_of_Anthropomorphism" }
 ]
 how_it_occurs:
   - "The brain's social cognition systems are highly sensitive and trigger on minimal cues like faces or directed movement."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Curse_of_knowledge"
+  { title: "Curse Of Knowledge", url: "https://en.wikipedia.org/wiki/Curse_of_knowledge" }
 ]
 how_it_occurs:
   - "Expertise makes it difficult to remember what it was like not to know something, distorting mental simulation of novices."

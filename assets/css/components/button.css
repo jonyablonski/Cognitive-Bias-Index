@@ -40,7 +40,7 @@
 
 .button--border {
   border: var(--base-border);
-  border-radius: var(--base-border-radius);
+  border-radius: var(--min-border-radius);
   transition: box-shadow var(--base-duration) var(--base-timing);
 }
 

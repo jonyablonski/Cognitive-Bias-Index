@@ -7,8 +7,9 @@ tags: [
   "Memory",
   "Self"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Choice-supportive_bias"
+  { title: "Choice Supportive Bias", url: "https://en.wikipedia.org/wiki/Choice-supportive_bias" }
 ]
 how_it_occurs:
   - "After a decision is made, the brain reorganizes memories to be consistent with having made a good choice."

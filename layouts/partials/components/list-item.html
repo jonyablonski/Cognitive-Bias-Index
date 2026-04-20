@@ -5,6 +5,12 @@
   data-context="{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}"
   data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
 
+  <!-- Copy Link -->
+  <button class="list__item-copy button button--border" data-copy-url="{{ $page.Permalink }}" aria-label="Copy link to {{ $page.Title }}">
+    <span class="list__item-copy__default">{{ partial "components/icon" (dict "name" "link" "size" "16") }}</span>
+    <span class="list__item-copy__confirm">{{ partial "components/icon" (dict "name" "check" "size" "16") }}</span>
+  </button>
+
   <!-- Title -->
   <h3 class="list__item-section list__item-section--title title">
     <span class="list__item-marker"></span>{{ $page.Title }}
@@ -73,9 +79,9 @@
         <ul>
           {{ range $page.Params.reading }}
           <li>
-            <a href="{{ . }}">
+            <a href="{{ .url }}">
               {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
-              {{ . }}
+              {{ .title }}
             </a>
           </li>
           {{ end }}

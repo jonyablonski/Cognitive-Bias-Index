@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://coglab.cengage.com/labs/suffix_effect.shtml"
+  { title: "Suffix Effect.Shtml", url: "https://coglab.cengage.com/labs/suffix_effect.shtml" }
 ]
 how_it_occurs:
   - "An irrelevant suffix item appended to a spoken list is processed in the same auditory store as the list items."

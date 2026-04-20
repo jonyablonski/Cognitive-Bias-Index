@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Moral_credential"
+  { title: "Moral Credential", url: "https://en.wikipedia.org/wiki/Moral_credential" }
 ]
 how_it_occurs:
   - "A prior virtuous act creates a sense of moral credit that feels like permission to be less virtuous subsequently."

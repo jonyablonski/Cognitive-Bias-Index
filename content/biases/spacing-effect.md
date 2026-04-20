@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Spacing_effect"
+  { title: "Spacing Effect", url: "https://en.wikipedia.org/wiki/Spacing_effect" }
 ]
 how_it_occurs:
   - "Massed practice does not require effort to retrieve recently learned material, resulting in weak memory traces."

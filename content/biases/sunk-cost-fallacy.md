@@ -7,9 +7,10 @@ tags: [
   "Reasoning",
   "Emotion"
 ]
+
 reading: [
-  "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779",
-  "https://en.wikipedia.org/wiki/Sunk_cost"
+  { title: "Cognitive Bias In Ux The User Side And The Designer Side 6F6Ae0185779", url: "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779" },
+  { title: "Sunk Cost", url: "https://en.wikipedia.org/wiki/Sunk_cost" }
 ]
 how_it_occurs:
   - "Prior investments create emotional ownership and commitment that bias evaluation of future prospects."

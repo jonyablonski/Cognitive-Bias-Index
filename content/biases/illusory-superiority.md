@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusory_superiority"
+  { title: "Illusory Superiority", url: "https://en.wikipedia.org/wiki/Illusory_superiority" }
 ]
 how_it_occurs:
   - "Self-serving motivation leads people to evaluate themselves more favorably on socially desirable traits."

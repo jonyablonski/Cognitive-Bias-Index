@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Picture_superiority_effect"
+  { title: "Picture Superiority Effect", url: "https://en.wikipedia.org/wiki/Picture_superiority_effect" }
 ]
 how_it_occurs:
   - "Images are encoded both visually and verbally (dual coding), providing two independent retrieval pathways."

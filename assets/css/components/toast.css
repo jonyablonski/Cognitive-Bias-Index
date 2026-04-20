@@ -1,0 +1,23 @@
+.toast {
+  position: fixed;
+  bottom: calc(var(--base-spacing) * 2);
+  left: 50%;
+  transform: translateX(-50%) translateY(0.5rem);
+  padding: calc(var(--base-spacing) * 0.5) var(--base-spacing);
+  background-color: var(--base-font-color);
+  color: var(--base-background-color);
+  border-radius: var(--min-border-radius);
+  font-family: var(--secondary-font-family);
+  font-size: var(--small-font-size);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 100;
+}
+
+.toast.is-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

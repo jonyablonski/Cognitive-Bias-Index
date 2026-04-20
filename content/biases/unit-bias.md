@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Judgment"
 ]
+
 reading: [
-  "https://www.alleydog.com/glossary/definition.php?term=Unit%2520Bias"
+  { title: "Definition.Php", url: "https://www.alleydog.com/glossary/definition.php?term=Unit%2520Bias" }
 ]
 how_it_occurs:
   - "Default serving sizes and standard units serve as anchors that feel inherently correct."

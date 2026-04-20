@@ -7,8 +7,9 @@ tags: [
   "Research",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Congruence_bias"
+  { title: "Congruence Bias", url: "https://en.wikipedia.org/wiki/Congruence_bias" }
 ]
 how_it_occurs:
   - "Testing the most obvious hypothesis first is cognitively efficient, but we rarely move beyond it."

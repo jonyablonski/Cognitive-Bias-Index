@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Attribution"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Cryptomnesia"
+  { title: "Cryptomnesia", url: "https://en.wikipedia.org/wiki/Cryptomnesia" }
 ]
 how_it_occurs:
   - "The source of a memory (where it came from) is stored separately from its content, and source information degrades faster."

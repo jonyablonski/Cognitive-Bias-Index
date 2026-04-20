@@ -7,8 +7,9 @@ tags: [
   "Research",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Semmelweis_reflex"
+  { title: "Semmelweis Reflex", url: "https://en.wikipedia.org/wiki/Semmelweis_reflex" }
 ]
 how_it_occurs:
   - "New evidence that contradicts established paradigms threatens professional identity and expertise."

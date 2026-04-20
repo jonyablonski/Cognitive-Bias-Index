@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Risk_compensation"
+  { title: "Risk Compensation", url: "https://en.wikipedia.org/wiki/Risk_compensation" }
 ]
 how_it_occurs:
   - "Perceived safety reduces the subjective cost of risky behavior, leading to behavioral adjustment toward a desired risk level."

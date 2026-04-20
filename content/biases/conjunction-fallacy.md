@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Conjunction_fallacy"
+  { title: "Conjunction Fallacy", url: "https://en.wikipedia.org/wiki/Conjunction_fallacy" }
 ]
 how_it_occurs:
   - "The representativeness heuristic makes specific scenarios feel more probable when they match our mental prototypes."

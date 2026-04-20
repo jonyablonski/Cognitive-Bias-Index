@@ -7,9 +7,10 @@ tags: [
   "Probability",
   "Emotion"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-the-optimism-bias-2795031",
-  "https://en.wikipedia.org/wiki/Optimism_bias"
+  { title: "What Is The Optimism Bias", url: "https://www.verywellmind.com/what-is-the-optimism-bias-2795031" },
+  { title: "Optimism Bias", url: "https://en.wikipedia.org/wiki/Optimism_bias" }
 ]
 how_it_occurs:
   - "The desire for positive outcomes motivates selectively attending to evidence of success while ignoring failure risks."

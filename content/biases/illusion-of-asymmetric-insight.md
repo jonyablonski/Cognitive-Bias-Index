@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusion_of_asymmetric_insight"
+  { title: "Illusion Of Asymmetric Insight", url: "https://en.wikipedia.org/wiki/Illusion_of_asymmetric_insight" }
 ]
 how_it_occurs:
   - "We observe others' public behavior extensively but feel we understand their private thoughts through it."

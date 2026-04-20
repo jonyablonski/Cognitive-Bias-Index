@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Suggestibility#External"
+  { title: "Suggestibility", url: "https://en.wikipedia.org/wiki/Suggestibility#External" }
 ]
 how_it_occurs:
   - "Leading questions introduce information into memory that can become integrated with the original experience."

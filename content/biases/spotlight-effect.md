@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Spotlight_effect"
+  { title: "Spotlight Effect", url: "https://en.wikipedia.org/wiki/Spotlight_effect" }
 ]
 how_it_occurs:
   - "The self is a salient reference point, causing us to overestimate how much others' attention centers on us."

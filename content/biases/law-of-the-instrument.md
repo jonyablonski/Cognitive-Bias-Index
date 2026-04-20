@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Law_of_the_instrument"
+  { title: "Law Of The Instrument", url: "https://en.wikipedia.org/wiki/Law_of_the_instrument" }
 ]
 how_it_occurs:
   - "Expertise in a specific tool creates strong positive associations with its application, even when inappropriate."

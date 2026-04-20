@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Status_quo_bias"
+  { title: "Status Quo Bias", url: "https://en.wikipedia.org/wiki/Status_quo_bias" }
 ]
 how_it_occurs:
   - "The current state serves as a reference point, and any departure is evaluated as a potential loss."

@@ -7,9 +7,10 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/know-your-blind-spots/",
-  "https://en.wikipedia.org/wiki/Bias_blind_spot"
+  { title: "Know Your Blind Spots", url: "https://biasedbydesign.com/principles/know-your-blind-spots/" },
+  { title: "Bias Blind Spot", url: "https://en.wikipedia.org/wiki/Bias_blind_spot" }
 ]
 how_it_occurs:
   - "Introspection is unreliable for detecting bias because biased reasoning feels the same as unbiased reasoning."

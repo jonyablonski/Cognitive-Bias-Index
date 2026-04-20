@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Declinism"
+  { title: "Declinism", url: "https://en.wikipedia.org/wiki/Declinism" }
 ]
 how_it_occurs:
   - "Negative memories fade faster than positive ones (fading affect bias), making the past appear rosier."

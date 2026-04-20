@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Pareidolia"
+  { title: "Pareidolia", url: "https://en.wikipedia.org/wiki/Pareidolia" }
 ]
 how_it_occurs:
   - "The brain's face-detection and pattern-recognition systems are highly sensitive, generating false positives readily."

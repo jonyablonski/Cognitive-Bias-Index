@@ -7,9 +7,10 @@ tags: [
   "Emotion",
   "Judgment"
 ]
+
 reading: [
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/Loss_aversion"
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Loss Aversion", url: "https://en.wikipedia.org/wiki/Loss_aversion" }
 ]
 how_it_occurs:
   - "Losses and gains are processed asymmetrically—the emotional impact of a loss is roughly twice that of an equivalent gain."

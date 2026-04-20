@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Confabulation"
+  { title: "Confabulation", url: "https://en.wikipedia.org/wiki/Confabulation" }
 ]
 how_it_occurs:
   - "Memory is reconstructive, not a recording—the brain fills gaps with plausible information to create coherent narratives."

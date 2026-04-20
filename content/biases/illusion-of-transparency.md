@@ -7,9 +7,10 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://dscout.com/people-nerds/cognitive-biases-user-research",
-  "https://en.wikipedia.org/wiki/Illusion_of_transparency3"
+  { title: "Cognitive Biases User Research", url: "https://dscout.com/people-nerds/cognitive-biases-user-research" },
+  { title: "Illusion Of Transparency3", url: "https://en.wikipedia.org/wiki/Illusion_of_transparency3" }
 ]
 how_it_occurs:
   - "We have full access to our own emotional and mental states, leading us to overestimate how visible they are to others."

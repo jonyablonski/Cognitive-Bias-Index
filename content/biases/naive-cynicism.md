@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Na%C3%AFve_cynicism"
+  { title: "Na%C3%Afve Cynicism", url: "https://en.wikipedia.org/wiki/Na%C3%AFve_cynicism" }
 ]
 how_it_occurs:
   - "The bias blind spot causes us to see our own reasoning as objective while viewing others' as self-interested."

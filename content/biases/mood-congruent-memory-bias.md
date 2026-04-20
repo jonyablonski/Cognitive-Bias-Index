@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/State-dependent_memory"
+  { title: "State Dependent Memory", url: "https://en.wikipedia.org/wiki/State-dependent_memory" }
 ]
 how_it_occurs:
   - "Mood serves as a retrieval cue that activates memories encoded in a similar emotional state."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/In-group_favoritism"
+  { title: "In Group Favoritism", url: "https://en.wikipedia.org/wiki/In-group_favoritism" }
 ]
 how_it_occurs:
   - "Group membership triggers automatic in-group favoritism through evolved mechanisms for coalition maintenance."

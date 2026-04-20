@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Self"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Third-person_effect"
+  { title: "Third Person Effect", url: "https://en.wikipedia.org/wiki/Third-person_effect" }
 ]
 how_it_occurs:
   - "Self-serving bias leads us to believe we are less susceptible to media influence than others."

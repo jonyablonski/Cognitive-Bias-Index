@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Leveling_and_sharpening"
+  { title: "Leveling And Sharpening", url: "https://en.wikipedia.org/wiki/Leveling_and_sharpening" }
 ]
 how_it_occurs:
   - "Memory consolidation selectively retains information that fits existing schemas while discarding peripheral details."

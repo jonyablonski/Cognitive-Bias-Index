@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Cheerleader_effect"
+  { title: "Cheerleader Effect", url: "https://en.wikipedia.org/wiki/Cheerleader_effect" }
 ]
 how_it_occurs:
   - "The brain averages the features of a group, and averaging tends to produce faces closer to an attractive prototype."

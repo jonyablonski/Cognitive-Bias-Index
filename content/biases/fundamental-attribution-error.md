@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Fundamental_attribution_error"
+  { title: "Fundamental Attribution Error", url: "https://en.wikipedia.org/wiki/Fundamental_attribution_error" }
 ]
 how_it_occurs:
   - "Behavior is the most salient stimulus when observing others, making personality explanations feel sufficient."

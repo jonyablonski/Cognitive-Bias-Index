@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Social"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Next-in-line_effect"
+  { title: "Next In Line Effect", url: "https://en.wikipedia.org/wiki/Next-in-line_effect" }
 ]
 how_it_occurs:
   - "Anticipatory anxiety about upcoming performance consumes cognitive resources needed for attending to the prior speaker."

@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusory_truth_effect"
+  { title: "Illusory Truth Effect", url: "https://en.wikipedia.org/wiki/Illusory_truth_effect" }
 ]
 how_it_occurs:
   - "Repeated exposure to a statement increases its processing fluency, which the brain interprets as a signal of truth."

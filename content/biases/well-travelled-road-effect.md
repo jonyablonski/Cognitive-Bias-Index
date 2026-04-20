@@ -7,8 +7,9 @@ tags: [
   "Memory",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Well_travelled_road_effect"
+  { title: "Well Travelled Road Effect", url: "https://en.wikipedia.org/wiki/Well_travelled_road_effect" }
 ]
 how_it_occurs:
   - "Familiarity with a route creates a sense of fluency that shortens subjective time estimates."

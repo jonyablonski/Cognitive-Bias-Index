@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Gambler%27s_fallacy"
+  { title: "Gambler%27S Fallacy", url: "https://en.wikipedia.org/wiki/Gambler%27s_fallacy" }
 ]
 how_it_occurs:
   - "The representativeness heuristic leads us to expect random sequences to 'look' balanced in the short run."

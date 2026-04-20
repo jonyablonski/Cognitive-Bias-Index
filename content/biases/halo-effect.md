@@ -7,10 +7,11 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-the-halo-effect-2795906",
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/Halo_effect"
+  { title: "What Is The Halo Effect", url: "https://www.verywellmind.com/what-is-the-halo-effect-2795906" },
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Halo Effect", url: "https://en.wikipedia.org/wiki/Halo_effect" }
 ]
 how_it_occurs:
   - "A positive first impression activates a global positive evaluation that colors all subsequent judgments."

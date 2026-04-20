@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Restraint_bias"
+  { title: "Restraint Bias", url: "https://en.wikipedia.org/wiki/Restraint_bias" }
 ]
 how_it_occurs:
   - "In a cool, temptation-free state, self-control feels easy, leading to overconfidence in future restraint."

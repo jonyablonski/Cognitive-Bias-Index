@@ -7,10 +7,11 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://thedecisionlab.com/biases/hindsight-bias/",
-  "https://dscout.com/people-nerds/cognitive-biases-user-research",
-  "https://en.wikipedia.org/wiki/Hindsight_bias"
+  { title: "Hindsight Bias", url: "https://thedecisionlab.com/biases/hindsight-bias/" },
+  { title: "Cognitive Biases User Research", url: "https://dscout.com/people-nerds/cognitive-biases-user-research" },
+  { title: "Hindsight Bias", url: "https://en.wikipedia.org/wiki/Hindsight_bias" }
 ]
 how_it_occurs:
   - "After learning an outcome, the brain integrates it into its existing knowledge, making the original uncertainty hard to reconstruct."

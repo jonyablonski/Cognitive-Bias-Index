@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Hot_hand"
+  { title: "Hot Hand", url: "https://en.wikipedia.org/wiki/Hot_hand" }
 ]
 how_it_occurs:
   - "Streaks of success feel non-random because they match our pattern-detection expectations."

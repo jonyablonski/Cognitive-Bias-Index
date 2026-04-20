@@ -1,9 +1,36 @@
 .card {
+  position: relative;
   padding: var(--base-spacing);
   padding-bottom: calc(var(--base-spacing) * 1.5);
   margin-bottom: var(--base-spacing);
   background-color: var(--color-light-grey);
   border-radius: var(--base-border-radius);
+}
+
+/* Copy link button */
+.list__item-copy {
+  position: absolute;
+  top: var(--base-spacing);
+  right: var(--base-spacing);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--base-font-color);
+}
+
+.list__item-copy__confirm {
+  display: none;
+}
+
+.list__item-copy.is-copied .list__item-copy__default {
+  display: none;
+}
+
+.list__item-copy.is-copied .list__item-copy__confirm {
+  display: flex;
 }
 
 .card .list__item-section--title {

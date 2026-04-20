@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Impact_bias"
+  { title: "Impact Bias", url: "https://en.wikipedia.org/wiki/Impact_bias" }
 ]
 how_it_occurs:
   - "Affective forecasting is inaccurate because we fail to account for psychological immune system responses."

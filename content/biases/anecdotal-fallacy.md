@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Research"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Anecdotal_evidence"
+  { title: "Anecdotal Evidence", url: "https://en.wikipedia.org/wiki/Anecdotal_evidence" }
 ]
 how_it_occurs:
   - "Personal stories are vivid and emotionally resonant, making them feel more persuasive than abstract statistics."

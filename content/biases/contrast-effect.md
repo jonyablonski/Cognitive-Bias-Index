@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Contrast_effect"
+  { title: "Contrast Effect", url: "https://en.wikipedia.org/wiki/Contrast_effect" }
 ]
 how_it_occurs:
   - "Perception is inherently comparative—stimuli are evaluated relative to what immediately preceded them."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Belief_bias"
+  { title: "Belief Bias", url: "https://en.wikipedia.org/wiki/Belief_bias" }
 ]
 how_it_occurs:
   - "The brain evaluates whether a conclusion feels true before evaluating whether the argument is logically valid."

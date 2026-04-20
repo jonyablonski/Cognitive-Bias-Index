@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Tip_of_the_tongue"
+  { title: "Tip Of The Tongue", url: "https://en.wikipedia.org/wiki/Tip_of_the_tongue" }
 ]
 how_it_occurs:
   - "Multiple related memories become activated simultaneously and interfere with each other during retrieval."

@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Social"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Law_of_triviality"
+  { title: "Law Of Triviality", url: "https://en.wikipedia.org/wiki/Law_of_triviality" }
 ]
 how_it_occurs:
   - "Complex technical topics require specialized knowledge that most participants lack, creating avoidance."

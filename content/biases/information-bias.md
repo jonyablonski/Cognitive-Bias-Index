@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Information_bias_(psychology)"
+  { title: "Information Bias (Psychology)", url: "https://en.wikipedia.org/wiki/Information_bias_(psychology)" }
 ]
 how_it_occurs:
   - "More information feels inherently better because it creates a sense of understanding and control."

@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Bizarreness_effect"
+  { title: "Bizarreness Effect", url: "https://en.wikipedia.org/wiki/Bizarreness_effect" }
 ]
 how_it_occurs:
   - "Unusual stimuli violate expectations, triggering deeper cognitive processing and stronger memory encoding."

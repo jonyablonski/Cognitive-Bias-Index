@@ -7,10 +7,11 @@ tags: [
   "Attention",
   "Judgment"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/consider-what-you-dont-see/",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
-  "https://en.wikipedia.org/wiki/Survivorship_bias",
+  { title: "Consider What You Dont See", url: "https://biasedbydesign.com/principles/consider-what-you-dont-see/" },
+  { title: "Design Better Avoiding Cognitive Biases", url: "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases" },
+  { title: "Survivorship Bias", url: "https://en.wikipedia.org/wiki/Survivorship_bias" }
 ]
 how_it_occurs:
   - "Failed entities disappear from observation, leaving only survivors visible and available for analysis."

@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Extrinsic_incentives_bias"
+  { title: "Extrinsic Incentives Bias", url: "https://en.wikipedia.org/wiki/Extrinsic_incentives_bias" }
 ]
 how_it_occurs:
   - "We have privileged access to our own intrinsic motivations but can only infer others' motivations from external behavior."

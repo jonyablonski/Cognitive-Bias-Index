@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Distinction_bias"
+  { title: "Distinction Bias", url: "https://en.wikipedia.org/wiki/Distinction_bias" }
 ]
 how_it_occurs:
   - "Simultaneous comparison highlights differences between options that are irrelevant during actual use."

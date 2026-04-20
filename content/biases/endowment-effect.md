@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Endowment_effect"
+  { title: "Endowment Effect", url: "https://en.wikipedia.org/wiki/Endowment_effect" }
 ]
 how_it_occurs:
   - "Ownership activates loss aversion—giving something up is framed as a loss, which feels more painful than a same-sized gain."

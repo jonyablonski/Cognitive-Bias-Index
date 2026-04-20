@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Implicit_stereotype"
+  { title: "Implicit Stereotype", url: "https://en.wikipedia.org/wiki/Implicit_stereotype" }
 ]
 how_it_occurs:
   - "Memory reconstruction fills gaps with schema-consistent information, causing memories to drift toward stereotypes."

@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Self"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Social_comparison_bias"
+  { title: "Social Comparison Bias", url: "https://en.wikipedia.org/wiki/Social_comparison_bias" }
 ]
 how_it_occurs:
   - "Evaluating others who excel in our own domain of strength triggers a threat response that motivates exclusion."

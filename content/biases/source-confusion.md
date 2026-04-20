@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Attribution"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Misattribution_of_memory"
+  { title: "Misattribution Of Memory", url: "https://en.wikipedia.org/wiki/Misattribution_of_memory" }
 ]
 how_it_occurs:
   - "The 'what' of a memory (its content) is encoded more durably than the 'where' and 'when' (its source)."

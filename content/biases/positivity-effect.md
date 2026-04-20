@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Positivity_effect"
+  { title: "Positivity Effect", url: "https://en.wikipedia.org/wiki/Positivity_effect" }
 ]
 how_it_occurs:
   - "Older adults prioritize emotionally meaningful information, and positive information better serves this goal."

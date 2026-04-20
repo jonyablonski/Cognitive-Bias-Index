@@ -7,12 +7,13 @@ tags: [
   "Reasoning",
   "Perception"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/be-aware-of-your-decision-frame/",
-  "https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/",
-  "https://dscout.com/people-nerds/cognitive-biases-user-research",
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+  { title: "Be Aware Of Your Decision Frame", url: "https://biasedbydesign.com/principles/be-aware-of-your-decision-frame/" },
+  { title: "Decision Framing Cognitive Bias Ux Pros", url: "https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/" },
+  { title: "Cognitive Biases User Research", url: "https://dscout.com/people-nerds/cognitive-biases-user-research" },
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Framing Effect (Psychology)", url: "https://en.wikipedia.org/wiki/Framing_effect_(psychology)" }
 ]
 how_it_occurs:
   - "The way information is presented activates different mental reference points, shifting how it is evaluated."

@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Levels-of-processing_effect"
+  { title: "Levels Of Processing Effect", url: "https://en.wikipedia.org/wiki/Levels-of-processing_effect" }
 ]
 how_it_occurs:
   - "Shallow processing (noticing physical features) creates weak, easily forgotten memory traces."

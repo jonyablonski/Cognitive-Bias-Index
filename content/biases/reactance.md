@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Social"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Reactance_(psychology)"
+  { title: "Reactance (Psychology)", url: "https://en.wikipedia.org/wiki/Reactance_(psychology)" }
 ]
 how_it_occurs:
   - "Perceived threats to autonomy and freedom of choice trigger a motivational state aimed at restoring freedom."

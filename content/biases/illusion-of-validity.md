@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Illusion_of_validity"
+  { title: "Illusion Of Validity", url: "https://en.wikipedia.org/wiki/Illusion_of_validity" }
 ]
 how_it_occurs:
   - "Internal consistency of available information creates a feeling of confidence that exceeds actual predictive validity."

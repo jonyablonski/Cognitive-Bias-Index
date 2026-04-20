@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Money_illusion"
+  { title: "Money Illusion", url: "https://en.wikipedia.org/wiki/Money_illusion" }
 ]
 how_it_occurs:
   - "Nominal values are more concrete and salient than real purchasing power, making them cognitively dominant."

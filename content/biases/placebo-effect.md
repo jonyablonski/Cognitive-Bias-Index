@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Placebo"
+  { title: "Placebo", url: "https://en.wikipedia.org/wiki/Placebo" }
 ]
 how_it_occurs:
   - "Expectation of improvement activates physiological pathways (e.g., endorphins, dopamine) that produce real symptom relief."

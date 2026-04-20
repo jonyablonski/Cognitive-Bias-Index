@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law"
+  { title: "Weber%E2%80%93Fechner Law", url: "https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law" }
 ]
 how_it_occurs:
   - "Sensory perception is logarithmic—the same absolute difference is perceived differently depending on the baseline magnitude."

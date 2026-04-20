@@ -7,8 +7,9 @@ tags: [
   "Risk",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Pseudocertainty_effect"
+  { title: "Pseudocertainty Effect", url: "https://en.wikipedia.org/wiki/Pseudocertainty_effect" }
 ]
 how_it_occurs:
   - "Sequential decision framing creates artificial certainty by mentally resolving one stage before considering the next."

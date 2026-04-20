@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Defensive_attribution_hypothesis"
+  { title: "Defensive Attribution Hypothesis", url: "https://en.wikipedia.org/wiki/Defensive_attribution_hypothesis" }
 ]
 how_it_occurs:
   - "When we identify with a victim, we are motivated to assign blame to protect our sense that we are safe."

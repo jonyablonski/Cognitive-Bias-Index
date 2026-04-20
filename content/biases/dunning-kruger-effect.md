@@ -7,10 +7,11 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
-  "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+  { title: "An Overview Of The Dunning Kruger Effect", url: "https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740" },
+  { title: "Design Better Avoiding Cognitive Biases", url: "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases" },
+  { title: "Dunning%E2%80%93Kruger Effect", url: "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect" }
 ]
 how_it_occurs:
   - "Novices lack the metacognitive skills needed to recognize the limits of their own knowledge."

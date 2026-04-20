@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Time-saving_bias"
+  { title: "Time Saving Bias", url: "https://en.wikipedia.org/wiki/Time-saving_bias" }
 ]
 how_it_occurs:
   - "People reason about time savings using incorrect linear models rather than the correct inverse relationship between speed and time."

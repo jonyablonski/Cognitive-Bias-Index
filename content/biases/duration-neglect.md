@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Duration_neglect"
+  { title: "Duration Neglect", url: "https://en.wikipedia.org/wiki/Duration_neglect" }
 ]
 how_it_occurs:
   - "Memory of an experience is dominated by its peak emotional intensity and its ending, not its length."

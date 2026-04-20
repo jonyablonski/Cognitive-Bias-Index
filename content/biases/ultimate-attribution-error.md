@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Ultimate_attribution_error"
+  { title: "Ultimate Attribution Error", url: "https://en.wikipedia.org/wiki/Ultimate_attribution_error" }
 ]
 how_it_occurs:
   - "In-group favoritism leads to positive attributions for in-group behavior and negative ones for out-group behavior."

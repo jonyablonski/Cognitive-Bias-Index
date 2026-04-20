@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Omission_bias"
+  { title: "Omission Bias", url: "https://en.wikipedia.org/wiki/Omission_bias" }
 ]
 how_it_occurs:
   - "Actions are perceived as more causally direct causes of harm than inactions, even when outcomes are equivalent."

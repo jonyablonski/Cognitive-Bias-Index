@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Memory"
 ]
+
 reading: [
-  "https://dqydj.com/baader-meinhof-phenomenon-frequency-bias/"
+  { title: "Baader Meinhof Phenomenon Frequency Bias", url: "https://dqydj.com/baader-meinhof-phenomenon-frequency-bias/" }
 ]
 how_it_occurs:
   - "Recent exposure creates a neural priming effect, making the brain more sensitive to related stimuli."

@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Perception"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Cross-race_effect"
+  { title: "Cross Race Effect", url: "https://en.wikipedia.org/wiki/Cross-race_effect" }
 ]
 how_it_occurs:
   - "Less experience with other-race faces means the brain processes them with less differentiation."

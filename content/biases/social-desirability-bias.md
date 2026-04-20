@@ -7,11 +7,12 @@ tags: [
   "Self",
   "Research"
 ]
+
 reading: [
-  "https://dscout.com/people-nerds/cognitive-biases-user-research",
-  "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779",
-  "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8",
-  "https://en.wikipedia.org/wiki/Social_desirability_bias"
+  { title: "Cognitive Biases User Research", url: "https://dscout.com/people-nerds/cognitive-biases-user-research" },
+  { title: "Cognitive Bias In Ux The User Side And The Designer Side 6F6Ae0185779", url: "https://uxdesign.cc/cognitive-bias-in-ux-the-user-side-and-the-designer-side-6f6ae0185779" },
+  { title: "6 Common Cognitive Biases Uxers Should Know 750B8C7Af1A8", url: "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8" },
+  { title: "Social Desirability Bias", url: "https://en.wikipedia.org/wiki/Social_desirability_bias" }
 ]
 how_it_occurs:
   - "Social norms create pressure to present oneself in a favorable light to gain approval and avoid criticism."

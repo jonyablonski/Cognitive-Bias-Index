@@ -7,9 +7,10 @@ tags: [
   "Decision Making",
   "Emotion"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Not_invented_here",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases"
+  { title: "Not Invented Here", url: "https://en.wikipedia.org/wiki/Not_invented_here" },
+  { title: "Design Better Avoiding Cognitive Biases", url: "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases" }
 ]
 how_it_occurs:
   - "In-group favoritism extends to ideas, products, and methods developed within one's own group."

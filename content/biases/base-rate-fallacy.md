@@ -7,8 +7,9 @@ tags: [
   "Probability",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Base_rate_fallacy"
+  { title: "Base Rate Fallacy", url: "https://en.wikipedia.org/wiki/Base_rate_fallacy" }
 ]
 how_it_occurs:
   - "Vivid, specific case information feels more relevant and compelling than abstract statistical base rates."

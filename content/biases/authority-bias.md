@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Authority_bias"
+  { title: "Authority Bias", url: "https://en.wikipedia.org/wiki/Authority_bias" }
 ]
 how_it_occurs:
   - "Early socialization teaches that authority figures are reliable sources of truth and safety."

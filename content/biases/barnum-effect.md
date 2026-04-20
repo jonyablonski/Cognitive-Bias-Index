@@ -7,8 +7,9 @@ tags: [
   "Self",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Barnum_effect"
+  { title: "Barnum Effect", url: "https://en.wikipedia.org/wiki/Barnum_effect" }
 ]
 how_it_occurs:
   - "Vague descriptions are interpreted as highly personal through the lens of one's own self-concept."

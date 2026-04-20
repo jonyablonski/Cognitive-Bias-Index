@@ -7,8 +7,9 @@ tags: [
   "Probability",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Pessimism_bias"
+  { title: "Pessimism Bias", url: "https://en.wikipedia.org/wiki/Pessimism_bias" }
 ]
 how_it_occurs:
   - "Depression and anxiety amplify negative information processing, making bad outcomes feel more likely."

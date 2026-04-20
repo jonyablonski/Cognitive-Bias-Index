@@ -7,8 +7,9 @@ tags: [
   "Reasoning",
   "Social"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Na%C3%AFve_realism_%28psychology%29"
+  { title: "Na%C3%Afve Realism %28Psychology%29", url: "https://en.wikipedia.org/wiki/Na%C3%AFve_realism_%28psychology%29" }
 ]
 how_it_occurs:
   - "Direct experience of the world feels unmediated and objective, creating the illusion that perception equals reality."

@@ -7,9 +7,10 @@ tags: [
   "Perception",
   "Decision Making"
 ]
+
 reading: [
-  "https://www.verywellmind.com/what-is-functional-fixedness-2795484",
-  "https://en.wikipedia.org/wiki/Functional_fixedness"
+  { title: "What Is Functional Fixedness", url: "https://www.verywellmind.com/what-is-functional-fixedness-2795484" },
+  { title: "Functional Fixedness", url: "https://en.wikipedia.org/wiki/Functional_fixedness" }
 ]
 how_it_occurs:
   - "Repeated exposure to an object's conventional use creates strong associative links that block novel uses."

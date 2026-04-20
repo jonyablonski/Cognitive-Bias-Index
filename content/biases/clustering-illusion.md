@@ -7,8 +7,9 @@ tags: [
   "Probability",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Clustering_illusion"
+  { title: "Clustering Illusion", url: "https://en.wikipedia.org/wiki/Clustering_illusion" }
 ]
 how_it_occurs:
   - "The brain is a pattern-recognition machine that detects structure even in random data."

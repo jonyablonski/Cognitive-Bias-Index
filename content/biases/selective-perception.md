@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Attention"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Selective_perception"
+  { title: "Selective Perception", url: "https://en.wikipedia.org/wiki/Selective_perception" }
 ]
 how_it_occurs:
   - "Prior beliefs create perceptual filters that prioritize belief-consistent information."

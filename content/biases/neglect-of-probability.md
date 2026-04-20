@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Neglect_of_probability"
+  { title: "Neglect Of Probability", url: "https://en.wikipedia.org/wiki/Neglect_of_probability" }
 ]
 how_it_occurs:
   - "Emotional responses to outcomes are insensitive to probability—fear of a bad outcome does not scale with its likelihood."

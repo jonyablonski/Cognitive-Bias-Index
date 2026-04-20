@@ -8,13 +8,14 @@ tags: [
   "Attention",
   "Memory"
 ]
+
 reading: [
-  "https://biasedbydesign.com/principles/dont-build-solutions-in-search-of-problem/",
-  "https://www.antonsten.com/confirmation-bias/",
-  "https://www.verywellmind.com/what-is-a-confirmation-bias-2795024",
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
-  "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8",
-  "https://en.wikipedia.org/wiki/Confirmation_bias"
+  { title: "Dont Build Solutions In Search Of Problem", url: "https://biasedbydesign.com/principles/dont-build-solutions-in-search-of-problem/" },
+  { title: "Confirmation Bias", url: "https://www.antonsten.com/confirmation-bias/" },
+  { title: "What Is A Confirmation Bias", url: "https://www.verywellmind.com/what-is-a-confirmation-bias-2795024" },
+  { title: "Design Better Avoiding Cognitive Biases", url: "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases" },
+  { title: "6 Common Cognitive Biases Uxers Should Know 750B8C7Af1A8", url: "https://medium.muz.li/6-common-cognitive-biases-uxers-should-know-750b8c7af1a8" },
+  { title: "Confirmation Bias", url: "https://en.wikipedia.org/wiki/Confirmation_bias" }
 ]
 how_it_occurs:
   - "We naturally seek out information that confirms existing beliefs because it is cognitively comfortable and efficient."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Conservatism_%28belief_revision%29"
+  { title: "Conservatism %28Belief Revision%29", url: "https://en.wikipedia.org/wiki/Conservatism_%28belief_revision%29" }
 ]
 how_it_occurs:
   - "Anchoring on prior beliefs causes insufficient adjustment when new evidence arrives."

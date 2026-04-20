@@ -7,8 +7,9 @@ tags: [
   "Memory",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Continued_influence_effect"
+  { title: "Continued Influence Effect", url: "https://en.wikipedia.org/wiki/Continued_influence_effect" }
 ]
 how_it_occurs:
   - "Initial misinformation creates a mental model that continues to guide reasoning even after correction."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Outcome_bias"
+  { title: "Outcome Bias", url: "https://en.wikipedia.org/wiki/Outcome_bias" }
 ]
 how_it_occurs:
   - "Outcomes are more observable and emotionally salient than the process that generated them."

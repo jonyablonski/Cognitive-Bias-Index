@@ -109,6 +109,12 @@ import List from "list.js";
       toggleContent(e.target);
     }
 
+    // Copy link
+    const copyBtn = e.target.closest('[data-copy-url]');
+    if (copyBtn) {
+      copyLink(copyBtn);
+    }
+
     // Theme toggle
     if (e.target === themeToggle) {
       updateColorTheme(themeToggle.getAttribute('data-theme-toggle'));
@@ -225,6 +231,32 @@ import List from "list.js";
     }
     return response;
   };
+
+
+  // Toast element
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.setAttribute('aria-live', 'polite');
+  toast.textContent = 'Link copied to clipboard';
+  document.body.appendChild(toast);
+
+  let toastTimer;
+  const showToast = () => {
+    clearTimeout(toastTimer);
+    toast.classList.add('is-visible');
+    toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 2500);
+  };
+
+
+  // Copy bias URL to clipboard
+  const copyLink = (btn) => {
+    const url = btn.getAttribute('data-copy-url');
+    navigator.clipboard.writeText(url).then(() => {
+      btn.classList.add('is-copied');
+      setTimeout(() => btn.classList.remove('is-copied'), 2500);
+      showToast();
+    });
+  }
 
 
   // Toggle content

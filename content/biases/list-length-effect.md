@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Perception"
 ]
+
 reading: [
-  "https://link.springer.com/article/10.3758/s13421-010-0007-6"
+  { title: "S13421 010 0007", url: "https://link.springer.com/article/10.3758/s13421-010-0007-6" }
 ]
 how_it_occurs:
   - "Longer lists dilute the distinctiveness of individual items, reducing recall for any particular item."

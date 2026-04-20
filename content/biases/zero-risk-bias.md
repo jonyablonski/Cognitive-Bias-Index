@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Zero-risk_bias"
+  { title: "Zero Risk Bias", url: "https://en.wikipedia.org/wiki/Zero-risk_bias" }
 ]
 how_it_occurs:
   - "Complete elimination of a risk provides psychological certainty that feels disproportionately valuable."

@@ -7,8 +7,9 @@ tags: [
   "Decision Making",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Publication_bias"
+  { title: "Publication Bias", url: "https://en.wikipedia.org/wiki/Publication_bias" }
 ]
 how_it_occurs:
   - "Statistically significant and novel findings are more likely to be submitted and accepted for publication."

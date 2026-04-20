@@ -7,8 +7,9 @@ tags: [
   "Memory",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Recency_illusion"
+  { title: "Recency Illusion", url: "https://en.wikipedia.org/wiki/Recency_illusion" }
 ]
 how_it_occurs:
   - "We notice things at the point when they become personally relevant to us, making that point feel like their origin."

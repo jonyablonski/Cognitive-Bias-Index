@@ -7,9 +7,10 @@ tags: [
   "Self",
   "Perception"
 ]
+
 reading: [
-  "https://fs.blog/2016/08/commitment-consistency-bias/",
-  "https://uxdesign.cc/deadly-biases-every-designer-needs-to-live-with-94a3ac519c99"
+  { title: "Commitment Consistency Bias", url: "https://fs.blog/2016/08/commitment-consistency-bias/" },
+  { title: "Deadly Biases Every Designer Needs To Live With 94A3Ac519C99", url: "https://uxdesign.cc/deadly-biases-every-designer-needs-to-live-with-94a3ac519c99" }
 ]
 how_it_occurs:
   - "Memory is reconstructive, and the brain edits past attitudes to align with current ones for narrative coherence."

@@ -31,6 +31,7 @@
 @import "components/search";
 @import "components/scrim";
 @import "components/share";
+@import "components/toast";
 
 /* Layout */
 @import "layout/header";

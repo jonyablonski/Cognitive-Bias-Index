@@ -7,8 +7,9 @@ tags: [
   "Emotion",
   "Decision Making"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Identifiable_victim_effect"
+  { title: "Identifiable Victim Effect", url: "https://en.wikipedia.org/wiki/Identifiable_victim_effect" }
 ]
 how_it_occurs:
   - "Specific, named individuals trigger empathic response; statistical groups do not activate the same emotional systems."

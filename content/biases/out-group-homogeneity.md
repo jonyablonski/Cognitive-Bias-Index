@@ -7,8 +7,9 @@ tags: [
   "Perception",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Out-group_homogeneity"
+  { title: "Out Group Homogeneity", url: "https://en.wikipedia.org/wiki/Out-group_homogeneity" }
 ]
 how_it_occurs:
   - "Less frequent contact with out-group members means fewer opportunities to learn about individual differences."

@@ -7,8 +7,9 @@ tags: [
   "Judgment",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Reactive_devaluation"
+  { title: "Reactive Devaluation", url: "https://en.wikipedia.org/wiki/Reactive_devaluation" }
 ]
 how_it_occurs:
   - "Information about the source of a proposal activates evaluations of that source, which then color the proposal."

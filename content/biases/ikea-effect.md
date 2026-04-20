@@ -7,10 +7,11 @@ tags: [
   "Emotion",
   "Self"
 ]
+
 reading: [
-  "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
-  "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054",
-  "https://en.wikipedia.org/wiki/IKEA_effect",
+  { title: "Design Better Avoiding Cognitive Biases", url: "https://www.kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases" },
+  { title: "Most Common Cognitive Biases Visualised Explained Ad94574F8054", url: "https://blog.usejournal.com/most-common-cognitive-biases-visualised-explained-ad94574f8054" },
+  { title: "Ikea Effect", url: "https://en.wikipedia.org/wiki/IKEA_effect" }
 ]
 how_it_occurs:
   - "Personal effort creates emotional investment and ownership that inflates perceived value of the outcome."

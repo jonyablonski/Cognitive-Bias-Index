@@ -7,8 +7,9 @@ tags: [
   "Attention",
   "Reasoning"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Testing_effect"
+  { title: "Testing Effect", url: "https://en.wikipedia.org/wiki/Testing_effect" }
 ]
 how_it_occurs:
   - "Passive re-reading provides familiarity that is mistaken for knowing, while active retrieval reveals and strengthens actual knowledge."

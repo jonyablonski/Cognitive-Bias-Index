@@ -7,8 +7,9 @@ tags: [
   "Social",
   "Judgment"
 ]
+
 reading: [
-  "https://en.wikipedia.org/wiki/Group_attribution_error"
+  { title: "Group Attribution Error", url: "https://en.wikipedia.org/wiki/Group_attribution_error" }
 ]
 how_it_occurs:
   - "Group-level decisions are attributed to individual preferences through a representativeness shortcut."
