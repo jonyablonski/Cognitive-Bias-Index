@@ -6,7 +6,7 @@ disableAliases = true
 
 [params]
   disallow_search_engines = false # set robots.txt to disallow everything
-  description = "An index of the systematic errors in thinking that affects the decisions and judgments that people make."
+  description = "A tool for identifying and mitagating the systematic errors in thinking that affect the decisions and judgments that humans make."
   images = ["/images/social.png"]
   mixpanel_token = "484c55b83a2511e2108830b62471e515"
 

@@ -72,7 +72,7 @@
   100% { outline-color: transparent; }
 }
 
-.list__item[data-context="Need To Act Fast"]   { --category-color: #3A4B62; }
-.list__item[data-context="Not Enough Meaning"] { --category-color: #939B7B; }
-.list__item[data-context="Too Much Information"] { --category-color: #936A3A; }
-.list__item[data-context="What Should We Remember"] { --category-color: #C46541; }
+.list__item[data-context="Need to Act Fast"]         { --category-color: var(--category-color-need-to-act-fast); }
+.list__item[data-context="Not Enough Meaning"]       { --category-color: var(--category-color-not-enough-meaning); }
+.list__item[data-context="Too Much Information"]     { --category-color: var(--category-color-too-much-information); }
+.list__item[data-context="What Should We Remember?"] { --category-color: var(--category-color-what-should-we-remember); }

@@ -22,8 +22,14 @@
   --color-dark-grey: color-mix(in srgb, var(--base-background-color) 50%, black);
   --color-mid-grey: color-mix(in srgb, var(--base-background-color) 75%, black);
   --color-light-grey: color-mix(in srgb, var(--base-background-color) 95%, black);
-  --color-off-white: #e5edde;
-  --color-earth: #638f3d;
+  --color-off-white: oklch(90.716% 0.03897 129.757);
+  --color-earth: #57783a;
+
+  /* Category Colors */
+  --category-color-need-to-act-fast: #3A4B62;
+  --category-color-not-enough-meaning: #939B7B;
+  --category-color-too-much-information: #936A3A;
+  --category-color-what-should-we-remember: #C46541;
 
 
   /* Links */
@@ -101,7 +107,7 @@
   --base-background-color: var(--secondary-background-color);
   --base-border-color: rgba(238, 237, 233, 0.25);
   --tertiary-font-color: hsl(92, 10%, 65%);
-  --sidebar-background-color: var(--color-dark-grey);
+  --sidebar-background-color: var(--color-light-grey);
   --filter-background-color: var(--color-dark-grey);
   --filter-font-color: var(--color-off-white);
 }
