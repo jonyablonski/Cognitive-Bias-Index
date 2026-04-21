@@ -12,3 +12,8 @@ if (navigator && navigator.serviceWorker) {
 }
 </script>
 {{ end }}
+
+<!-- Analytics -->
+{{ if eq ( getenv "HUGO_ENV" ) "production" }}
+{{ partial "site/analytics.html" . }}
+{{ end }}
