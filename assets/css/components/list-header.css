@@ -46,7 +46,7 @@
 .list-header__item--filter .button,
 .list-header__item--clear .button {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .list-header__item--clear:not(:has(.is-active)) {
@@ -56,5 +56,7 @@
 /* Active filter count on filter toggle */
 .list-header__item--filter button[data-active-filters]:not([data-active-filters="0"])::after {
   content: attr(data-active-filters);
+  margin-left: calc(var(--base-spacing) / 2);
+  color: var(--color-dark-grey);
 }
 
