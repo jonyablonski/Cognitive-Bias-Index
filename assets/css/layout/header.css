@@ -51,13 +51,13 @@
 .header__nav ul {
   display: flex;
   align-items: center;
-  gap: var(--base-spacing);
+  gap: calc(var(--base-spacing) / 1.5);
   margin: 0;
   list-style: none;
 }
 
 .header__nav a {
-  display: inline-flex;
+  display: block;
   align-items: center;
   text-decoration: none;
   font-family: var(--secondary-font-family);
