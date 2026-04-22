@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'what would I do in their exact situation, with their exact resources and constraints?'"
   - "Resist making character judgments based on single observations of behavior."
   - "Seek additional context before attributing behavior to personality traits."
+recommended_tool: "blind-review"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Explicitly ask 'what happens if this probable outcome does not occur?'"
   - "Use scenario planning to map out alternative outcomes and their consequences."
   - "Track past predictions to calibrate how accurate your probability estimates actually are."
+recommended_tool: "pre-mortem-analysis"
 ---
 

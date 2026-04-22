@@ -21,5 +21,6 @@ how_to_avoid:
   - "Monitor your own attitudes and behaviors after media exposure rather than only others'."
   - "Apply the same scrutiny to your own media-driven beliefs that you apply to others'."
   - "Use the third-person effect as a reminder that self-perceived objectivity is often illusory."
+recommended_tool: "blind-review"
 ---
 

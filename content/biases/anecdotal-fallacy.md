@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek out data and research studies rather than relying solely on personal examples."
   - "Consider how many counter-examples might exist that you have not encountered."
   - "Use base rates to put personal anecdotes in proper statistical context."
+recommended_tool: "base-rate-thinking"
 ---
 

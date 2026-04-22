@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek external evidence or others' perspectives to check your self-explanations."
   - "Recognize that confident recall does not guarantee accurate recall."
   - "Be open to the possibility that your stated reasons for an action may not be the actual causes."
+recommended_tool: "decision-journal"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use digital payment tools that provide a running total to make spending feel concrete."
   - "Before a purchase, convert the price to hours of work or another meaningful personal unit."
   - "Recognize that coins and small bills represent the same value as equivalent large bills."
+recommended_tool: "decision-matrix"
 ---
 

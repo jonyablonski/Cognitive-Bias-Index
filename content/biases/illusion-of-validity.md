@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek statistical models that outperform human intuition in complex prediction tasks."
   - "Actively look for evidence that your confident predictions have been wrong."
   - "Separate the feeling of understanding from evidence that your understanding is predictively valid."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

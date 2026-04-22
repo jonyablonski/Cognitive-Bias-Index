@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use digital tools for storage but test yourself regularly on important knowledge."
   - "Distinguish between information worth internalizing and information that is fine to look up each time."
   - "Take notes in your own words rather than saving links or screenshots."
+recommended_tool: "decision-journal"
 ---
 

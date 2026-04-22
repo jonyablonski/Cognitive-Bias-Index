@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use confidence intervals rather than point estimates to quantify your uncertainty."
   - "Actively generate reasons why you might be wrong before expressing confidence."
   - "Seek training in probabilistic forecasting using scoring rules that penalize miscalibration."
+recommended_tool: "bias-checklist"
 ---
 

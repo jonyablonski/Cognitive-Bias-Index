@@ -22,5 +22,6 @@ how_to_avoid:
   - "Make long-term consequences vivid and immediate by imagining them concretely."
   - "Create implementation intentions that specify exactly when and how future goals will be pursued."
   - "Remove friction from beneficial future-oriented behaviors and add friction to impulsive ones."
+recommended_tool: "10-10-10-rule"
 ---
 

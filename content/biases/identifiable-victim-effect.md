@@ -21,5 +21,6 @@ how_to_avoid:
   - "Make giving or policy decisions based on impact data rather than emotional salience of specific cases."
   - "Check whether your charitable or policy priorities reflect actual scale of need."
   - "Combine story-based engagement with data-driven evaluation to balance empathy with effectiveness."
+recommended_tool: "base-rate-thinking"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'am I updating enough, or am I just adding a small modification to my prior view?'"
   - "Seek out strong disconfirming evidence to force more substantial belief revision."
   - "Track predictions over time to see whether your updates are systematically too small."
+recommended_tool: "decision-delay"
 ---
 

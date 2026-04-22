@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use consistent price-level benchmarks when evaluating wages, savings, or investments over time."
   - "Ask 'what can this amount actually buy?' rather than focusing on the number itself."
   - "Use inflation calculators to compare monetary values from different time periods."
+recommended_tool: "decision-matrix"
 ---
 

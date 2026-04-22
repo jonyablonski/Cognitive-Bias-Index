@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'would I judge this as less harmful if I had actively done it rather than failed to prevent it?'"
   - "Consider the expected outcomes of inaction explicitly when evaluating moral responsibilities."
   - "Use counterfactual reasoning to assess the real-world impact of not acting."
+recommended_tool: "decision-matrix"
 ---
 

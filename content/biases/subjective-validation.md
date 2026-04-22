@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'what is the probability this connection would occur by chance?' before attributing significance."
   - "Count disconfirming instances as rigorously as confirming ones."
   - "Be especially skeptical of beliefs that feel personally validated—strong personal resonance is not evidence."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

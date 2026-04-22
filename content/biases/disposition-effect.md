@@ -21,5 +21,6 @@ how_to_avoid:
   - "Evaluate assets based on their future prospects, not what you paid for them."
   - "Recognize that a loss is real whether or not you have sold the asset."
   - "Review your portfolio with a trusted advisor who can challenge your hold-or-sell decisions."
+recommended_tool: "decision-journal"
 ---
 

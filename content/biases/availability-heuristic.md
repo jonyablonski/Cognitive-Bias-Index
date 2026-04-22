@@ -24,5 +24,6 @@ how_to_avoid:
   - "Ask whether memorable examples are representative or simply more salient."
   - "Seek out base rates to calibrate intuitive frequency estimates."
   - "Consider whether media coverage may be inflating the perceived frequency of an event."
+recommended_tool: "base-rate-thinking"
 ---
 

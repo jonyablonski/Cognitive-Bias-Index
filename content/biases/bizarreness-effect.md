@@ -21,5 +21,6 @@ how_to_avoid:
   - "Weight the credibility and relevance of information independent of how memorable it is."
   - "Use the prominence of unusual claims as a cue to apply extra critical scrutiny."
   - "Deliberately recall mundane but important information to offset the advantage of bizarre material."
+recommended_tool: "information-sequencing"
 ---
 

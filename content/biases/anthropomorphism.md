@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask what mechanistic or biological explanation might account for the observed behavior."
   - "Distinguish between useful metaphors and literal attributions of human-like mind."
   - "Use precise, descriptive language about behavior rather than motivational language."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that results from small samples have high variability and may not replicate."
   - "Learn basic statistics to internalize how sample size affects reliability of estimates."
   - "Be especially skeptical of dramatic results from small studies or limited observations."
+recommended_tool: "base-rate-thinking"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize when a negative reaction to a candidate might reflect competitive threat rather than genuine inadequacy."
   - "Separate your evaluation of candidates from how they make you personally feel."
   - "Build diverse teams with complementary strengths rather than homogeneous ones."
+recommended_tool: "blind-review"
 ---
 

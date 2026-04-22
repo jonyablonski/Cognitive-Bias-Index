@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be aware that group context can inflate perceived attractiveness or quality."
   - "Use standardized, individual-level criteria when making hiring or selection decisions."
   - "Deliberately focus on individual attributes rather than gestalt group impressions."
+recommended_tool: "blind-review"
 ---
 

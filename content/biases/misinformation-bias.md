@@ -22,5 +22,6 @@ how_to_avoid:
   - "Be cautious about discussing witnessed events with others before formal recording."
   - "Recognize that your memory of an event may have been altered by subsequent information."
   - "When accuracy matters, consult contemporaneous records rather than trusting later recall."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

@@ -23,5 +23,6 @@ how_to_avoid:
   - "Ask 'what happened to the ones that did not make it?' before drawing conclusions from successful cases."
   - "Use base rate data to put the frequency of success in proper perspective."
   - "Design data collection to include non-survivor data rather than sampling only from accessible survivors."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

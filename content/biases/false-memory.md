@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be cautious about memories of events that are emotionally charged or repeatedly discussed."
   - "Avoid repeatedly imagining a possible event, as imagination can create false familiarity."
   - "Use contemporaneous records like photos, diaries, or messages to verify important memories."
+recommended_tool: "decision-journal"
 ---
 

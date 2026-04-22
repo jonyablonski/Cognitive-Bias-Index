@@ -21,5 +21,6 @@ how_to_avoid:
   - "Create mental imagery of important concepts to supplement verbal encoding."
   - "Study with illustrated materials rather than plain text when possible."
   - "Recognize that text-based study may underperform image-based study for long-term retention."
+recommended_tool: "information-sequencing"
 ---
 

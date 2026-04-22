@@ -21,5 +21,6 @@ how_to_avoid:
   - "When idealizing the past, actively recall its difficulties and frustrations."
   - "Use the fading of negative affect as a healing tool, but verify past judgments with objective records."
   - "Balance nostalgia with honest recollection of what was actually difficult about earlier periods."
+recommended_tool: "decision-journal"
 ---
 

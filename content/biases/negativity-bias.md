@@ -21,5 +21,6 @@ how_to_avoid:
   - "Practice gratitude journaling to build a more balanced emotional memory."
   - "When evaluating a situation, explicitly list positives alongside negatives rather than relying on spontaneous recall."
   - "Recognize that the vividness of negative memories does not make them more representative of reality."
+recommended_tool: "decision-matrix"
 ---
 

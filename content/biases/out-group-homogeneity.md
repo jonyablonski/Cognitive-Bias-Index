@@ -21,5 +21,6 @@ how_to_avoid:
   - "Avoid generalizing from one out-group member's behavior to the group as a whole."
   - "Actively consider variability within out-groups when forming impressions."
   - "Use person-based rather than category-based information when making judgments about individuals."
+recommended_tool: "blind-review"
 ---
 

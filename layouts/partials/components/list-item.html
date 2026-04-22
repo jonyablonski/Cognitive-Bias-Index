@@ -90,6 +90,26 @@
       </div>
     </div>
 
+    <!-- Recommended Tool -->
+    {{ if $page.Params.recommended_tool }}
+    {{ $toolPage := $page.Site.GetPage (printf "/tools/%s" $page.Params.recommended_tool) }}
+    {{ if $toolPage }}
+    <div class="list__item-section list__item-section--info">
+      <div class="list__item-meta list__item-meta--reading">
+        <h4 class="list__item-title">Recommended Tool</h4>
+        <ul>
+          <li>
+            <a href="https://cognitivebiasindex.com/tools/#{{ $toolPage.Title | urlize }}">
+              {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
+              {{ $toolPage.Title }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
   </div>
 
 </li>

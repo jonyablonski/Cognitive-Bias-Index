@@ -21,5 +21,6 @@ how_to_avoid:
   - "Distinguish between domains where momentum is real (physical confidence) and pure chance."
   - "Resist changing strategy based solely on recent results in random or near-random processes."
   - "Apply regression to the mean as a default expectation after extreme performance."
+recommended_tool: "base-rate-thinking"
 ---
 

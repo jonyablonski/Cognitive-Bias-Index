@@ -21,5 +21,6 @@ how_to_avoid:
   - "Test whether your 'control' produces better outcomes than chance before acting on it."
   - "Practice accepting randomness and uncertainty without seeking false control mechanisms."
   - "Use statistical analysis to verify whether your interventions are actually improving outcomes."
+recommended_tool: "pre-mortem-analysis"
 ---
 

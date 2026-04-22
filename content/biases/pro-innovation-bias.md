@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask what specific problem is solved and whether the innovation actually solves it better than alternatives."
   - "Apply the same scrutiny to innovations that you would apply to established approaches."
   - "Consider implementation challenges, unintended consequences, and transition costs alongside benefits."
+recommended_tool: "decision-matrix"
 ---
 

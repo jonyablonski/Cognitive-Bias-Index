@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that important points presented visually at list-end may not benefit from the same recency advantage."
   - "Use spoken instructions for sequences that need to be remembered immediately."
   - "Combine auditory and visual presentation for most important information."
+recommended_tool: "information-sequencing"
 ---
 

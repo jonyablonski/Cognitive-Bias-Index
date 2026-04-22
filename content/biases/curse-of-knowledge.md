@@ -21,5 +21,6 @@ how_to_avoid:
   - "Explicitly avoid jargon and define terms that feel obvious to you."
   - "Use concrete examples, analogies, and step-by-step explanations rather than compressed expert summaries."
   - "Practice perspective-taking by recalling your own learning experience with the concept."
+recommended_tool: "information-sequencing"
 ---
 

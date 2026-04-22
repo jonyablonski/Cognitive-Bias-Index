@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'if the premises are true, does the conclusion necessarily follow?' regardless of its plausibility."
   - "Practice formal logic exercises to build the habit of separating validity from believability."
   - "Be most skeptical of arguments whose conclusions you find most intuitively appealing."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

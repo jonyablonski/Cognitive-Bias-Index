@@ -22,5 +22,6 @@ how_to_avoid:
   - "Brainstorm uses for an object as if you had never seen it before."
   - "Take breaks during problem-solving to reset mental sets and allow fresh approaches."
   - "Deliberately ask 'what else could this object or resource do?' as a structured practice."
+recommended_tool: "red-team-blue-team"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use statistical tests to determine whether an observed pattern exceeds chance expectation."
   - "Ask 'would I expect this clustering even if the data were completely random?'"
   - "Be especially skeptical of patterns identified in small samples."
+recommended_tool: "base-rate-thinking"
 ---
 

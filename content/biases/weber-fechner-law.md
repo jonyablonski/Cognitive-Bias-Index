@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that a 10% discount on a large purchase is a larger absolute saving than a 50% discount on a trivial purchase."
   - "Use linear rather than logarithmic scales when absolute differences are what matter."
   - "Apply the same proportional standard consistently across magnitudes to avoid perceptual distortion."
+recommended_tool: "decision-matrix"
 ---
 

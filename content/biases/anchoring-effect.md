@@ -23,5 +23,6 @@ how_to_avoid:
   - "Actively consider whether an initial figure is relevant or artificially introduced."
   - "Seek multiple reference points from different sources to counteract a single anchor."
   - "Ask 'would my answer change if I had seen a very different number first?' to test anchor sensitivity."
+recommended_tool: "information-sequencing"
 ---
 

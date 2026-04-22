@@ -21,5 +21,6 @@ how_to_avoid:
   - "Actively seek information about out-group members' individual qualities rather than relying on group membership."
   - "Cultivate cross-group friendships to reduce the psychological distance that enables bias."
   - "Use blind evaluation procedures where group identity is not visible during assessment."
+recommended_tool: "blind-review"
 ---
 

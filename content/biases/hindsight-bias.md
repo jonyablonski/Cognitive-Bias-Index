@@ -23,5 +23,6 @@ how_to_avoid:
   - "Explicitly try to recall what you did not know before the outcome when evaluating a decision."
   - "Avoid judging past decisions by their outcomes alone—evaluate the quality of the reasoning at the time."
   - "Use pre-mortem and post-mortem analyses to separate process quality from outcome quality."
+recommended_tool: "decision-journal"
 ---
 

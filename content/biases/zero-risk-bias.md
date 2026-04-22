@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use expected harm calculations to compare the real-world impact of different risk reduction strategies."
   - "Resist the appeal of zero-risk options if they come at the cost of greater total harm reduction elsewhere."
   - "Acknowledge residual risk explicitly in planning rather than seeking false certainty."
+recommended_tool: "decision-matrix"
 ---
 

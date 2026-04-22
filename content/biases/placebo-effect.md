@@ -21,5 +21,6 @@ how_to_avoid:
   - "Distinguish subjective symptom reports from objective physiological measures when assessing treatment."
   - "Recognize that a treatment's effectiveness may partially reflect expectation rather than active ingredients."
   - "Use randomized controlled trials with placebo conditions to isolate true treatment effects."
+recommended_tool: "ab-testing"
 ---
 

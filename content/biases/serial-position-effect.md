@@ -22,5 +22,6 @@ how_to_avoid:
   - "Use deliberate repetition to strengthen memory for middle-list items."
   - "Recognize that middle items are systematically underremembered and compensate accordingly."
   - "Use spacing and organizational techniques to reduce the disadvantage of middle-position items."
+recommended_tool: "information-sequencing"
 ---
 

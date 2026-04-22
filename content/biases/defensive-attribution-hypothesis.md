@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask whether the harm-doer's actions were reckless or negligent by the standard available at the time."
   - "Recognize that strong emotional reactions to a case may be distorting your attribution of blame."
   - "Apply consistent standards of responsibility regardless of how much you identify with the victim."
+recommended_tool: "after-action-review"
 ---
 

@@ -22,5 +22,6 @@ how_to_avoid:
   - "Deliberately redirect attention to stimuli you might be overlooking due to emotional preoccupation."
   - "Seek external perspectives to identify blind spots created by your attentional focus."
   - "Use structured checklists in high-stakes decisions to ensure attention is spread evenly."
+recommended_tool: "bias-checklist"
 ---
 

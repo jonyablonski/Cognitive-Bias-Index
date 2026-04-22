@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek individual-level explanations for behavior before attributing it to group membership."
   - "Notice when positive out-group behavior is being explained away and resist that tendency."
   - "Study structural and situational factors that shape behavior across groups before making dispositional attributions."
+recommended_tool: "blind-review"
 ---
 

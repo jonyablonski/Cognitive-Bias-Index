@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'how often does A occur without B, and B without A?' before concluding they are related."
   - "Use statistical correlation coefficients rather than relying on impression of co-occurrence."
   - "Be especially vigilant about perceived correlations involving emotionally salient or stereotyped groups."
+recommended_tool: "base-rate-thinking"
 ---
 

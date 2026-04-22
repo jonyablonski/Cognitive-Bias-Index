@@ -21,5 +21,6 @@ how_to_avoid:
   - "Separate empathy for victims from analysis of their role in causing their own suffering."
   - "Study structural and systemic causes of disadvantage to counter purely individual attributions."
   - "Ask 'what situational factors beyond their control might explain this outcome?'"
+recommended_tool: "after-action-review"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Break tasks into specific steps and estimate each step's time separately, then sum them."
   - "Add an explicit buffer for unexpected delays based on past experience."
   - "Conduct a pre-mortem: imagine the project is late and identify what caused it."
+recommended_tool: "reference-class-forecasting"
 ---
 

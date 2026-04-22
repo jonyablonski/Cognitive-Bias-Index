@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use meta-analytic methods that adjust for publication bias (e.g., funnel plot asymmetry tests)."
   - "Check preprint servers and unpublished dissertations for null results before drawing conclusions from the literature."
   - "Interpret published effect sizes skeptically—they may be inflated by selective publication."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

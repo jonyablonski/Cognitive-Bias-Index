@@ -23,5 +23,6 @@ how_to_avoid:
   - "Separate the satisfaction of creation from an objective judgment of the product's quality."
   - "Ask 'would I value this equally if someone else had made it?' to check for effort inflation."
   - "Invite honest feedback from others before investing further in a self-built project."
+recommended_tool: "blind-review"
 ---
 

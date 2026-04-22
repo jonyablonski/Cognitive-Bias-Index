@@ -21,5 +21,6 @@ how_to_avoid:
   - "Separate beliefs from personal identity so that updating them does not feel like self-betrayal."
   - "Engage with disconfirming evidence in a calm, low-stakes environment rather than a confrontational one."
   - "Practice steel-manning opposing views to reduce the perceived threat they represent."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

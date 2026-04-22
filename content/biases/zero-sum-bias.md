@@ -22,5 +22,6 @@ how_to_avoid:
   - "Actively explore opportunities for mutual benefit and positive-sum outcomes."
   - "Ask 'can both parties improve their position, or is this genuinely zero-sum?'"
   - "Study game theory and economics to build intuition for positive-sum dynamics."
+recommended_tool: "red-team-blue-team"
 ---
 

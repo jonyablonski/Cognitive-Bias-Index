@@ -21,4 +21,5 @@ how_to_avoid:
   - "Check whether your risk preference for a choice changes based on how it is framed."
   - "Use consistent risk criteria across decisions rather than applying different standards to gains and losses."
   - "Reframe decisions in multiple ways to check for consistency in your preferences."
+recommended_tool: "base-rate-thinking"
 ---

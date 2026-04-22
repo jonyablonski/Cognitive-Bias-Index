@@ -21,5 +21,6 @@ how_to_avoid:
   - "For hard tasks, add explicit buffers for unknown unknowns in planning."
   - "For easy tasks, avoid becoming complacent—familiar tasks can still be done poorly."
   - "Test your competence on sample items before assessing your overall ability on a task."
+recommended_tool: "bias-checklist"
 ---
 

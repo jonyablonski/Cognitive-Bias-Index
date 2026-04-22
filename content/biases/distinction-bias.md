@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask whether the differences you notice in joint evaluation will matter during actual use."
   - "Simulate experiencing each option in isolation before making a comparative judgment."
   - "Focus on overall fit with your needs rather than which option wins on easily compared dimensions."
+recommended_tool: "blind-review"
 ---
 

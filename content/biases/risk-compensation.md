@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that safety equipment reduces but does not eliminate risk."
   - "Evaluate actual outcomes data rather than relying on subjective feelings of safety."
   - "Design safety systems that account for behavioral adaptation rather than assuming behavior remains constant."
+recommended_tool: "pre-mortem-analysis"
 ---
 

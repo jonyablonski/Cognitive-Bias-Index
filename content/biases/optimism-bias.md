@@ -22,5 +22,6 @@ how_to_avoid:
   - "Conduct a pre-mortem exercise by imagining the plan has failed and identifying causes."
   - "Seek outside perspectives who are less emotionally invested in a positive outcome."
   - "Plan explicitly for negative scenarios rather than assuming the optimistic case will materialize."
+recommended_tool: "pre-mortem-analysis"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Take disagreement as evidence that others have relevant information or valid perspectives you lack."
   - "Seek out perspectives that differ from yours and engage with them charitably."
   - "Ask 'what information or values might lead a reasonable person to see this differently?'"
+recommended_tool: "red-team-blue-team"
 ---
 

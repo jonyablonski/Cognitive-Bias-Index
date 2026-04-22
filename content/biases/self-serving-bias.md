@@ -22,5 +22,6 @@ how_to_avoid:
   - "Ask 'what did I contribute to this failure, and what can I learn from it?'"
   - "Seek honest feedback from others who can provide a less self-serving perspective."
   - "Practice intellectual humility by regularly acknowledging the role of external factors in your successes."
+recommended_tool: "after-action-review"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Separate emotional attachment from financial or practical value when making selling decisions."
   - "Consult objective market prices rather than relying on your subjective valuation."
   - "Practice trading or exchanging items to weaken the reflexive overvaluation of owned objects."
+recommended_tool: "decision-matrix"
 ---
 

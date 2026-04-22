@@ -22,5 +22,6 @@ how_to_avoid:
   - "Test assumptions about your transparency by asking trusted others what they actually observed."
   - "Use this insight to reduce anxiety about concealed emotions being detected by others."
   - "Recognize that if you want others to understand your feelings, explicit communication is necessary."
+recommended_tool: "blind-review"
 ---
 

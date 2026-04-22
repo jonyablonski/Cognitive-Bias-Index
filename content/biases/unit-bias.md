@@ -21,5 +21,6 @@ how_to_avoid:
   - "Consciously decide before consuming how much is appropriate rather than defaulting to the full unit."
   - "Plate or package food in personally appropriate amounts rather than serving from large shared containers."
   - "Recognize that a serving size is a recommendation, not a personal target."
+recommended_tool: "decision-matrix"
 ---
 

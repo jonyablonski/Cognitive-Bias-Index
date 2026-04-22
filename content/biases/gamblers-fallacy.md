@@ -21,5 +21,6 @@ how_to_avoid:
   - "Study basic probability to internalize the independence of random events."
   - "Ask 'what is the mechanism by which past events would influence the next outcome?'"
   - "Track your probability intuitions against actual outcomes to calibrate your understanding of randomness."
+recommended_tool: "base-rate-thinking"
 ---
 

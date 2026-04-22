@@ -21,5 +21,6 @@ how_to_avoid:
   - "Deliberately generate multiple solution approaches before defaulting to your preferred tool."
   - "Regularly learn new methods and tools to expand your problem-solving repertoire."
   - "Ask 'am I reaching for this tool because it is best, or because it is familiar?'"
+recommended_tool: "decision-matrix"
 ---
 

@@ -25,5 +25,6 @@ how_to_avoid:
   - "Ask 'what are the objective facts here, stripped of positive or negative framing?'"
   - "Convert framed statistics into equivalent but differently framed versions to test consistency."
   - "Be aware that whoever controls the framing of a question influences the answer."
+recommended_tool: "information-sequencing"
 ---
 

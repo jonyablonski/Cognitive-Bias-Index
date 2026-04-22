@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use situational self-control strategies (removing temptations) rather than relying on willpower in the moment."
   - "Recognize that how you feel about self-control now predicts your future behavior less than situational factors."
   - "Plan implementation intentions for how you will handle temptation before you encounter it."
+recommended_tool: "pre-mortem-analysis"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use self-referential encoding strategies during study and learning."
   - "Recognize that your superior memory for self-relevant information may lead to egocentrism in recall."
   - "Deliberately encode information about others with the same richness to counteract self-referential advantage."
+recommended_tool: "information-sequencing"
 ---
 

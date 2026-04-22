@@ -21,5 +21,6 @@ how_to_avoid:
   - "When recalling events involving others, check whether your memory may have been shaped by stereotypical expectations."
   - "Seek individuating information to counteract schema-based memory distortion."
   - "Be especially critical of confident memories about others that conveniently fit a stereotype."
+recommended_tool: "blind-review"
 ---
 

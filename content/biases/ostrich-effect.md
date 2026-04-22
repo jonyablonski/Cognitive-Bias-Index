@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that avoiding information does not change underlying reality but reduces your ability to respond."
   - "Use automatic reporting systems that deliver negative information without requiring active engagement."
   - "Pair negative information review with action planning to reduce helplessness and increase engagement."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

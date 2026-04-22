@@ -21,5 +21,6 @@ how_to_avoid:
   - "Practice basic probability rules: P(A and B) is always ≤ P(A) or P(B) alone."
   - "Strip away vivid details and ask whether the core probability estimate changes."
   - "Slow down and apply formal probability reasoning rather than relying on narrative coherence."
+recommended_tool: "base-rate-thinking"
 ---
 

@@ -24,5 +24,6 @@ how_to_avoid:
   - "Apply indirect question techniques (e.g., asking about 'people like you') to reduce self-presentation pressure."
   - "Cross-validate self-report data with behavioral measures or third-party observations."
   - "Recognize that self-reported socially sensitive behaviors likely underestimate actual occurrence."
+recommended_tool: "blind-review"
 ---
 

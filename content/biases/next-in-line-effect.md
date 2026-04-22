@@ -21,5 +21,6 @@ how_to_avoid:
   - "Take brief notes on what others say rather than focusing on what you will say next."
   - "If your contribution is pre-planned, trust that and redirect attention to the current speaker."
   - "Ask for clarification or a summary after speaking to catch what you may have missed."
+recommended_tool: "decision-journal"
 ---
 

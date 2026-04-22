@@ -21,5 +21,6 @@ how_to_avoid:
   - "Compare the actual costs of changing against the actual costs of not changing."
   - "Ask 'would I choose this option if I were starting fresh?' to counteract default bias."
   - "Use automatic enrollment in better defaults (e.g., opt-out rather than opt-in) to counteract status quo preference."
+recommended_tool: "decision-matrix"
 ---
 

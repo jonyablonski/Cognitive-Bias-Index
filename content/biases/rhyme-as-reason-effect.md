@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be especially skeptical of persuasive statements that rely on rhyme, rhythm, or other aesthetic qualities."
   - "Paraphrase a rhyming claim in plain language and evaluate that version on its merits."
   - "Ask 'would I find this claim as convincing if it did not rhyme?'"
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

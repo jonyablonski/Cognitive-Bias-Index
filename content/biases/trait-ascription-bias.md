@@ -21,5 +21,6 @@ how_to_avoid:
   - "Attribute variability in others' behavior to situational factors before concluding it reflects character instability."
   - "Recognize that your own trait-based view of others may be less accurate than your situationally complex self-view."
   - "Ask others about their contextual variation rather than assuming their behavior is uniformly trait-driven."
+recommended_tool: "blind-review"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Actively seek out minority viewpoints and consider them on their own terms."
   - "Ask 'why do I hold this belief—because of evidence, or because it is popular?'"
   - "Practice independent judgment by forming opinions before consulting what others think."
+recommended_tool: "decision-delay"
 ---
 

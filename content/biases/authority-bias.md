@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask whether the authority's expertise is directly relevant to the specific claim being made."
   - "Seek out dissenting expert opinions to get a fuller picture."
   - "Practice saying 'I respect your expertise, but I'd like to understand the reasoning.'"
+recommended_tool: "blind-review"
 ---
 

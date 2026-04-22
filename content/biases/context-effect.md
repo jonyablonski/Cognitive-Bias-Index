@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use environmental cues strategically to trigger relevant memories when needed."
   - "Recognize that poor recall in unfamiliar contexts does not reflect the limits of your knowledge."
   - "Test yourself in varied contexts to build context-independent retrieval pathways."
+recommended_tool: "blind-review"
 ---
 

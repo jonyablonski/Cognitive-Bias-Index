@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask who benefits from a narrative's widespread acceptance and what perspectives it marginalizes."
   - "Consult primary sources and disaggregated data rather than narrative summaries."
   - "Practice epistemic humility—acknowledge when a narrative is guiding your interpretation."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

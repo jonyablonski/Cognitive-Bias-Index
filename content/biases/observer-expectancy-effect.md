@@ -22,5 +22,6 @@ how_to_avoid:
   - "Standardize data collection procedures to minimize experimenter discretion."
   - "Use automated or independently scored measures rather than subjective observer ratings."
   - "Pre-register hypotheses and analysis plans to prevent post-hoc rationalization of results."
+recommended_tool: "ab-testing"
 ---
 

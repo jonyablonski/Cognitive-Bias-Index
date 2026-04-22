@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek out evidence of systemic disadvantage that challenges the perception of a fair system."
   - "Distinguish between endorsing a system because it is good and endorsing it because it is familiar."
   - "Ask 'who benefits from the perception that this system is fair and legitimate?'"
+recommended_tool: "red-team-blue-team"
 ---
 

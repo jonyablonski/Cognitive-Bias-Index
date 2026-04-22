@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask specific, behavioral questions about competence rather than vague trait questions."
   - "Compare your performance to explicitly defined objective benchmarks."
   - "Actively recall failures and weaknesses as a corrective to inflated self-assessment."
+recommended_tool: "bias-checklist"
 ---
 

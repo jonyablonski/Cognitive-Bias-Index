@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use objective timestamps to anchor memories of when events occurred."
   - "Recognize that events that feel recent may be further in the past than you believe."
   - "For legal or financial purposes, always verify dates through documentation rather than memory."
+recommended_tool: "decision-journal"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Apply statistical analysis to determine whether apparent patterns exceed chance expectation."
   - "Use controlled, blinded conditions when searching for meaningful signals in visual data."
   - "Treat compelling perceptions of patterns as hypotheses requiring independent confirmation."
+recommended_tool: "base-rate-thinking"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Reflect on whether your own motivations might be more extrinsic than you like to believe."
   - "Design incentive systems that support rather than crowd out intrinsic motivation."
   - "Apply the same charitable interpretation to others' motivations that you apply to your own."
+recommended_tool: "blind-review"
 ---
 

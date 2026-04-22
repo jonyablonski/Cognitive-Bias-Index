@@ -21,5 +21,6 @@ how_to_avoid:
   - "Deliberately recall positive memories when in a negative mood to counteract selective retrieval."
   - "Postpone important evaluations or decisions until your mood is more neutral."
   - "Seek balanced information sources that counteract the emotional coloring of mood-congruent retrieval."
+recommended_tool: "decision-journal"
 ---
 

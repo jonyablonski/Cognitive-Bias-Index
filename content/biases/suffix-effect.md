@@ -21,5 +21,6 @@ how_to_avoid:
   - "In instruction design, end spoken sequences at the last critical item without an irrelevant suffix."
   - "Recognize that a spoken 'thank you' or other suffix after a list can impair recall of the last item."
   - "Use visual or written lists when suffix interference from the auditory environment is a concern."
+recommended_tool: "information-sequencing"
 ---
 

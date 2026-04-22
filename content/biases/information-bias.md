@@ -21,5 +21,6 @@ how_to_avoid:
   - "Define in advance what information is sufficient to make a decision and stop at that threshold."
   - "Distinguish between relevant information and information gathered to reduce anxiety."
   - "Use the 'value of information' framework to estimate whether gathering more data is worth the cost."
+recommended_tool: "decision-matrix"
 ---
 

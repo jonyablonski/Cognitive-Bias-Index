@@ -21,5 +21,6 @@ how_to_avoid:
   - "Think about related words and concepts to activate the broader memory network around the target."
   - "Use letter cues (first letter) to access phonological information that can unblock retrieval."
   - "Recognize that recall will often come spontaneously when attention is redirected elsewhere."
+recommended_tool: "decision-journal"
 ---
 

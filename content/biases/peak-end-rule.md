@@ -28,5 +28,6 @@ how_to_avoid:
   - "When evaluating an option, consider the full duration of experience, not just the memorable peaks."
   - "Record moment-by-moment quality during extended experiences rather than relying on retrospective evaluation."
   - "Recognize that a bad ending can undermine a largely positive experience in memory."
+recommended_tool: "decision-journal"
 ---
 

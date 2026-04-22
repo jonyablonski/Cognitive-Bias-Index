@@ -21,5 +21,6 @@ how_to_avoid:
   - "Acknowledge that nostalgia filters memories, retaining the pleasant and discarding the difficult."
   - "Seek historical accounts that document the real problems of past eras."
   - "Practice gratitude for present advantages that past generations did not enjoy."
+recommended_tool: "base-rate-thinking"
 ---
 

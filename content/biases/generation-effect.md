@@ -21,5 +21,6 @@ how_to_avoid:
   - "Summarize information in your own words rather than copying or highlighting."
   - "Teach concepts to others, which forces generation and reveals gaps in understanding."
   - "Recognize that passive review feels easier but produces weaker long-term memory."
+recommended_tool: "decision-journal"
 ---
 

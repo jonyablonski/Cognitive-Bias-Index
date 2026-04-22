@@ -21,5 +21,6 @@ how_to_avoid:
   - "Write down incomplete tasks to close the open loop mentally and free cognitive resources."
   - "Recognize that the urgency you feel about incomplete tasks may not reflect their actual priority."
   - "Use structured to-do lists to capture incomplete tasks so attention can be directed elsewhere without losing them."
+recommended_tool: "decision-journal"
 ---
 

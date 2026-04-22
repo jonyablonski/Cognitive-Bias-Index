@@ -21,5 +21,6 @@ how_to_avoid:
   - "Connect new information to personal experiences or existing knowledge to deepen encoding."
   - "Use elaborative interrogation—ask 'why is this true?'—to drive deeper processing."
   - "Teach information to others to force deep semantic engagement with the material."
+recommended_tool: "information-sequencing"
 ---
 

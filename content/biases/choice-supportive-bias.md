@@ -21,4 +21,5 @@ how_to_avoid:
   - "Periodically reassess past choices based on current evidence rather than original justifications."
   - "Actively recall the downsides of your chosen option and the upsides of unchosen ones."
   - "Seek honest feedback from others who were not party to your original decision."
+recommended_tool: "decision-journal"
 ---

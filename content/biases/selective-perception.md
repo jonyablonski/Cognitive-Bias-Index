@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask trusted others to identify information you may be systematically overlooking."
   - "Use structured frameworks that require attention to belief-inconsistent evidence."
   - "Keep a record of disconfirming information you notice to offset the tendency to forget it."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

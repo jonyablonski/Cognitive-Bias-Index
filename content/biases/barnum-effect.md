@@ -21,5 +21,6 @@ how_to_avoid:
   - "Test descriptions by checking how many friends or acquaintances they would also accurately describe."
   - "Require specific, falsifiable claims from personality assessments rather than vague generalities."
   - "Be skeptical of any profile that feels uncannily accurate without a rigorous empirical basis."
+recommended_tool: "blind-review"
 ---
 

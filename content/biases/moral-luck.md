@@ -21,5 +21,6 @@ how_to_avoid:
   - "Separate the severity of an outcome from the degree of culpability of the actor."
   - "Apply consistent moral standards across cases with identical intentions but different outcomes."
   - "Ask 'would we judge this person differently if luck had produced a different outcome?'"
+recommended_tool: "after-action-review"
 ---
 

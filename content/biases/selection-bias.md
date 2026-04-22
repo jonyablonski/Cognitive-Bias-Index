@@ -22,5 +22,6 @@ how_to_avoid:
   - "Seek objective data on frequency rather than relying on subjective salience."
   - "Track baseline frequencies before acquiring a new category to avoid false impressions of change."
   - "Ask 'was I not noticing this before, or is it actually occurring more?'"
+recommended_tool: "ab-testing"
 ---
 

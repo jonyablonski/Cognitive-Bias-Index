@@ -21,4 +21,5 @@ how_to_avoid:
   - "Be aware of priming effects when assessing quality after exposure to extremes."
   - "Use standardized benchmarks to neutralize the influence of contextual contrast."
   - "Consider options in varied orders to check whether your evaluation changes based on sequence."
+recommended_tool: "decision-matrix"
 ---

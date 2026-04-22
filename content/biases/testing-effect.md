@@ -21,5 +21,6 @@ how_to_avoid:
   - "Study using flashcards, practice problems, or writing from memory rather than reviewing notes."
   - "Space testing sessions over time rather than massing them immediately after study."
   - "Embrace the difficulty of retrieval practice—its greater difficulty compared to re-reading is why it works better."
+recommended_tool: "information-sequencing"
 ---
 

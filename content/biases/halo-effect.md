@@ -23,5 +23,6 @@ how_to_avoid:
   - "Use structured evaluations that rate each dimension separately before forming an overall view."
   - "Be especially vigilant about halo effects when a first impression is very positive or very negative."
   - "Ask 'what specific evidence do I have for this particular judgment?' to ground evaluations."
+recommended_tool: "blind-review"
 ---
 

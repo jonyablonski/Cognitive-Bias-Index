@@ -22,5 +22,6 @@ how_to_avoid:
   - "Seek feedback from trusted others who can observe your reasoning from the outside."
   - "Use structured decision-making processes that do not rely on introspective self-correction."
   - "Study cognitive biases actively—awareness of specific biases modestly reduces their influence."
+recommended_tool: "bias-checklist"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Consider all the other aspects of your life that will remain unchanged by a given outcome."
   - "Talk to people who have actually experienced the outcome you are predicting."
   - "Build in explicit expectations of adaptation when making long-term emotional forecasts."
+recommended_tool: "10-10-10-rule"
 ---
 

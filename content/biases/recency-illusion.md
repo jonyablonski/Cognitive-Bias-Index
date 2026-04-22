@@ -21,5 +21,6 @@ how_to_avoid:
   - "Consult dictionaries with historical citation data to check the age of word usage."
   - "Distinguish between your first awareness of something and when it first existed."
   - "Apply skepticism to your intuition that something you recently noticed must be recent."
+recommended_tool: "base-rate-thinking"
 ---
 

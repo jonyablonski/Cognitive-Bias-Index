@@ -23,5 +23,6 @@ how_to_avoid:
   - "Seek out diverse social networks that expose you to a wider range of viewpoints."
   - "Treat your own view as one data point, not as the modal human response."
   - "Ask 'what evidence do I have that others actually agree with me?'"
+recommended_tool: "base-rate-thinking"
 ---
 

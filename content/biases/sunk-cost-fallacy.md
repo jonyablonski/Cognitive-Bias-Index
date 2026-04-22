@@ -22,5 +22,6 @@ how_to_avoid:
   - "Ask 'if I had not already invested, would I start this project now?'"
   - "Use outside perspectives who are not emotionally invested in past expenditures."
   - "Recognize sunk costs explicitly in decision discussions to make the bias visible and easier to counteract."
+recommended_tool: "decision-matrix"
 ---
 

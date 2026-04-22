@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'what would it take for me to take this evidence seriously?' and apply that standard."
   - "Separate the credibility of a finding from its fit with existing theory."
   - "Support institutional structures that protect scientists who bring paradigm-challenging evidence."
+recommended_tool: "red-team-blue-team"
 ---
 

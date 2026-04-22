@@ -21,5 +21,6 @@ how_to_avoid:
   - "When making important decisions with older adults, ensure negative information is explicitly presented and salient."
   - "Use written records to supplement memory when the positivity effect may be influencing recall."
   - "Account for age-related positivity effects in research designs involving older participants."
+recommended_tool: "blind-review"
 ---
 

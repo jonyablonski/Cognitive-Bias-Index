@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use category-based or context-based cues rather than item-based cues during retrieval."
   - "Allow unconstrained free recall before introducing any specific cues."
   - "Recognize that giving someone part of a list may actually make it harder for them to recall the rest."
+recommended_tool: "information-sequencing"
 ---
 

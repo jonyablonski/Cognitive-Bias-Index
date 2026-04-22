@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that past good behavior does not justify current moral shortcuts."
   - "Commit to specific behavioral targets rather than abstract identity-based goals."
   - "Monitor whether prior virtuous acts are followed by lapsed behavior in related domains."
+recommended_tool: "decision-journal"
 ---
 

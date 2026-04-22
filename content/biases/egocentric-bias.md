@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask collaborators directly what they believe their contributions were."
   - "Keep records of who did what on shared projects rather than relying on memory."
   - "Calibrate by checking whether your share estimates across all participants sum to more than 100%."
+recommended_tool: "blind-review"
 ---
 

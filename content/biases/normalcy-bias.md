@@ -21,5 +21,6 @@ how_to_avoid:
   - "Practice responding to novel disaster scenarios through drills and planning exercises."
   - "When warning signs emerge, err on the side of caution rather than defaulting to 'it will probably be fine.'"
   - "Seek historical data on rare but catastrophic events to recalibrate base rate expectations."
+recommended_tool: "pre-mortem-analysis"
 ---
 

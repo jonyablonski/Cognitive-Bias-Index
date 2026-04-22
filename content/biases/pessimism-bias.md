@@ -21,5 +21,6 @@ how_to_avoid:
   - "Seek cognitive behavioral therapy or structured interventions to address systematic negative prediction bias."
   - "Recall past instances of positive outcomes to counterbalance negative probability estimates."
   - "Distinguish between risk assessment and catastrophizing—ask what the actual evidence is for a negative outcome."
+recommended_tool: "10-10-10-rule"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Avoid introducing new information into recall contexts—let the person recall freely first."
   - "Record accounts immediately after an event before any suggestions can be introduced."
   - "Train interviewers to use cognitive interview techniques that minimize suggestive questioning."
+recommended_tool: "decision-delay"
 ---
 

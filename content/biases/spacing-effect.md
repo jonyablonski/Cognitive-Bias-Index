@@ -21,5 +21,6 @@ how_to_avoid:
   - "Avoid cramming—spread study sessions over time for better long-term retention."
   - "Return to previously learned material after gaps rather than reviewing it immediately."
   - "Recognize that spaced practice feels harder but produces stronger memory than massed practice."
+recommended_tool: "information-sequencing"
 ---
 

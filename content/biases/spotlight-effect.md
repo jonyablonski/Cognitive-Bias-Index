@@ -21,5 +21,6 @@ how_to_avoid:
   - "Test your spotlight assumptions by asking trusted friends what they actually noticed."
   - "Reduce anxiety about visibility by recalling past situations where others were not as aware as you feared."
   - "Use the spotlight effect as a humbling reminder that others are self-focused too."
+recommended_tool: "blind-review"
 ---
 

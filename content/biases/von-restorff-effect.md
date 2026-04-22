@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be aware that distinctive but unimportant information may be remembered while important but ordinary information is forgotten."
   - "Verify that the most memorable elements of a message are also the most important ones."
   - "Apply contrast and distinctiveness to important information in presentations and communication."
+recommended_tool: "information-sequencing"
 ---
 

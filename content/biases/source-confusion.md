@@ -21,5 +21,6 @@ how_to_avoid:
   - "When the source of a memory matters, consciously encode it explicitly alongside the content."
   - "Be cautious about confident source attributions—familiarity of content does not guarantee accurate source memory."
   - "Verify source attributions with contemporaneous records when accuracy is critical."
+recommended_tool: "decision-journal"
 ---
 

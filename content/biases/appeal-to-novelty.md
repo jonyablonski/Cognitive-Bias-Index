@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask what specific problems the new approach solves that older approaches did not."
   - "Look for data comparing old and new methods before concluding the new one is superior."
   - "Separate the excitement of novelty from an objective assessment of value."
+recommended_tool: "decision-matrix"
 ---
 

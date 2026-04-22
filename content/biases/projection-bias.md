@@ -21,5 +21,6 @@ how_to_avoid:
   - "Consult people who have actually experienced the future state you are predicting (e.g., new parents)."
   - "Account for adaptation—assume you will adjust to a new situation more than you currently expect."
   - "Use cooling-off periods before making large purchases or decisions made in peak emotional states."
+recommended_tool: "10-10-10-rule"
 ---
 

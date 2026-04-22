@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask whether you have evidence for egocentric motivation or whether you are assuming it."
   - "Consider charitable explanations for others' behavior before defaulting to cynical ones."
   - "Recognize that your own behavior may appear as cynically motivated to outside observers."
+recommended_tool: "blind-review"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Repeat corrections more than once—a single correction rarely eliminates continued influence."
   - "Address the underlying mental model that misinformation created, not just the surface claim."
   - "Seek multiple reliable sources to reinforce corrections and weaken misinformation's hold."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

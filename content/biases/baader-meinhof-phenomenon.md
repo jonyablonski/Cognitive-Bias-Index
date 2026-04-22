@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask whether you simply lacked awareness of the phenomenon before your initial encounter."
   - "Check objective data to determine whether actual frequency has changed."
   - "Use the experience as a reminder of how selective attention shapes perceived reality."
+recommended_tool: "decision-journal"
 ---
 

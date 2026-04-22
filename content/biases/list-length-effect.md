@@ -21,5 +21,6 @@ how_to_avoid:
   - "Break long lists into smaller, categorized chunks to aid organization and retrieval."
   - "Place the most critical items at the beginning or end of a list to exploit serial position effects."
   - "Use mnemonics or organizational strategies to boost retention of important items in long lists."
+recommended_tool: "information-sequencing"
 ---
 

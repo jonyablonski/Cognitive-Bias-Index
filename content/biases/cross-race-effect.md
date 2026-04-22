@@ -21,5 +21,6 @@ how_to_avoid:
   - "When identification accuracy matters, acknowledge this bias and apply extra caution."
   - "Use objective, context-independent identification procedures in high-stakes settings."
   - "Avoid overconfidence in other-race identifications—confidence is not a reliable indicator of accuracy."
+recommended_tool: "blind-review"
 ---
 

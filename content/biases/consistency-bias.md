@@ -22,5 +22,6 @@ how_to_avoid:
   - "Acknowledge and reflect on how and why your views have evolved over time."
   - "Be humble about the stability of your own attitudes and welcome evidence of change."
   - "Ask trusted others who knew you earlier to reflect back your past positions."
+recommended_tool: "decision-journal"
 ---
 

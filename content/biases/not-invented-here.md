@@ -22,5 +22,6 @@ how_to_avoid:
   - "Create explicit processes for reviewing outside approaches without triggering identity-based resistance."
   - "Separate the quality of an idea from its origin when making adoption decisions."
   - "Foster a culture that rewards learning from outside sources rather than stigmatizing it."
+recommended_tool: "blind-review"
 ---
 

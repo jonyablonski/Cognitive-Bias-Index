@@ -21,5 +21,6 @@ how_to_avoid:
   - "Explicitly compare the potential upside of ambiguous options against familiar ones."
   - "Recognize that avoiding ambiguity is itself a choice with potential costs."
   - "Use expected value thinking to evaluate options rather than relying on gut comfort."
+recommended_tool: "decision-matrix"
 ---
 

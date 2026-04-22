@@ -22,5 +22,6 @@ how_to_avoid:
   - "Evaluate options based on final outcomes rather than changes from a reference point."
   - "Ask 'is my decision driven by fear of loss or by an objective assessment of expected value?'"
   - "Use pre-commitment strategies to make long-term, less loss-averse decisions before the emotional salience of loss increases."
+recommended_tool: "decision-matrix"
 ---
 

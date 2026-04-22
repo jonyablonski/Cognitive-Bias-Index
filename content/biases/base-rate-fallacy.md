@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use Bayesian reasoning to combine base rates with case-specific evidence."
   - "Ask 'how common is this outcome in the general population?' before drawing conclusions."
   - "Treat statistical base rates as the starting point for any probability judgment."
+recommended_tool: "base-rate-thinking"
 ---
 

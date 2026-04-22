@@ -21,5 +21,6 @@ how_to_avoid:
   - "Ask 'would I prefer this experience to last longer or shorter?' to make duration salient."
   - "Use objective metrics like total cost-per-unit-time to counteract peak-end distortion."
   - "Record experiences in real time rather than relying on retrospective memory alone."
+recommended_tool: "decision-journal"
 ---
 

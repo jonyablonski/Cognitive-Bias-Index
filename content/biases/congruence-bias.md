@@ -21,5 +21,6 @@ how_to_avoid:
   - "Design tests that could falsify your initial hypothesis, not just confirm it."
   - "Ask 'what other explanation could account for the same evidence?'"
   - "Use pre-mortem analysis to imagine alternative explanations before committing to one."
+recommended_tool: "red-team-blue-team"
 ---
 

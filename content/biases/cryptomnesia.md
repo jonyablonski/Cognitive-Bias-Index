@@ -21,5 +21,6 @@ how_to_avoid:
   - "Before claiming an idea as original, search your records for possible prior exposure."
   - "When in doubt about a creative idea's origin, attribute it provisionally until you can verify."
   - "Give credit generously—attribution errors cost little while plagiarism harms much."
+recommended_tool: "decision-journal"
 ---
 

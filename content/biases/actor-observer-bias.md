@@ -22,5 +22,6 @@ how_to_avoid:
   - "Imagine being in the other person's exact position—consider pressures, resources, and constraints they face."
   - "Apply the same explanatory standard to others that you apply to yourself."
   - "Seek additional context about someone's circumstances before drawing conclusions about their character."
+recommended_tool: "blind-review"
 ---
 

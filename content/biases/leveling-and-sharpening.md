@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be aware that each retelling of a memory potentially changes it."
   - "Distinguish between what you actually experienced and what you have inferred or constructed since."
   - "Consult contemporaneous records before trusting long-term memory of important events."
+recommended_tool: "decision-journal"
 ---
 

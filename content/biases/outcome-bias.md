@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use structured decision audits that separately assess process quality and outcome quality."
   - "Recognize that a bad outcome can follow a good decision and a good outcome can follow a poor one."
   - "Create feedback systems that explicitly reward sound decision-making processes, not just outcomes."
+recommended_tool: "after-action-review"
 ---
 

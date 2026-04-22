@@ -21,5 +21,6 @@ how_to_avoid:
   - "Define in advance what decisions require group input versus what can be delegated to experts."
   - "Limit discussion of simple, low-stakes items and protect time for high-stakes complex decisions."
   - "Use structured decision frameworks that ensure proportionate attention to issue importance."
+recommended_tool: "decision-matrix"
 ---
 

@@ -21,5 +21,6 @@ how_to_avoid:
   - "Be humble about the limits of behavioral observation as a window into inner experience."
   - "Seek others' self-reports rather than assuming you can infer their inner states from behavior."
   - "Apply the same uncertainty about your own transparency to your understanding of others."
+recommended_tool: "blind-review"
 ---
 

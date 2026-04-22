@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that fluent, familiar statements deserve more scrutiny, not less."
   - "Seek primary sources and evidence rather than relying on the frequency of repetition."
   - "Ask 'what is the actual evidence for this claim?' each time you encounter it."
+recommended_tool: "disconfirming-evidence-prompt"
 ---
 

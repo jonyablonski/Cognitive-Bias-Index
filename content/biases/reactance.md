@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize when a strong desire to do something is driven by reactance rather than genuine preference."
   - "Use autonomy-supportive language that acknowledges others' right to choose."
   - "When feeling reactive, pause and ask whether your counter-impulse is driven by genuine preference or resistance to control."
+recommended_tool: "decision-delay"
 ---
 

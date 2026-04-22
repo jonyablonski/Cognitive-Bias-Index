@@ -21,5 +21,6 @@ how_to_avoid:
   - "Recognize that an unfamiliar route feeling slow does not mean it is actually longer."
   - "Account for the well-travelled road effect when estimating travel time for familiar versus new routes."
   - "Test alternative routes objectively before concluding a familiar route is faster."
+recommended_tool: "decision-matrix"
 ---
 

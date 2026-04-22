@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use expected value calculations to combine probability and outcome magnitude."
   - "Practice with probability problems to build intuition for how likelihood should affect decisions."
   - "Ask 'how likely is this, really?' before allowing a vivid outcome to drive your decision."
+recommended_tool: "base-rate-thinking"
 ---
 

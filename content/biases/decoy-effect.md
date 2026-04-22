@@ -22,5 +22,6 @@ how_to_avoid:
   - "Remove obviously inferior options from your decision space and compare only the real candidates."
   - "Ask whether an option's appeal depends on the presence of other specific options."
   - "Define what you need before seeing the choices to resist contextual manipulation."
+recommended_tool: "decision-matrix"
 ---
 

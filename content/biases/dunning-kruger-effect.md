@@ -23,5 +23,6 @@ how_to_avoid:
   - "Treat confidence as a hypothesis to test, not a conclusion to defend."
   - "Continuously educate yourself in your domain—deeper knowledge typically reveals more unknown territory."
   - "Ask 'what would I need to know to be certain about this?' before acting on high confidence."
+recommended_tool: "bias-checklist"
 ---
 

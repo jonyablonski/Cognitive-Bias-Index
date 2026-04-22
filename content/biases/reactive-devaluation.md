@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use intermediaries or anonymous presentation to blind evaluators to the proposal's source."
   - "Ask 'would I find this proposal valuable if a trusted ally had offered it?'"
   - "Separate the trustworthiness of a source from the quality of a specific proposal."
+recommended_tool: "blind-review"
 ---
 

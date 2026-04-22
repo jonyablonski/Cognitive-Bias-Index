@@ -27,4 +27,5 @@ how_to_avoid:
   - "Ask 'what evidence would convince me I am wrong?' and then look for it."
   - "Use the 'steel man' technique to construct the strongest possible opposing argument."
   - "Assign a 'red team' to challenge your plans and assumptions explicitly."
+recommended_tool: "disconfirming-evidence-prompt"
 ---

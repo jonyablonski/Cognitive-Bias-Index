@@ -21,5 +21,6 @@ how_to_avoid:
   - "Evaluate options using objective criteria rather than relying on comfort from familiarity."
   - "Seek out unfamiliar alternatives before concluding that a familiar option is best."
   - "Ask 'would I value this as highly if I were encountering it for the first time?'"
+recommended_tool: "blind-review"
 ---
 

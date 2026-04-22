@@ -21,5 +21,6 @@ how_to_avoid:
   - "Challenge stereotypic attributions by actively seeking counter-examples."
   - "Recognize when category membership is driving your judgment and seek person-level information."
   - "Increase contact and familiarity with diverse groups to build richer, less stereotyped representations."
+recommended_tool: "blind-review"
 ---
 

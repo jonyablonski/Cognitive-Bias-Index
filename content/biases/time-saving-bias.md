@@ -21,5 +21,6 @@ how_to_avoid:
   - "Use time = distance ÷ speed to compute actual time differences rather than relying on intuition."
   - "Recognize that small speed increases at high baseline speeds produce diminishing time returns."
   - "Focus speed improvements on the slowest legs of a journey where time savings are greatest."
+recommended_tool: "base-rate-thinking"
 ---
 

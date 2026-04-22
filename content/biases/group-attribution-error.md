@@ -21,5 +21,6 @@ how_to_avoid:
   - "Avoid inferring individual member views from group outcomes without direct evidence."
   - "Seek out information about individual variation before characterizing a group."
   - "Apply the same skepticism to group attributions that you would apply to sweeping individual stereotypes."
+recommended_tool: "blind-review"
 ---
 

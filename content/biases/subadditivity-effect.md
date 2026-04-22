@@ -21,5 +21,6 @@ how_to_avoid:
   - "Apply the logical rule that the probability of a union of exhaustive events must equal one."
   - "Use structured probability elicitation methods that enforce logical constraints."
   - "Avoid judging individual component probabilities before setting the probability of the whole."
+recommended_tool: "base-rate-thinking"
 ---
 
