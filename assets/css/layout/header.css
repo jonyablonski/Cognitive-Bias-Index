@@ -78,7 +78,7 @@
 }
 
 .header__utility-nav a {
-  display: block;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   font-family: var(--secondary-font-family);

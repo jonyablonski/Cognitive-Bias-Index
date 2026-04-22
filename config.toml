@@ -40,3 +40,8 @@ disableAliases = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[[menu.main]]
+  name = "Tools"
+  url = "/tools/"
+  weight = 1

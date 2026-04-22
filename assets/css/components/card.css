@@ -76,3 +76,8 @@
 .list__item[data-context="Not Enough Meaning"]       { --category-color: var(--category-color-not-enough-meaning); }
 .list__item[data-context="Too Much Information"]     { --category-color: var(--category-color-too-much-information); }
 .list__item[data-context="What Should We Remember?"] { --category-color: var(--category-color-what-should-we-remember); }
+
+.list__item[data-context="Decision Making"]  { --category-color: var(--category-color-need-to-act-fast); }
+.list__item[data-context="Critical Thinking"] { --category-color: var(--category-color-not-enough-meaning); }
+.list__item[data-context="Reflection"]       { --category-color: var(--category-color-too-much-information); }
+.list__item[data-context="Behavioral Design"] { --category-color: var(--category-color-what-should-we-remember); }

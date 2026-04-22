@@ -1,0 +1,84 @@
+{{ $page := .Page }}
+{{ $class := .Class | default "" }}
+<li
+  id="{{ $page.Title | urlize }}"
+  class="list__item{{ if $class }} {{ $class }}{{ end }}"
+  data-context="{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}"
+  data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
+
+  <!-- Copy Link -->
+  <button class="list__item-copy button button--border" data-copy-url="https://cognitivebiasindex.com/tools/#{{ $page.Title | urlize }}" aria-label="Copy link to {{ $page.Title }}">
+    <span class="list__item-copy__default">{{ partial "components/icon" (dict "name" "link" "size" "16") }}</span>
+    <span class="list__item-copy__confirm">{{ partial "components/icon" (dict "name" "check" "size" "16") }}</span>
+  </button>
+
+  <!-- Title -->
+  <h3 class="list__item-section list__item-section--title title">
+    <span class="list__item-marker"></span><span class="list__item-title-text">{{ $page.Title }}</span>
+  </h3>
+
+  <!-- Description -->
+  <div id="#{{ $page.Title | urlize}}-info" class="list__item-section list__item-section--info">
+    <div class="list__item-meta list__item-meta--desc desc">
+      <h4 class="list__item-title">Description</h4>
+      <p>{{ $page.Description | markdownify }}</p>
+    </div>
+  </div>
+
+  <!-- More Info Toggle -->
+  <div class="list__item-section list__item-section--toggle">
+    <button class="button button--min button--toggle" data-toggle aria-expanded="false">
+      <span class="button__icon--default">More Info {{ partial "components/icon" (dict "name" "caret-down" "size" "12" "align" "right") }}</span>
+      <span class="button__icon--active">Less Info {{ partial "components/icon" (dict "name" "caret-up" "size" "12" "align" "right") }}</span>
+    </button>
+  </div>
+
+  <!-- More Info Content -->
+  <div class="list__item-more">
+
+    <!-- How to Use / When to Use + Tip + Use Cases -->
+    {{ if or $page.Params.how_to_use $page.Params.when_to_use }}
+    <div class="list__item-section list__item-section--info list__item-section--how">
+      {{ if $page.Params.how_to_use }}
+      <div class="list__item-meta list__item-meta--how">
+        <h4 class="list__item-title">How to Use</h4>
+        <ol>
+          {{ range $page.Params.how_to_use }}<li>{{ . }}</li>{{ end }}
+        </ol>
+      </div>
+      {{ end }}
+      <div class="list__item-meta list__item-meta--how">
+        {{ if $page.Params.when_to_use }}
+        <h4 class="list__item-title">When to Use</h4>
+        <p>{{ $page.Params.when_to_use }}</p>
+        {{ end }}
+        {{ if $page.Params.tip }}
+        <h4 class="list__item-title">Tip</h4>
+        <p>{{ $page.Params.tip }}</p>
+        {{ end }}
+        {{ if $page.Params.use_cases }}
+        <h4 class="list__item-title">Use Cases</h4>
+        <p>{{ $page.Params.use_cases }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <!-- Category / Tags -->
+    <div class="list__item-section list__item-section--meta">
+      <div class="list__item-section list__item-section--context" data-label="Category">
+        <span>{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}</span>
+      </div>
+      <div class="list__item-section list__item-section--tags" data-label="Tags">
+        <span>
+          {{- range $i, $e := $page.Params.tags -}}
+          {{ if ne $i 0 }}, {{ end }}
+          {{ . | humanize | title }}
+          {{- end -}}
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+</li>

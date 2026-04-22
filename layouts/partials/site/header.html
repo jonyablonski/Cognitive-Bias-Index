@@ -11,23 +11,6 @@
   <!-- Site Navigation -->
   {{ partial "site/navigation" . }}
 
-  <!-- Utility Navigation -->
-  <nav class="header__utility-nav" role="navigation">
-    <ul>
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.utility }}
-      <li>
-        <a
-          class="{{ if or ($currentPage.IsMenuCurrent `utility` .) ($currentPage.HasMenuCurrent `utility` .) }}is-active{{ end }}"
-          href="{{ .URL }}"
-          title="{{ .Name }}"
-          data-page-link>{{ .Name }}
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
-
   <!-- Theme Toggle -->
   <button class="header__theme-toggle button button--toggle" aria-pressed="false" data-theme-toggle>
     <span class="visually-hidden">Dark Mode</span>

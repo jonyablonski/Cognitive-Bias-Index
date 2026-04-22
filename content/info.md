@@ -1,6 +1,6 @@
 ---
 title: "Info"
-menu: "utility"
+menu: "main"
 url: "/info.html"
 ---
 

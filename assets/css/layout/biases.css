@@ -1,4 +1,5 @@
-#biases {
+#biases,
+#tools {
   @media (--breakpoint-small) {
     display: grid;
     grid-template-columns: 1fr 3fr;

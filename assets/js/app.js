@@ -15,7 +15,7 @@ import List from "list.js";
    * Selectors
    */
   
-  let biasesList = document.querySelector('#biases');
+  let biasesList = document.querySelector('#biases') || document.querySelector('#tools');
   let filterContainer = document.querySelector('[data-filter-container]');
   let filterItem = document.querySelectorAll('[data-filter]');
   let filterClear = document.querySelector('[data-clear-filters]');
@@ -195,7 +195,7 @@ import List from "list.js";
       let val = e.target.value;
 
       // Search val
-      biases.search(val);
+      if (biases) biases.search(val);
       trackSearch(val);
 
       // Show clear button
@@ -329,7 +329,7 @@ import List from "list.js";
     const filterVal = target.getAttribute('data-filter-val');
     const isActive = target.getAttribute('aria-pressed') === 'true';
     track('Bias Filtered', { filter_type: filterType, filter_value: filterVal, active: isActive });
-		biases.filter(function (item) {
+    if (biases) biases.filter(function (item) {
       if (contextFilters.length === 0 && tagFilters.length === 0) return true;
       let matchesContext = contextFilters.some(name => item.values().context.includes(name));
       let matchesTag = tagFilters.some(name => item.values().tags.includes(name));
@@ -356,8 +356,8 @@ import List from "list.js";
     result.className = 'message';
     
     // Add text to results elem
-    if (biases.matchingItems.length > 0) {
-      result.textContent = `${biases.matchingItems.length} results found`;
+    if (!biases || biases.matchingItems.length > 0) {
+      result.textContent = biases ? `${biases.matchingItems.length} results found` : '';
     } else {
       result.textContent = 'No results found';
     }
@@ -390,7 +390,7 @@ import List from "list.js";
 
   // Show/Hide clear filter button
   const showFilterClearButton = () => {
-    let hasActiveFilters = getContextFilters().length > 0 || getTagFilters().length > 0 || biases.searched;
+    let hasActiveFilters = getContextFilters().length > 0 || getTagFilters().length > 0 || (biases && biases.searched);
     if (hasActiveFilters) {
       filterClear.classList.add(activeClass);
     } else {
@@ -409,7 +409,7 @@ import List from "list.js";
     search.parentElement.classList.remove(activeClass);
 
     // Reset search
-    biases.search();
+    if (biases) biases.search();
 
     // Clear results message
     clearFilterResults();
@@ -432,7 +432,7 @@ import List from "list.js";
     });
 
     // Reset filtering
-    biases.filter();
+    if (biases) biases.filter();
 
     // Clear filter results
     clearFilterResults();
@@ -460,7 +460,7 @@ import List from "list.js";
 
     // Get active filter count
     let filterCount = getContextFilters().length + getTagFilters().length;
-    let totalCount = biases.searched ? filterCount + 1 : filterCount;
+    let totalCount = (biases && biases.searched) ? filterCount + 1 : filterCount;
 
     filterToggle.setAttribute('data-active-filters', totalCount);
   }
@@ -545,7 +545,7 @@ import List from "list.js";
 
 
   // Init filterable list
-  let biases = new List('biases', listSettings);
+  let biases = biasesList ? new List(biasesList.id, listSettings) : null;
 
 
   // Scroll to and highlight bias if URL contains a matching hash fragment
@@ -553,7 +553,7 @@ import List from "list.js";
   if (hash) {
     const target = document.getElementById(hash);
     if (target) {
-      biases.show(1, biases.size());
+      if (biases) biases.show(1, biases.size());
       setTimeout(() => {
         target.scrollIntoView({ behavior: 'smooth', block: 'center' });
         target.classList.add('is-highlighted');

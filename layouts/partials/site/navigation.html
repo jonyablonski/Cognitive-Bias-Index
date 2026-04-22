@@ -3,10 +3,10 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="header__nav-item">
-      <a 
-        class="{{ if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) }}is-active{{ end }}" 
-        href="{{ .URL }}" 
-        title="{{ .Name }}" 
+      <a
+        class="{{ if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) (eq $currentPage.RelPermalink .URL) }}is-active{{ end }}"
+        href="{{ .URL }}"
+        title="{{ .Name }}"
         data-page-link>{{ .Name }}
       </a>
     </li>

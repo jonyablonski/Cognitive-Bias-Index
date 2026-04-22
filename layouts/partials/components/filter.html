@@ -13,9 +13,11 @@
     <h3 class="filter__title">Filter by context</h3>
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.categories }}
+      {{ if gt (len (where $value.Pages "Section" "biases")) 0 }}
       <li>
         <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>
@@ -25,9 +27,11 @@
     <h3 class="filter__title">Filter by tag</h3>
     <ul class="filter__list">
       {{ range $key, $value := .Context.Site.Taxonomies.tags }}
+      {{ if gt (len (where $value.Pages "Section" "biases")) 0 }}
       <li>
         <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>

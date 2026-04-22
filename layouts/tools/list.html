@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+  <!-- Introduction -->
+  <section class="banner">
+    <div class="banner__body">
+      <p class="banner__desc">Tools and frameworks to help counteract cognitive biases in decisions and judgments.</p>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section id="tools">
+    <h2 class="visually-hidden">Tools</h2>
+
+    <!-- Sidebar -->
+    <div class="biases__sidebar">
+
+      <!-- List Header -->
+      {{ partial "components/list-header" }}
+
+    </div>
+
+    <!-- Main -->
+    <div class="biases__main">
+
+      <!-- List Results -->
+      <div id="biases-results"></div>
+
+      <!-- List -->
+      <ul class="list">
+        {{ range where .Site.RegularPages "Section" "tools" }}
+        {{ partial "components/tool-item" (dict "Page" . "Class" "card") }}
+        {{ end }}
+      </ul>
+
+      <!-- Pagination -->
+      <ul id="pagination" class="pagination"></ul>
+
+    </div>
+
+  </section>
+
+  <!-- Filter -->
+  {{ partial "components/tool-filter" (dict "Context" .) }}
+
+{{ end }}

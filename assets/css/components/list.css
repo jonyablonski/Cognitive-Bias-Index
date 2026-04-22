@@ -167,17 +167,32 @@
   flex: 1;
 }
 
-.list__item-meta--how ul {
-  list-style: disc !important;
+.list__item-meta--how .list__item-title:not(:first-child) {
+  margin-top: var(--base-spacing);
+}
+
+.list__item-meta--how ul,
+.list__item-meta--how ol {
   padding-left: 1.25em;
   max-width: none;
 }
 
+.list__item-meta--how ul {
+  list-style: disc !important;
+}
+
+.list__item-meta--how ol {
+  list-style: decimal !important;
+}
+
 .list__item-meta--how ul li,
-.list__item-meta--how ul li:not(:last-child) {
+.list__item-meta--how ul li:not(:last-child),
+.list__item-meta--how ol li,
+.list__item-meta--how ol li:not(:last-child) {
   margin-bottom: calc(var(--base-spacing) / 2);
 }
 
-.list__item-meta--how ul li:last-child {
+.list__item-meta--how ul li:last-child,
+.list__item-meta--how ol li:last-child {
   margin-bottom: 0;
 }

@@ -1,0 +1,51 @@
+{{ $pages := where .Context.Site.RegularPages "Section" "tools" }}
+
+{{ $categories := slice }}
+{{ range $pages }}
+  {{ range .Params.categories }}
+    {{ $categories = $categories | append (. | humanize | title) }}
+  {{ end }}
+{{ end }}
+
+{{ $tags := slice }}
+{{ range $pages }}
+  {{ range .Params.tags }}
+    {{ $tags = $tags | append (. | humanize | title) }}
+  {{ end }}
+{{ end }}
+
+<aside id="filter" class="filter" data-filter-container>
+
+  <!-- Close -->
+  <div class="filter__close">
+    <button class="button" aria-pressed="false" data-close-filter>
+      <span class="visually-hidden">Close</span>
+      {{ partial "components/icon" (dict "name" "close" "size" "24" "align" "right") }}
+    </button>
+  </div>
+
+  <!-- Category -->
+  <div class="filter__section filter__section--context">
+    <h3 class="filter__title">Filter by category</h3>
+    <ul class="filter__list">
+      {{ range ($categories | uniq) }}
+      <li>
+        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-val="{{ . }}">{{ . }}</button>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <!-- Tags -->
+  <div class="filter__section filter__section--tags">
+    <h3 class="filter__title">Filter by tag</h3>
+    <ul class="filter__list">
+      {{ range ($tags | uniq) }}
+      <li>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-val="{{ . }}">{{ . }}</button>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+</aside>
