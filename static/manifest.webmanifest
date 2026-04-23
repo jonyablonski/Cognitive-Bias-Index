@@ -29,7 +29,7 @@
     }
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#638f3d",
+  "background_color": "#57783a",
   "display": "minimal-ui",
   "scope": "/",
   "theme_color": "#191c17"

@@ -22,8 +22,8 @@
   --color-dark-grey: color-mix(in srgb, var(--base-background-color) 50%, black);
   --color-mid-grey: color-mix(in srgb, var(--base-background-color) 75%, black);
   --color-light-grey: color-mix(in srgb, var(--base-background-color) 95%, black);
-  --color-off-white: oklch(90.716% 0.03897 129.757);
-  --color-earth: #57783a;
+  --color-off-white: #d8e6cb;
+  --color-earth: #627E49;
 
   /* Category Colors */
   --category-color-need-to-act-fast: #3A4B62;
