@@ -19,6 +19,7 @@ Cognitive bias are the systematic errors in thinking that affects the decisions 
 * [Cognitive Bias Podcast](https://podcasts.apple.com/us/podcast/the-cognitive-bias-podcast/id1197648130) by David Dylan Thomas [Podcast]
 * [Cognitive Bias Cheatsheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18) by Buster Benson [Article] 
 * [Biased by Design](https://biasedbydesign.com/) by Jon Yablonski [Website] 
+* [Laws of UX](https://lawsofux.com/) by Jon Yablonski [Website] 
 
 
 ---
