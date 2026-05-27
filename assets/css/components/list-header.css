@@ -57,6 +57,6 @@
 .list-header__item--filter button[data-active-filters]:not([data-active-filters="0"])::after {
   content: attr(data-active-filters);
   margin-left: calc(var(--base-spacing) / 2);
-  color: var(--color-dark-grey);
+  color: var(--tertiary-font-color);
 }
 

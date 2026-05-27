@@ -44,7 +44,7 @@
   display: block;
   line-height: var(--base-line-height);
   cursor: pointer;
-  opacity: 0.5;
+  color: var(--tertiary-font-color);
 }
 
 .filter__section:first-of-type {
