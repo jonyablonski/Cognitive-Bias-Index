@@ -39,15 +39,6 @@ import List from "list.js";
    * Utils
    */
 
-  const track = (event, props) => {
-    if (window.mixpanel) window.mixpanel.track(event, props);
-  };
-
-  const debounce = (fn, delay) => {
-    let timer;
-    return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), delay); };
-  };
-
   window.requestAnimFrame = (function () {
     return window.requestAnimationFrame ||
       window.webkitRequestAnimationFrame ||
@@ -180,11 +171,6 @@ import List from "list.js";
   }
 
 
-  const trackSearch = debounce((query) => {
-    if (query.length > 0) track('Bias Searched', { query });
-  }, 500);
-
-
   // Handle keyup events
   const keyupEventHandler = (e) => {
 
@@ -196,7 +182,6 @@ import List from "list.js";
 
       // Search val
       if (biases) biases.search(val);
-      trackSearch(val);
 
       // Show clear button
       showSearchClearButton(e.target);
@@ -270,7 +255,6 @@ import List from "list.js";
       btn.classList.add('is-copied');
       setTimeout(() => btn.classList.remove('is-copied'), 2500);
       showToast();
-      track('Bias Link Copied', { url });
     });
   }
 
@@ -325,10 +309,6 @@ import List from "list.js";
     // Apply filters
     const contextFilters = getContextFilters();
     const tagFilters = getTagFilters();
-    const filterType = target.getAttribute('data-filter');
-    const filterVal = target.getAttribute('data-filter-val');
-    const isActive = target.getAttribute('aria-pressed') === 'true';
-    track('Bias Filtered', { filter_type: filterType, filter_value: filterVal, active: isActive });
     if (biases) biases.filter(function (item) {
       if (contextFilters.length === 0 && tagFilters.length === 0) return true;
       let matchesContext = contextFilters.some(name => item.values().context.includes(name));
@@ -514,7 +494,6 @@ import List from "list.js";
     // Update localStorage
     localStorage.setItem('color-mode', newMode);
 
-    track('Theme Changed', { theme: newMode });
   };
 
 
