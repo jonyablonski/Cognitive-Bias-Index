@@ -546,4 +546,13 @@ import List from "list.js";
   checkColorTheme();
 
 
+  // Init Mixpanel
+  mixpanel.init("812e3523de63845520c93ef15d54892d", {
+    debug: true,
+    track_pageview: true,
+    persistence: "localStorage",
+    record_sessions_percent: 100, //records 100% of all sessions
+    record_heatmap_data: true,
+  });
+
 })();
