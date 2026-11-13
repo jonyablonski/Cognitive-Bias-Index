@@ -547,7 +547,7 @@ import List from "list.js";
 
 
   // Init Mixpanel
-  mixpanel.init("812e3523de63845520c93ef15d54892d", {
+  mixpanel.init("18ef3db7955980206e57f76459662422", {
     debug: true,
     track_pageview: true,
     persistence: "localStorage",
