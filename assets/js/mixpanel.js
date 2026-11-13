@@ -77,7 +77,7 @@ import mixpanel from "mixpanel-browser";
 
       const clearEl = e.target.closest('[data-clear-filters]');
       if (clearEl) {
-        const activeCount = document.querySelectorAll('[data-filter-value].active').length;
+        const activeCount = document.querySelectorAll('[data-filter-value][aria-pressed="true"]').length;
         mixpanel.track('Filters Cleared', { active_filters_count: activeCount });
       }
     });

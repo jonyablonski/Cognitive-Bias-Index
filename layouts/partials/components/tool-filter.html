@@ -30,7 +30,7 @@
     <ul class="filter__list">
       {{ range ($categories | uniq) }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-val="{{ . }}">{{ . }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-type="context" data-filter-value="{{ . }}" data-filter-val="{{ . }}">{{ . }}</button>
       </li>
       {{ end }}
     </ul>
@@ -42,7 +42,7 @@
     <ul class="filter__list">
       {{ range ($tags | uniq) }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-val="{{ . }}">{{ . }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-type="tag" data-filter-value="{{ . }}" data-filter-val="{{ . }}">{{ . }}</button>
       </li>
       {{ end }}
     </ul>

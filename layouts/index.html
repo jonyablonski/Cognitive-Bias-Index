@@ -29,7 +29,7 @@
       <div id="biases-results"></div>
 
       <!-- List -->
-      <ul class="list">
+      <ul class="list" data-bias-results>
         {{ range where .Site.RegularPages "Section" "biases" }}
         {{ partial "components/list-item" (dict "Page" . "Class" "card") }}
         {{ end }}

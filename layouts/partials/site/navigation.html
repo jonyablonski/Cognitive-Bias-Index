@@ -7,7 +7,8 @@
         class="{{ if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) (eq $currentPage.RelPermalink .URL) }}is-active{{ end }}"
         href="{{ .URL }}"
         title="{{ .Name }}"
-        data-page-link>{{ .Name }}
+        data-page-link
+        data-nav-item="{{ .Name }}">{{ .Name }}
       </a>
     </li>
     {{ end }}

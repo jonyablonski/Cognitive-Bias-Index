@@ -15,7 +15,7 @@
       {{ range $key, $value := .Context.Site.Taxonomies.categories }}
       {{ if gt (len (where $value.Pages "Section" "biases")) 0 }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="context" data-filter-type="context" data-filter-value="{{ $key | humanize | title }}" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
       {{ end }}
@@ -29,7 +29,7 @@
       {{ range $key, $value := .Context.Site.Taxonomies.tags }}
       {{ if gt (len (where $value.Pages "Section" "biases")) 0 }}
       <li>
-        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
+        <button class="filter__item button" aria-pressed="false" data-filter="tag" data-filter-type="tag" data-filter-value="{{ $key | humanize | title }}" data-filter-val="{{ $key | humanize | title }}">{{ $key | humanize | title }}</button>
       </li>
       {{ end }}
       {{ end }}
