@@ -3,7 +3,7 @@
  */
 
 import List from "list.js";
-import "./mixpanel.js";
+import { trackSearch, trackFilter, trackLinkCopied, trackPageChange, registerList } from "./analytics.js";
 
 
 (function() {
@@ -90,6 +90,15 @@ import "./mixpanel.js";
 
       showFilterClearButton();
       updateClearButtonCount();
+
+      // Analytics
+      const filterBtn = e.target;
+      trackFilter({
+        filterType: filterBtn.getAttribute('data-filter') === 'tag' ? 'tag' : 'category',
+        filterValue: filterBtn.getAttribute('data-filter-val'),
+        action: filterBtn.getAttribute('aria-pressed') === 'true' ? 'added' : 'removed',
+        activeFilters: getActiveFilterValues(),
+      });
     }
 
     // Clear search
@@ -99,10 +108,12 @@ import "./mixpanel.js";
 
     // Clear filters
     if (e.target.matches('[data-clear-filters]')) {
+      const hadActive = getActiveFilterValues().length > 0 || (biases && biases.searched);
       clearSearch();
       resetFilters();
       showFilterClearButton();
       updateClearButtonCount();
+      if (hadActive) trackFilter({ filterType: 'all', filterValue: null, action: 'cleared', activeFilters: [] });
     }
 
     // Content toggle
@@ -162,7 +173,18 @@ import "./mixpanel.js";
 
 
   // Delegate pagination click events
-  const paginationEventHandler = () => {
+  let lastPage = 1;
+  const paginationEventHandler = (e) => {
+
+    // Analytics: report once list.js has switched pages
+    if (e.target.closest('a.page') && biases) {
+      setTimeout(() => {
+        const pageNumber = Math.ceil(biases.i / biases.page);
+        if (pageNumber === lastPage) return;
+        lastPage = pageNumber;
+        trackPageChange(pageNumber, Math.ceil(biases.matchingItems.length / biases.page));
+      }, 0);
+    }
 
     // Scroll to top of biases list
     biasesList.scrollIntoView({
@@ -199,6 +221,9 @@ import "./mixpanel.js";
       } else {
         updateFilterResults();
       }
+
+      // Analytics (debounced; Enter sends immediately)
+      trackSearch(val, getActiveFilterValues().length, { immediate: e.keyCode === 13 });
 
       // Close filter on enter
       if (e.keyCode === 13) {
@@ -253,6 +278,7 @@ import "./mixpanel.js";
   const copyLink = (btn) => {
     const url = btn.getAttribute('data-copy-url');
     navigator.clipboard.writeText(url).then(() => {
+      trackLinkCopied(btn);
       btn.classList.add('is-copied');
       setTimeout(() => btn.classList.remove('is-copied'), 2500);
       showToast();
@@ -296,6 +322,10 @@ import "./mixpanel.js";
     // Return without duplicates
     return [...new Set(tagFilters)];
   }
+
+
+  // All active filter values (categories + tags)
+  const getActiveFilterValues = () => [...getContextFilters(), ...getTagFilters()];
 
 
   // Filter content and manage active state on toggle
@@ -526,6 +556,7 @@ import "./mixpanel.js";
 
   // Init filterable list
   let biases = biasesList ? new List(biasesList.id, listSettings) : null;
+  if (biases) registerList(biases);
 
 
   // Scroll to and highlight bias if URL contains a matching hash fragment

@@ -1,6 +1,11 @@
 {{ $opts := dict "target" "es2015" }}
 {{- $scripts := resources.Get "js/app.js" | js.Build $opts | minify -}}
 
+{{ if and (eq (getenv "HUGO_ENV") "production") (getenv "MIXPANEL_TOKEN") }}
+<!-- Analytics token (injected at build time; absent outside production) -->
+<meta name="mixpanel-token" content="{{ getenv "MIXPANEL_TOKEN" }}">
+{{ end }}
+
 <!-- JS Bundle -->
 <script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>
 

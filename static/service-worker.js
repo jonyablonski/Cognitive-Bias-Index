@@ -2,7 +2,7 @@
  * Cache
  */
 
-const staticCacheName = 'pages-cache-v30';
+const staticCacheName = 'pages-cache-v31';
 // Only precache stable URLs. The CSS filename is fingerprinted per build,
 // so listing it here makes cache.addAll() fail with a 404 and breaks install.
 const filesToCache = [
