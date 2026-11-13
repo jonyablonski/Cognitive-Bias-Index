@@ -2,13 +2,12 @@
  * Cache
  */
 
-const staticCacheName = 'pages-cache-v29';
+const staticCacheName = 'pages-cache-v30';
+// Only precache stable URLs. The CSS filename is fingerprinted per build,
+// so listing it here makes cache.addAll() fail with a 404 and breaks install.
 const filesToCache = [
   '/',
-  'css/app.min.css',
-  'js/app.min.js',
-  'index.html',
-  'info.html'
+  '/info.html'
 ];
 
 
@@ -37,10 +36,22 @@ self.addEventListener('install', event => {
  */
 
 self.addEventListener('fetch', event => {
-  event.respondWith(caches.match(event.request)
-    .then(cachedResponse => {
-      return cachedResponse || fetch(event.request);
-    })
+
+  // Only handle GET requests
+  if (event.request.method !== 'GET') return;
+
+  // Network first so deploys (and analytics changes) reach returning visitors;
+  // fall back to the cache when offline.
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        if (response && response.ok && new URL(event.request.url).origin === self.location.origin) {
+          const copy = response.clone();
+          caches.open(staticCacheName).then(cache => cache.put(event.request, copy));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
 
