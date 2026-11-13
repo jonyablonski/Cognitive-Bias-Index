@@ -5,6 +5,8 @@
   class="list__item{{ if $class }} {{ $class }}{{ end }}"
   data-bias-card
   data-bias-name="{{ $page.Title }}"
+  data-bias-id="{{ $page.Title | urlize }}"
+  data-bias-category="{{ range $page.Params.categories }}{{ . | urlize }}{{ end }}"
   data-bias-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }},{{ end }}{{ . | humanize | title }}{{ end }}"
   data-context="{{ range $page.Params.categories }}{{ . | humanize | title }}{{ end }}"
   data-tags="{{ range $i, $e := $page.Params.tags }}{{ if ne $i 0 }} {{ end }}{{ . | humanize | title }}{{ end }}">
@@ -51,10 +53,10 @@
       </div>
       {{ end }}
       {{ if $page.Params.how_to_avoid }}
-      <div class="list__item-meta list__item-meta--how">
+      <div class="list__item-meta list__item-meta--how" data-how-to-avoid data-how-to-avoid-id="{{ $page.Title | urlize }}-how-to-avoid">
         <h4 class="list__item-title">How to Avoid</h4>
         <ul>
-          {{ range $page.Params.how_to_avoid }}<li>{{ . }}</li>{{ end }}
+          {{ range $i, $tip := $page.Params.how_to_avoid }}<li data-tip-id="{{ $page.Title | urlize }}-tip-{{ add $i 1 }}">{{ . }}</li>{{ end }}
         </ul>
       </div>
       {{ end }}
@@ -102,7 +104,7 @@
         <h4 class="list__item-title">Recommended Tool</h4>
         <ul>
           <li>
-            <a href="https://cognitivebiasindex.com/tools/#{{ $toolPage.Title | urlize }}" data-tool-link data-tool-name="{{ $toolPage.Title }}">
+            <a href="https://cognitivebiasindex.com/tools/#{{ $toolPage.Title | urlize }}" data-tool-link data-tool-id="{{ $toolPage.File.ContentBaseName }}" data-tool-name="{{ $toolPage.Title }}">
               {{ partial "components/icon" (dict "name" "arrow-diagonal" "size" "16" "align" "left") }}
               {{ $toolPage.Title }}
             </a>
