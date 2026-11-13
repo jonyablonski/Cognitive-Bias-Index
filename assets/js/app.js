@@ -3,6 +3,7 @@
  */
 
 import List from "list.js";
+import "./mixpanel.js";
 
 
 (function() {
@@ -544,15 +545,5 @@ import List from "list.js";
 
   // Check user color scheme preference
   checkColorTheme();
-
-
-  // Init Mixpanel
-  mixpanel.init("18ef3db7955980206e57f76459662422", {
-    debug: true,
-    track_pageview: true,
-    persistence: "localStorage",
-    record_sessions_percent: 100, //records 100% of all sessions
-    record_heatmap_data: true,
-  });
 
 })();

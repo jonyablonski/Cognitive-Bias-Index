@@ -13,10 +13,11 @@
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "list.js": "^1.5.0",
+    "mixpanel-browser": "^2.85.0",
     "netlify-lambda": "^1.6.3",
     "postcss-cli": "^7.1.1",
-    "svgstore-cli": "^2.0.0",
-    "postcss-custom-media": "^7.0.8"
+    "postcss-custom-media": "^7.0.8",
+    "svgstore-cli": "^2.0.0"
   },
   "browserlists": [
     "ie >= 8",
