@@ -1,4 +1,5 @@
-{{ $opts := dict "target" "es2015" }}
+{{ $defines := dict "process.env.MIXPANEL_TOKEN" (getenv "MIXPANEL_TOKEN" | jsonify) }}
+{{ $opts := dict "target" "es2015" "defines" $defines }}
 {{- $scripts := resources.Get "js/app.js" | js.Build $opts | minify -}}
 
 <!-- JS Bundle -->

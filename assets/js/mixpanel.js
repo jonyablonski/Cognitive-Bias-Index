@@ -19,10 +19,16 @@ import mixpanel from "mixpanel-browser";
 (function () {
   'use strict';
 
-  const MIXPANEL_TOKEN = '8fc7b677621b05e130b880041e639266';
+  // Injected at build time from the MIXPANEL_TOKEN env var (see layouts/partials/site/scripts.html)
+  const MIXPANEL_TOKEN = process.env.MIXPANEL_TOKEN;
   const HOST = window.location.hostname;
   const IS_LOCAL = HOST === 'localhost' || HOST === '127.0.0.1';
   const DEBUG = /[?&]mixpanel_debug=1/.test(window.location.search);
+
+  if (!MIXPANEL_TOKEN) {
+    console.warn('[analytics] MIXPANEL_TOKEN not set at build time; Mixpanel disabled');
+    return;
+  }
 
   if (IS_LOCAL && !DEBUG) {
     console.log('[analytics] Mixpanel disabled on localhost (add ?mixpanel_debug=1 to enable)');
